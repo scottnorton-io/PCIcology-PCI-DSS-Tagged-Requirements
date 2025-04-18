@@ -1,10 +1,8 @@
-# Changelog - pci-dss-v4.0.1-tagged-requirements-v3.0.0
+# Changelog - pci-dss-v4.0.1-tagged-requirements-v3.2.0
 
-## [v3.0.0] - Full Intelligence Layer
+## [v3.2.0] - Integrated Role Playbooks & Checklists
 
-- Included complete `inference_tags` per sub-requirement.
-- Visual dashboards: tag heatmap + frequency.
-- CSV exports for Notion and spreadsheet use.
-- Assistant-ready walkthrough included.
-- Role/evidence tag bundles added.
-- HTML index with live filtering support.
+- Embedded role-based training playbooks into the package.
+- Generated placeholder checklists for each sub-requirement.
+- Organized playbooks and checklists into subfolders.
+- Maintains full inference intelligence tagging system and cross-reference logic.
