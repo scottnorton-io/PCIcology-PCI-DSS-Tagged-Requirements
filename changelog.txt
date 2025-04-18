@@ -27,3 +27,10 @@
 
 - 🧪 Added `canonical_prompt_mapping.json` for de-duping prompt logic
 - 🧠 Generated `task-inference-preview.md` for AI-based task matching
+
+
+## [v4.7.0] - Task Mapping + GRC Enrichment
+
+- 🔁 Injected `task_id` into 2 sub-requirements
+- 🧠 Added `grc_subtags` based on evidence, reference density, and titles
+- 📄 Generated `tag-opportunity-report.md` to highlight where tagging is still needed

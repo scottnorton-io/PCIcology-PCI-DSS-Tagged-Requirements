@@ -50,7 +50,10 @@
         "reference-hub"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal",
+        "control-aggregator",
+        "reference-hub"
       ],
       "referenced_by": [
         "1f6506b4-273d-4c08-b1a6-4771a227819e",
@@ -130,7 +133,9 @@
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
+        "control-aggregator",
         "milestone-map",
+        "reference-hub",
         "scorecard"
       ],
       "referenced_by": [
@@ -210,7 +215,9 @@
       "inference_tags": [
         "dependency-root"
       ],
-      "grc_subtags": [],
+      "grc_subtags": [
+        "control-aggregator"
+      ],
       "referenced_by": [
         "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
         "1f6506b4-273d-4c08-b1a6-4771a227819e",
@@ -648,7 +655,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
@@ -692,7 +700,10 @@
         "reference-hub"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal",
+        "control-aggregator",
+        "reference-hub"
       ],
       "referenced_by": [
         "02280e69-0224-48a9-be4d-63d617e7f472",
@@ -752,7 +763,9 @@
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
+        "control-aggregator",
         "milestone-map",
+        "reference-hub",
         "scorecard"
       ],
       "referenced_by": [
@@ -795,7 +808,9 @@
       "inference_tags": [
         "dependency-root"
       ],
-      "grc_subtags": [],
+      "grc_subtags": [
+        "control-aggregator"
+      ],
       "referenced_by": [
         "0b6201f1-7b2e-4106-9884-963861e9d3d5",
         "02280e69-0224-48a9-be4d-63d617e7f472",
@@ -825,7 +840,9 @@
       "inference_tags": [
         "dependency-root"
       ],
-      "grc_subtags": [],
+      "grc_subtags": [
+        "control-aggregator"
+      ],
       "referenced_by": [
         "0b6201f1-7b2e-4106-9884-963861e9d3d5",
         "02280e69-0224-48a9-be4d-63d617e7f472",
@@ -915,7 +932,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "0b6201f1-7b2e-4106-9884-963861e9d3d5",
@@ -1106,7 +1124,10 @@
         "reference-hub"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal",
+        "control-aggregator",
+        "reference-hub"
       ],
       "referenced_by": [
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37",
@@ -1210,7 +1231,9 @@
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
+        "control-aggregator",
         "milestone-map",
+        "reference-hub",
         "scorecard"
       ],
       "referenced_by": [
@@ -1278,7 +1301,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "98d69823-b49d-4732-ae92-05b85b03e51b",
@@ -1519,6 +1543,7 @@
       ],
       "grc_subtags": [
         "annotated-policy",
+        "artifact-portal",
         "click-to-breach-visual"
       ],
       "referenced_by": [
@@ -1552,7 +1577,10 @@
         "reference-hub"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal",
+        "control-aggregator",
+        "reference-hub"
       ],
       "referenced_by": [
         "98d69823-b49d-4732-ae92-05b85b03e51b",
@@ -1591,7 +1619,10 @@
         "reference-hub"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal",
+        "control-aggregator",
+        "reference-hub"
       ],
       "referenced_by": [
         "98d69823-b49d-4732-ae92-05b85b03e51b",
@@ -1627,7 +1658,9 @@
         "data-protection",
         "dependency-root"
       ],
-      "grc_subtags": [],
+      "grc_subtags": [
+        "control-aggregator"
+      ],
       "referenced_by": [
         "98d69823-b49d-4732-ae92-05b85b03e51b",
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37",
@@ -1697,7 +1730,9 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal",
+        "control-aggregator"
       ],
       "referenced_by": [
         "98d69823-b49d-4732-ae92-05b85b03e51b",
@@ -1736,7 +1771,9 @@
       ],
       "grc_subtags": [
         "annotated-policy",
+        "artifact-portal",
         "audit-friction-alert",
+        "control-aggregator",
         "justification-library",
         "self-healing-control"
       ],
@@ -1858,7 +1895,9 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal",
+        "control-aggregator"
       ],
       "referenced_by": [
         "98d69823-b49d-4732-ae92-05b85b03e51b",
@@ -1891,7 +1930,9 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal",
+        "control-aggregator"
       ],
       "referenced_by": [
         "98d69823-b49d-4732-ae92-05b85b03e51b",
@@ -1923,7 +1964,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "98d69823-b49d-4732-ae92-05b85b03e51b",
@@ -1954,7 +1996,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "98d69823-b49d-4732-ae92-05b85b03e51b",
@@ -2022,7 +2065,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "98d69823-b49d-4732-ae92-05b85b03e51b",
@@ -2053,7 +2097,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "98d69823-b49d-4732-ae92-05b85b03e51b",
@@ -2084,7 +2129,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "98d69823-b49d-4732-ae92-05b85b03e51b",
@@ -2118,7 +2164,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "98d69823-b49d-4732-ae92-05b85b03e51b",
@@ -2155,7 +2202,10 @@
         "reference-hub"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal",
+        "control-aggregator",
+        "reference-hub"
       ],
       "referenced_by": [
         "391a6a33-8799-4e77-b68d-b68f1972b840",
@@ -2201,7 +2251,9 @@
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
+        "control-aggregator",
         "milestone-map",
+        "reference-hub",
         "scorecard"
       ],
       "referenced_by": [
@@ -2376,7 +2428,10 @@
         "reference-hub"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal",
+        "control-aggregator",
+        "reference-hub"
       ],
       "referenced_by": [
         "5d89f28c-a029-4e02-a43a-5d7ec72f4936",
@@ -2442,7 +2497,9 @@
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
+        "control-aggregator",
         "milestone-map",
+        "reference-hub",
         "scorecard"
       ],
       "referenced_by": [
@@ -2548,7 +2605,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
@@ -2735,6 +2793,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -2770,7 +2829,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
@@ -2850,7 +2910,10 @@
         "reference-hub"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal",
+        "control-aggregator",
+        "reference-hub"
       ],
       "referenced_by": [
         "1198f9f2-b9cb-48eb-ba2f-202d650d368a",
@@ -2924,7 +2987,9 @@
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
+        "control-aggregator",
         "milestone-map",
+        "reference-hub",
         "scorecard"
       ],
       "referenced_by": [
@@ -3009,6 +3074,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
@@ -3051,7 +3117,8 @@
       "referenced_by": [
         "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
         "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
-      ]
+      ],
+      "task_id": "canonical-code-validation"
     },
     {
       "req_id": "6.2.3.1",
@@ -3086,7 +3153,8 @@
       "referenced_by": [
         "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
         "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
-      ]
+      ],
+      "task_id": "canonical-code-validation"
     },
     {
       "req_id": "6.2.4",
@@ -3152,7 +3220,9 @@
         "reference-hub"
       ],
       "grc_subtags": [
-        "click-to-breach-visual"
+        "click-to-breach-visual",
+        "control-aggregator",
+        "reference-hub"
       ],
       "referenced_by": [
         "357a8f0c-e6b5-43e0-a8e9-5f7545e2ae04",
@@ -3296,6 +3366,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -3329,7 +3400,9 @@
       "inference_tags": [
         "dependency-root"
       ],
-      "grc_subtags": [],
+      "grc_subtags": [
+        "control-aggregator"
+      ],
       "referenced_by": [
         "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
         "1198f9f2-b9cb-48eb-ba2f-202d650d368a",
@@ -3367,7 +3440,9 @@
       ],
       "grc_subtags": [
         "annotated-policy",
+        "artifact-portal",
         "audit-friction-alert",
+        "control-aggregator",
         "justification-library",
         "self-healing-control"
       ],
@@ -3402,7 +3477,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
@@ -3527,6 +3603,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
@@ -3769,7 +3846,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
@@ -4208,7 +4286,10 @@
         "reference-hub"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal",
+        "control-aggregator",
+        "reference-hub"
       ],
       "referenced_by": [
         "d4729cec-d90b-458f-8f2d-a02bd5e83b1a",
@@ -4268,7 +4349,9 @@
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
+        "control-aggregator",
         "milestone-map",
+        "reference-hub",
         "scorecard"
       ],
       "referenced_by": [
@@ -4660,7 +4743,10 @@
         "reference-hub"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal",
+        "control-aggregator",
+        "reference-hub"
       ],
       "referenced_by": [
         "be0a04f8-4b6f-4496-8a84-80c031673738",
@@ -4756,7 +4842,9 @@
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
+        "control-aggregator",
         "milestone-map",
+        "reference-hub",
         "scorecard"
       ],
       "referenced_by": [
@@ -4851,7 +4939,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
@@ -4915,7 +5004,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
@@ -5204,7 +5294,9 @@
       "inference_tags": [
         "dependency-root"
       ],
-      "grc_subtags": [],
+      "grc_subtags": [
+        "control-aggregator"
+      ],
       "referenced_by": [
         "84b79aa4-776c-4f1b-9975-16c4ce907be2",
         "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
@@ -5268,6 +5360,7 @@
       ],
       "grc_subtags": [
         "annotated-policy",
+        "artifact-portal",
         "breach-simulation",
         "threat-feed-link"
       ],
@@ -5523,7 +5616,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
@@ -5562,6 +5656,7 @@
       ],
       "grc_subtags": [
         "annotated-policy",
+        "artifact-portal",
         "click-to-breach-visual"
       ],
       "referenced_by": [
@@ -5685,7 +5780,10 @@
         "reference-hub"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal",
+        "control-aggregator",
+        "reference-hub"
       ],
       "referenced_by": [
         "8f442b68-4253-4cae-9399-13e4ac2b4f27",
@@ -5777,7 +5875,9 @@
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
+        "control-aggregator",
         "milestone-map",
+        "reference-hub",
         "scorecard"
       ],
       "referenced_by": [
@@ -6005,7 +6105,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
@@ -6068,7 +6169,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
@@ -6651,7 +6753,10 @@
         "reference-hub"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal",
+        "control-aggregator",
+        "reference-hub"
       ],
       "referenced_by": [
         "8bece0ba-dd28-42bb-a45c-43085a6f3e17",
@@ -6743,7 +6848,9 @@
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
+        "control-aggregator",
         "milestone-map",
+        "reference-hub",
         "scorecard"
       ],
       "referenced_by": [
@@ -6805,6 +6912,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -6843,6 +6951,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -6881,6 +6990,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -6919,6 +7029,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -6957,6 +7068,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -6995,6 +7107,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -7031,6 +7144,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -7067,6 +7181,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -7103,6 +7218,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -7141,6 +7257,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -7177,6 +7294,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -7213,6 +7331,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -7250,6 +7369,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -7478,6 +7598,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -7616,6 +7737,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -7699,7 +7821,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "203abe5b-e877-460a-b867-55a6e8eea285",
@@ -7753,7 +7876,10 @@
         "reference-hub"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal",
+        "control-aggregator",
+        "reference-hub"
       ],
       "referenced_by": [
         "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b",
@@ -7833,7 +7959,9 @@
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
+        "control-aggregator",
         "milestone-map",
+        "reference-hub",
         "scorecard"
       ],
       "referenced_by": [
@@ -7891,6 +8019,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "justification-library",
@@ -7929,7 +8058,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
@@ -7964,6 +8094,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
@@ -8037,7 +8168,9 @@
       ],
       "grc_subtags": [
         "annotated-policy",
-        "click-to-breach-visual"
+        "artifact-portal",
+        "click-to-breach-visual",
+        "control-aggregator"
       ],
       "referenced_by": [
         "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
@@ -8073,6 +8206,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
@@ -8140,6 +8274,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
@@ -8223,6 +8358,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "justification-library",
@@ -8260,6 +8396,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "justification-library",
@@ -8296,6 +8433,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
@@ -8333,8 +8471,10 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
+        "control-aggregator",
         "justification-library",
         "self-healing-control"
       ],
@@ -8371,6 +8511,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "justification-library",
@@ -8408,6 +8549,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
@@ -8541,7 +8683,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "click-to-breach-visual"
+        "click-to-breach-visual",
+        "control-aggregator"
       ],
       "referenced_by": [
         "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
@@ -8666,6 +8809,7 @@
       ],
       "grc_subtags": [
         "annotated-policy",
+        "artifact-portal",
         "click-to-breach-visual"
       ]
     },
@@ -8703,7 +8847,9 @@
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
+        "control-aggregator",
         "milestone-map",
+        "reference-hub",
         "scorecard"
       ],
       "referenced_by": [
@@ -8740,7 +8886,8 @@
         "procedure"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "14118855-c8f2-4f40-b15e-002be751a68d"
@@ -8942,7 +9089,8 @@
         "procedure"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "f50676ed-ef4b-41be-a5eb-975db32491b5"
@@ -8971,7 +9119,8 @@
         "procedure"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ]
     },
     {
@@ -9540,6 +9689,7 @@
       ],
       "grc_subtags": [
         "annotated-policy",
+        "artifact-portal",
         "breach-simulation",
         "threat-feed-link"
       ]
@@ -9643,6 +9793,7 @@
         "report"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "justification-library",
@@ -9878,7 +10029,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
@@ -10003,7 +10155,8 @@
         "dependency-root"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ],
       "referenced_by": [
         "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
@@ -10067,6 +10220,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -10101,6 +10255,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "roc-swipefile"
       ],
@@ -10138,6 +10293,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
@@ -10174,6 +10330,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
@@ -10238,6 +10395,7 @@
         "dependency-root"
       ],
       "grc_subtags": [
+        "artifact-portal",
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
@@ -10507,7 +10665,8 @@
         "procedure"
       ],
       "grc_subtags": [
-        "annotated-policy"
+        "annotated-policy",
+        "artifact-portal"
       ]
     },
     {
@@ -10553,7 +10712,9 @@
       },
       "uuid_cross_refs": [],
       "inference_tags": [],
-      "grc_subtags": []
+      "grc_subtags": [
+        "scorecard"
+      ]
     }
   ]
 }

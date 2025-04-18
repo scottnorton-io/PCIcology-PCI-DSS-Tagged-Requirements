@@ -1,0 +1,360 @@
+# 📄 Tag Opportunity Report – v4.7.0
+
+- `1.1.1` → task_id missing | _All security policies and operational procedures that are identified in Requirem..._
+- `1.1.2` → task_id missing | _Roles and responsibilities for performing activities in Requirement 1 are docume..._
+- `1.2.1` → task_id, grc_subtags missing | _Configuration standards for NSC rulesets are:
+- Defined. 
+- Implemented. 
+- Main..._
+- `1.2.2` → task_id missing | _All changes to network connections and to configurations of NSCs are approved an..._
+- `1.2.3` → task_id, grc_subtags missing | _An accurate network diagram(s) is maintained that shows all connections between ..._
+- `1.2.4` → task_id, grc_subtags missing | _An accurate data-flow diagram(s) is maintained that meets the following:
+- Shows..._
+- `1.2.5` → task_id, grc_subtags missing | _All services, protocols, and ports allowed are identified, approved, and have a ..._
+- `1.2.6` → task_id, grc_subtags missing | _Security features are defined and implemented for all services, protocols, and p..._
+- `1.2.7` → task_id missing | _Configurations of NSCs are reviewed at least once every six months to confirm th..._
+- `1.2.8` → task_id, grc_subtags missing | _Configuration files for NSCs are:
+- Secured from unauthorized access. 
+- Kept co..._
+- `1.3.1` → task_id, grc_subtags missing | _Inbound traffic to the CDE is restricted as follows:
+- To only traffic that is n..._
+- `1.3.2` → task_id, grc_subtags missing | _Outbound traffic from the CDE is restricted as follows:
+- To only traffic that i..._
+- `1.3.3` → task_id, grc_subtags missing | _NSCs are installed between all wireless networks and the CDE, regardless of whet..._
+- `1.4.1` → task_id, grc_subtags missing | _NSCs are implemented between trusted and untrusted networks...._
+- `1.4.2` → task_id, grc_subtags missing | _Inbound traffic from untrusted networks to trusted networks is restricted to:
+- ..._
+- `1.4.3` → task_id, grc_subtags missing | _Anti-spoofing measures are implemented to detect and block forged source IP addr..._
+- `1.4.4` → task_id, grc_subtags missing | _System components that store cardholder data are not directly accessible from un..._
+- `1.4.5` → task_id, grc_subtags missing | _The disclosure of internal IP addresses and routing information is limited to on..._
+- `1.5.1` → task_id missing | _Security controls are implemented on any computing devices, including company- a..._
+- `2.1.1` → task_id missing | _All security policies and operational procedures that are identified in Requirem..._
+- `2.1.2` → task_id missing | _Roles and responsibilities for performing activities in Requirement 2 are docume..._
+- `2.2.1` → task_id missing | _Configuration standards are developed, implemented, and maintained to:
+- Cover a..._
+- `2.2.2` → task_id missing | _Vendor default accounts are managed as follows:
+- If the vendor default account(..._
+- `2.2.3` → task_id, grc_subtags missing | _Primary functions requiring different security levels are managed as follows:
+- ..._
+- `2.2.4` → task_id, grc_subtags missing | _Only necessary services, protocols, daemons, and functions are enabled, and all ..._
+- `2.2.5` → task_id missing | _If any insecure services, protocols, or daemons are present:
+- Business justific..._
+- `2.2.6` → task_id, grc_subtags missing | _System security parameters are configured to prevent misuse...._
+- `2.2.7` → task_id, grc_subtags missing | _All non-console administrative access is encrypted using strong cryptography...._
+- `2.3.1` → task_id, grc_subtags missing | _For wireless environments connected to the CDE or transmitting account data, all..._
+- `2.3.2` → task_id missing | _For wireless environments connected to the CDE or transmitting account data, wir..._
+- `3.1.1` → task_id missing | _All security policies and operational procedures that are identified in Requirem..._
+- `3.1.2` → task_id missing | _Roles and responsibilities for performing activities in Requirement 3 are docume..._
+- `3.2.1` → task_id missing | _Account data storage is kept to a minimum through implementation of data retenti..._
+- `3.3.1` → task_id, grc_subtags missing | _SAD is not stored after authorization, even if encrypted. All sensitive authenti..._
+- `3.3.1.1` → task_id, grc_subtags missing | _The full contents of any track are not stored upon completion of the authorizati..._
+- `3.3.1.2` → task_id, grc_subtags missing | _The card verification code is not stored upon completion of the authorization pr..._
+- `3.3.1.3` → task_id, grc_subtags missing | _The personal identification number (PIN) and the PIN block are not stored upon c..._
+- `3.3.2` → task_id, grc_subtags missing | _SAD that is stored electronically prior to completion of authorization is encryp..._
+- `3.3.3` → task_id, grc_subtags missing | _Additional requirement for issuers and companies that support issuing services a..._
+- `3.4.1` → task_id, grc_subtags missing | _PAN is masked when displayed (the BIN and last four digits are the maximum numbe..._
+- `3.4.2` → task_id missing | _When using remote-access technologies, technical controls prevent copy and/or re..._
+- `3.5.1` → task_id missing | _PAN is rendered unreadable anywhere it is stored by using any of the following a..._
+- `3.5.1.1` → task_id missing | _Hashes used to render PAN unreadable (per the first bullet of Requirement 3.5.
+1..._
+- `3.5.1.2` → task_id missing | _If disk-level or partition-level encryption (rather than file-, column-, or fiel..._
+- `3.5.1.3` → task_id missing | _If disk-level or partition-level encryption is used (rather than file-, column-,..._
+- `3.6.1` → task_id missing | _Procedures are defined and implemented to protect cryptographic keys used to pro..._
+- `3.6.1.1` → task_id missing | _Additional requirement for service providers only: A documented description of t..._
+- `3.6.1.2` → task_id, grc_subtags missing | _Secret and private keys used to protect stored account data are stored in one (o..._
+- `3.6.1.3` → task_id, grc_subtags missing | _Access to cleartext cryptographic key components is restricted to the fewest num..._
+- `3.6.1.4` → task_id, grc_subtags missing | _Cryptographic keys are stored in the fewest possible locations...._
+- `3.7.1` → task_id missing | _Key-management policies and procedures are implemented to include generation of ..._
+- `3.7.2` → task_id missing | _Key-management policies and procedures are implemented to include secure distrib..._
+- `3.7.3` → task_id missing | _Key-management policies and procedures are implemented to include secure storage..._
+- `3.7.4` → task_id missing | _Key management policies and procedures are implemented for cryptographic key cha..._
+- `3.7.5` → task_id missing | _Key management policies procedures are implemented to include the retirement, re..._
+- `3.7.6` → task_id missing | _Where manual cleartext cryptographic key-management operations are performed by ..._
+- `3.7.7` → task_id missing | _Key management policies and procedures are implemented to include the prevention..._
+- `3.7.8` → task_id missing | _Key management policies and procedures are implemented to include that cryptogra..._
+- `3.7.9` → task_id missing | _Additional requirement for service providers only: Where a service provider shar..._
+- `4.1.1` → task_id missing | _All security policies and operational procedures that are identified in Requirem..._
+- `4.1.2` → task_id missing | _Roles and responsibilities for performing activities in Requirement 4 are docume..._
+- `4.2.1` → task_id missing | _Strong cryptography and security protocols are implemented as follows to safegua..._
+- `4.2.1.1` → task_id, grc_subtags missing | _An inventory of the entity’s trusted keys and certificates used to protect PAN d..._
+- `4.2.1.2` → task_id, grc_subtags missing | _Wireless networks transmitting PAN or connected to the CDE use industry best pra..._
+- `4.2.2` → task_id missing | _PAN is secured with strong cryptography whenever it is sent via end-user messagi..._
+- `5.1.1` → task_id missing | _All security policies and operational procedures that are identified in Requirem..._
+- `5.1.2` → task_id missing | _Roles and responsibilities for performing activities in Requirement 5 are docume..._
+- `5.2.1` → task_id, grc_subtags missing | _An anti-malware solution(s) is deployed on all system components, except for tho..._
+- `5.2.2` → task_id, grc_subtags missing | _The deployed anti-malware solution(s):
+- Detects all known types of malware. 
+- ..._
+- `5.2.3` → task_id missing | _Any system components that are not at risk for malware are evaluated periodicall..._
+- `5.2.3.1` → task_id, grc_subtags missing | _The frequency of periodic evaluations of system components identified as not at ..._
+- `5.3.1` → task_id, grc_subtags missing | _The anti-malware solution(s) is kept current via automatic updates...._
+- `5.3.2` → task_id, grc_subtags missing | _The anti-malware solution(s):
+- Performs periodic scans and active or real-time ..._
+- `5.3.2.1` → task_id, grc_subtags missing | _If periodic malware scans are performed to meet Requirement 5.3.2, the frequency..._
+- `5.3.3` → task_id missing | _For removable electronic media, the anti-malware solution(s):
+- Performs automat..._
+- `5.3.4` → task_id missing | _Audit logs for the anti-malware solution(s) are enabled and retained in accordan..._
+- `5.3.5` → task_id missing | _Anti-malware mechanisms cannot be disabled or altered by users, unless specifica..._
+- `5.4.1` → task_id, grc_subtags missing | _Processes and automated mechanisms are in place to detect and protect personnel ..._
+- `6.1.1` → task_id missing | _All security policies and operational procedures that are identified in Requirem..._
+- `6.1.2` → task_id missing | _Roles and responsibilities for performing activities in Requirement 6 are docume..._
+- `6.2.1` → task_id missing | _Bespoke and custom software are developed securely, as follows:
+- Based on indus..._
+- `6.2.2` → task_id missing | _Software development personnel working on bespoke and custom software are traine..._
+- `6.2.4` → task_id missing | _Software engineering techniques or other methods are defined and in use by softw..._
+- `6.3.1` → task_id missing | _Security vulnerabilities are identified and managed as follows:
+- New security v..._
+- `6.3.2` → task_id, grc_subtags missing | _An inventory of bespoke and custom software, and third-party software components..._
+- `6.3.3` → task_id, grc_subtags missing | _All system components are protected from known vulnerabilities by installing app..._
+- `6.4.1` → task_id missing | _For public-facing web applications, new threats and vulnerabilities are addresse..._
+- `6.4.2` → task_id missing | _For public-facing web applications, an automated technical solution is deployed ..._
+- `6.4.3` → task_id missing | _All payment page scripts that are loaded and executed in the consumer's browser ..._
+- `6.5.1` → task_id missing | _Changes to all system components in the production environment are made accordin..._
+- `6.5.2` → task_id missing | _Upon completion of a significant change, all applicable PCI DSS requirements are..._
+- `6.5.3` → task_id, grc_subtags missing | _Pre-production environments are separated from production environments and the s..._
+- `6.5.4` → task_id missing | _Roles and functions are separated between production and pre-production environm..._
+- `6.5.5` → task_id, grc_subtags missing | _Live PANs are not used in pre-production environments, except where those enviro..._
+- `6.5.6` → task_id missing | _Test data and test accounts are removed from system components before the system..._
+- `3.3` → task_id, grc_subtags missing | _Mask PAN when displayed..._
+- `3.4` → task_id, grc_subtags missing | _Render PAN unreadable wherever stored..._
+- `3.6` → task_id, grc_subtags missing | _Secure cryptographic key storage..._
+- `1.1` → task_id, grc_subtags missing | _Establish and implement firewall and router configuration standards..._
+- `1.2` → task_id, grc_subtags missing | _Build firewall and router configurations that restrict connections between untru..._
+- `1.3` → task_id, grc_subtags missing | _Prohibit direct public access between the Internet and system components in the ..._
+- `1.4` → task_id, grc_subtags missing | _Install personal firewall software on mobile and computing devices that connect ..._
+- `1.5` → task_id missing | _Ensure security policies and operational procedures for managing firewalls are d..._
+- `2.1` → task_id, grc_subtags missing | _Always change vendor-supplied defaults and remove unnecessary accounts..._
+- `2.2` → task_id, grc_subtags missing | _Develop configuration standards for all system components..._
+- `2.3` → task_id, grc_subtags missing | _Encrypt all non-console administrative access..._
+- `3.1` → task_id, grc_subtags missing | _Limit storage of account data..._
+- `3.2` → task_id, grc_subtags missing | _Do not store sensitive authentication data after authorization..._
+- `3.2.2` → task_id, grc_subtags missing | _Do not store CVV2/CVC2/CID after authorization..._
+- `3.2.3` → task_id, grc_subtags missing | _Do not store PINs or PIN blocks after authorization..._
+- `4.1` → task_id, grc_subtags missing | _Use strong cryptography and security protocols to safeguard sensitive cardholder..._
+- `5.1` → task_id, grc_subtags missing | _Deploy anti-malware software to all systems commonly affected by malware..._
+- `5.2` → task_id, grc_subtags missing | _Ensure anti-malware mechanisms are maintained and up-to-date..._
+- `5.3` → task_id, grc_subtags missing | _Ensure anti-malware mechanisms cannot be disabled or altered by users..._
+- `5.4` → task_id, grc_subtags missing | _Evaluate evolving malware threats for systems not commonly affected..._
+- `6.1` → task_id, grc_subtags missing | _Establish a process to identify and manage security vulnerabilities..._
+- `6.2` → task_id, grc_subtags missing | _Ensure all system components and software are protected from known vulnerabiliti..._
+- `7.1.1` → task_id missing | _All security policies and operational procedures that are identified in Requirem..._
+- `7.1.2` → task_id missing | _Roles and responsibilities for performing activities in Requirement 7 are docume..._
+- `7.2.1` → task_id, grc_subtags missing | _An access control model is defined and includes granting access as follows:
+- Ap..._
+- `7.2.2` → task_id, grc_subtags missing | _Access is assigned to users, including privileged users, based on:
+- Job classif..._
+- `7.2.3` → task_id, grc_subtags missing | _Required privileges are approved by authorized personnel...._
+- `7.2.4` → task_id missing | _All user accounts and related access privileges, including third-party/vendor ac..._
+- `7.2.5` → task_id, grc_subtags missing | _All application and system accounts and related access privileges are assigned a..._
+- `7.2.5.1` → task_id missing | _All access by application and system accounts and related access privileges are ..._
+- `7.2.6` → task_id missing | _All user access to query repositories of stored cardholder data is restricted as..._
+- `7.3.1` → task_id, grc_subtags missing | _An access control system(s) is in place that restricts access based on a user’s ..._
+- `7.3.2` → task_id, grc_subtags missing | _The access control system(s) is configured to enforce permissions assigned to in..._
+- `7.3.3` → task_id, grc_subtags missing | _The access control system(s) is set to “deny all” by default...._
+- `8.1.1` → task_id missing | _All security policies and operational procedures that are identified in Requirem..._
+- `8.1.2` → task_id missing | _Roles and responsibilities for performing activities in Requirement 8 are docume..._
+- `8.2.1` → task_id, grc_subtags missing | _All users are assigned a unique ID before access to system components or cardhol..._
+- `8.2.2` → task_id missing | _Group, shared, or generic IDs, or other shared authentication credentials are on..._
+- `8.2.3` → task_id, grc_subtags missing | _Additional requirement for service providers only: Service providers with remote..._
+- `8.2.4` → task_id missing | _Addition, deletion, and modification of user IDs, authentication factors, and ot..._
+- `8.2.5` → task_id, grc_subtags missing | _Access for terminated users is immediately revoked...._
+- `8.2.6` → task_id, grc_subtags missing | _Inactive user accounts are removed or disabled within 90 days of inactivity...._
+- `8.2.7` → task_id, grc_subtags missing | _Accounts used by third parties to access, support, or maintain system components..._
+- `8.2.8` → task_id, grc_subtags missing | _If a user session has been idle for more than 15 minutes, the user is required t..._
+- `8.3.1` → task_id, grc_subtags missing | _All user access to system components for users and administrators is authenticat..._
+- `8.3.2` → task_id, grc_subtags missing | _Strong cryptography is used to render all authentication factors unreadable duri..._
+- `8.3.3` → task_id, grc_subtags missing | _User identity is verified before modifying any authentication factor...._
+- `8.3.4` → task_id, grc_subtags missing | _Invalid authentication attempts are limited by:
+- Locking out the user ID after ..._
+- `8.3.5` → task_id, grc_subtags missing | _If passwords/passphrases are used as authentication factors to meet Requirement ..._
+- `8.3.6` → task_id missing | _If passwords/passphrases are used as authentication factors to meet Requirement ..._
+- `8.3.7` → task_id, grc_subtags missing | _Individuals are not allowed to submit a new password/passphrase that is the same..._
+- `8.3.8` → task_id missing | _Authentication policies and procedures are documented and communicated to all us..._
+- `8.3.9` → task_id, grc_subtags missing | _If passwords/passphrases are used as the only authentication factor for user acc..._
+- `8.3.10` → task_id, grc_subtags missing | _Additional requirement for service providers only: If passwords/passphrases are ..._
+- `8.3.10.1` → task_id, grc_subtags missing | _Additional requirement for service providers only: If passwords/passphrases are ..._
+- `8.3.11` → task_id missing | _Where authentication factors such as physical or logical security tokens, smart ..._
+- `8.4.1` → task_id, grc_subtags missing | _MFA is implemented for all non-console access into the CDE for personnel with ad..._
+- `8.4.2` → task_id, grc_subtags missing | _MFA is implemented for all non-console access into the CDE. Note: This requireme..._
+- `8.4.3` → task_id, grc_subtags missing | _MFA is implemented for all remote access originating from outside the entity’s n..._
+- `8.5.1` → task_id missing | _MFA systems are implemented as follows:
+- The MFA system is not susceptible to r..._
+- `8.6.1` → task_id missing | _If accounts used by systems or applications can be used for interactive login, t..._
+- `8.6.2` → task_id missing | _Passwords/passphrases for any application and system accounts that can be used f..._
+- `8.6.3` → task_id, grc_subtags missing | _Passwords/passphrases for any application and system accounts are protected agai..._
+- `9.1.1` → task_id missing | _All security policies and operational procedures that are identified in Requirem..._
+- `9.1.2` → task_id missing | _Roles and responsibilities for performing activities in Requirement 9 are docume..._
+- `9.2.1` → task_id, grc_subtags missing | _Appropriate facility entry controls are in place to restrict physical access to ..._
+- `9.2.1.1` → task_id missing | _Individual physical access to sensitive areas within the CDE is monitored with e..._
+- `9.2.2` → task_id missing | _Physical and/or logical controls are implemented to restrict use of publicly acc..._
+- `9.2.3` → task_id, grc_subtags missing | _Physical access to wireless access points, gateways, networking/communications h..._
+- `9.2.4` → task_id, grc_subtags missing | _Access to consoles in sensitive areas is restricted via locking when not in use...._
+- `9.3.1` → task_id missing | _Procedures are implemented for authorizing and managing physical access of perso..._
+- `9.3.1.1` → task_id, grc_subtags missing | _Physical access to sensitive areas within the CDE for personnel is controlled as..._
+- `9.3.2` → task_id missing | _Procedures are implemented for authorizing and managing visitor access to the CD..._
+- `9.3.3` → task_id, grc_subtags missing | _Visitor badges or identification are surrendered or deactivated before visitors ..._
+- `9.3.4` → task_id missing | _Visitor logs are used to maintain a physical record of visitor activity both wit..._
+- `9.4.1` → task_id, grc_subtags missing | _All media with cardholder data is physically secured...._
+- `9.4.1.1` → task_id, grc_subtags missing | _Offline media backups with cardholder data are stored in a secure location...._
+- `9.4.1.2` → task_id missing | _The security of the offline media backup location(s) with cardholder data is rev..._
+- `9.4.2` → task_id, grc_subtags missing | _All media with cardholder data is classified in accordance with the sensitivity ..._
+- `9.4.3` → task_id missing | _Media with cardholder data sent outside the facility is secured as follows:
+- Me..._
+- `9.4.4` → task_id, grc_subtags missing | _Management approves all media with cardholder data that is moved outside the fac..._
+- `9.4.5` → task_id missing | _Inventory logs of all electronic media with cardholder data are maintained...._
+- `9.4.5.1` → task_id, grc_subtags missing | _Inventories of electronic media with cardholder data are conducted at least once..._
+- `9.4.6` → task_id, grc_subtags missing | _Hard-copy materials with cardholder data are destroyed when no longer needed for..._
+- `9.4.7` → task_id, grc_subtags missing | _Electronic media with cardholder data is destroyed when no longer needed for bus..._
+- `9.5.1` → task_id missing | _POI devices that capture payment card data via direct physical interaction with ..._
+- `9.5.1.1` → task_id, grc_subtags missing | _An up-to-date list of POI devices is maintained, including:
+- Make and model of ..._
+- `9.5.1.2` → task_id, grc_subtags missing | _POI device surfaces are periodically inspected to detect tampering and unauthori..._
+- `9.5.1.2.1` → task_id, grc_subtags missing | _The frequency of periodic POI device inspections and the type of inspections per..._
+- `9.5.1.3` → task_id missing | _Training is provided for personnel in POI environments to be aware of attempted ..._
+- `10.1.1` → task_id missing | _All security policies and operational procedures that are identified in Requirem..._
+- `10.1.2` → task_id missing | _Roles and responsibilities for performing activities in Requirement 10 are docum..._
+- `10.2.1` → task_id missing | _Audit logs are enabled and active for all system components and cardholder data...._
+- `10.2.1.1` → task_id missing | _Audit logs capture all individual user access to cardholder data...._
+- `10.2.1.2` → task_id missing | _Audit logs capture all actions taken by any individual with administrative acces..._
+- `10.2.1.3` → task_id missing | _Audit logs capture all access to audit logs...._
+- `10.2.1.4` → task_id missing | _Audit logs capture all invalid logical access attempts...._
+- `10.2.1.5` → task_id missing | _Audit logs capture all changes to identification and authentication credentials ..._
+- `10.2.1.6` → task_id missing | _Audit logs capture the following:
+- All initialization of new audit logs, and 
+-..._
+- `10.2.1.7` → task_id missing | _Audit logs capture all creation and deletion of system-level objects...._
+- `10.2.2` → task_id missing | _Audit logs record the following details for each auditable event:
+- User identif..._
+- `10.3.1` → task_id missing | _Read access to audit logs files is limited to those with a job-related need...._
+- `10.3.2` → task_id missing | _Audit log files are protected to prevent modifications by individuals...._
+- `10.3.3` → task_id missing | _Audit log files, including those for external-facing technologies, are promptly ..._
+- `10.3.4` → task_id missing | _File integrity monitoring or change-detection mechanisms is used on audit logs t..._
+- `10.4.1` → task_id missing | _The following audit logs are reviewed at least once daily:
+- All security events..._
+- `10.4.1.1` → task_id missing | _Automated mechanisms are used to perform audit log reviews. Note: This requireme..._
+- `10.4.2` → task_id missing | _Logs of all other system components (those not specified in Requirement 10.4.
+1)..._
+- `10.4.2.1` → task_id missing | _The frequency of periodic log reviews for all other system components (not defin..._
+- `10.4.3` → task_id missing | _Exceptions and anomalies identified during the review process are addressed...._
+- `10.5.1` → task_id missing | _Retain audit log history for at least 12 months, with at least the most recent t..._
+- `10.6.1` → task_id missing | _System clocks and time are synchronized using time-synchronization technology...._
+- `10.6.2` → task_id, grc_subtags missing | _Systems are configured to the correct and consistent time as follows:
+- One or m..._
+- `10.6.3` → task_id missing | _Time synchronization settings and data are protected as follows:
+- Access to tim..._
+- `10.7.1` → task_id missing | _Additional requirement for service providers only: Failures of critical security..._
+- `10.7.2` → task_id missing | _Failures of critical security control systems are detected, alerted, and address..._
+- `10.7.3` → task_id missing | _Failures of any critical security control systems are responded to promptly, inc..._
+- `11.1.1` → task_id missing | _All security policies and operational procedures that are identified in Requirem..._
+- `11.1.2` → task_id missing | _Roles and responsibilities for performing activities in Requirement 11 are docum..._
+- `11.2.1` → task_id missing | _Authorized and unauthorized wireless access points are managed as follows:
+- The..._
+- `11.2.2` → task_id missing | _An inventory of authorized wireless access points is maintained, including a doc..._
+- `11.3.1` → task_id missing | _Internal vulnerability scans are performed as follows:
+- At least once every thr..._
+- `11.3.1.1` → task_id, grc_subtags missing | _All other applicable vulnerabilities (those not ranked as high-risk vulnerabilit..._
+- `11.3.1.2` → task_id missing | _Internal vulnerability scans are performed via authenticated scanning as follows..._
+- `11.3.1.3` → task_id missing | _Internal vulnerability scans are performed after any significant change as follo..._
+- `11.3.2` → task_id, grc_subtags missing | _External vulnerability scans are performed as follows:
+- At least once every thr..._
+- `11.3.2.1` → task_id missing | _External vulnerability scans are performed after any significant change as follo..._
+- `11.4.1` → task_id missing | _A penetration testing methodology is defined, documented, and implemented by the..._
+- `11.4.2` → task_id missing | _Internal penetration testing is performed:
+- Per the entity's defined methodolog..._
+- `11.4.3` → task_id missing | _External penetration testing is performed:
+- Per the entity's defined methodolog..._
+- `11.4.4` → task_id missing | _Exploitable vulnerabilities and security weaknesses found during penetration tes..._
+- `11.4.5` → task_id missing | _If segmentation is used to isolate the CDE from other networks, penetration test..._
+- `11.4.6` → task_id missing | _Additional requirement for service providers only: If segmentation is used to is..._
+- `11.4.7` → task_id missing | _Additional requirement for multi-tenant service providers only: Multi-tenant ser..._
+- `11.5.1` → task_id missing | _Intrusion-detection and/or intrusion-prevention techniques are used to detect an..._
+- `11.5.1.1` → task_id missing | _Additional requirement for service providers only: Intrusion-detection and/or in..._
+- `11.5.2` → task_id missing | _A change-detection mechanism (for example, file integrity monitoring tools) is d..._
+- `11.6.1` → task_id missing | _A change- and tamper-detection mechanism is deployed as follows:
+- To alert pers..._
+- `12.1.1` → task_id, grc_subtags missing | _An overall information security policy is:
+- Established. 
+- Published. 
+- Maint..._
+- `12.1.2` → task_id missing | _The information security policy is:
+- Reviewed at least once every 12 months. 
+-..._
+- `12.1.3` → task_id missing | _The security policy clearly defines information security roles and responsibilit..._
+- `12.1.4` → task_id, grc_subtags missing | _Responsibility for information security is formally assigned to a Chief Informat..._
+- `12.2.1` → task_id missing | _Acceptable use policies for end-user technologies are documented and implemented..._
+- `12.3.1` → task_id missing | _For each PCI DSS requirement that specifies completion of a targeted risk analys..._
+- `12.3.2` → task_id missing | _A targeted risk analysis is performed for each PCI DSS requirement that the enti..._
+- `12.3.3` → task_id missing | _Cryptographic cipher suites and protocols in use are documented and reviewed at ..._
+- `12.3.4` → task_id missing | _Hardware and software technologies in use are reviewed at least once every 12 mo..._
+- `12.4.1` → task_id, grc_subtags missing | _Additional requirement for service providers only: Responsibility is established..._
+- `12.4.2` → task_id missing | _Additional requirement for service providers only: Reviews are performed at leas..._
+- `12.4.2.1` → task_id missing | _Additional requirement for service providers only: Reviews conducted in accordan..._
+- `12.5.1` → task_id, grc_subtags missing | _An inventory of system components that are in scope for PCI DSS, including a des..._
+- `12.5.2` → task_id missing | _PCI DSS scope is documented and confirmed by the entity at least once every 12 m..._
+- `12.5.2.1` → task_id missing | _Additional requirement for service providers only: PCI DSS scope is documented a..._
+- `12.5.3` → task_id missing | _Additional requirement for service providers only: Significant changes to organi..._
+- `12.6.1` → task_id missing | _A formal security awareness program is implemented to make all personnel aware o..._
+- `12.6.2` → task_id missing | _The security awareness program is:
+- Reviewed at least once every 12 months, and..._
+- `12.6.3` → task_id missing | _Personnel receive security awareness training as follows:
+- Upon hire and at lea..._
+- `12.6.3.1` → task_id missing | _Security awareness training includes awareness of threats and vulnerabilities th..._
+- `12.6.3.2` → task_id missing | _Security awareness training includes awareness about the acceptable use of end-u..._
+- `12.7.1` → task_id, grc_subtags missing | _Potential personnel who will have access to the CDE are screened, within the con..._
+- `12.8.1` → task_id, grc_subtags missing | _A list of all third-party service providers (TPSPs) with which account data is s..._
+- `12.8.2` → task_id, grc_subtags missing | _Written agreements with TPSPs are maintained as follows:
+- Written agreements ar..._
+- `12.8.3` → task_id, grc_subtags missing | _An established process is implemented for engaging TPSPs, including proper due d..._
+- `12.8.4` → task_id, grc_subtags missing | _A program is implemented to monitor TPSPs’ PCI DSS compliance status at least on..._
+- `12.8.5` → task_id, grc_subtags missing | _Information is maintained about which PCI DSS requirements are managed by each T..._
+- `12.9.1` → task_id, grc_subtags missing | _Additional requirement for service providers only: TPSPs provide written agreeme..._
+- `12.9.2` → task_id, grc_subtags missing | _Additional requirement for service providers only: TPSPs support their customers..._
+- `12.10.1` → task_id missing | _An incident response plan exists and is ready to be activated in the event of a ..._
+- `12.10.2` → task_id missing | _At least once every 12 months, the security incident response plan is:
+- Reviewe..._
+- `12.10.3` → task_id missing | _Specific personnel are designated to be available on a 24/7 basis to respond to ..._
+- `12.10.4` → task_id missing | _Personnel responsible for responding to suspected and confirmed security inciden..._
+- `12.10.4.1` → task_id missing | _The frequency of periodic training for incident response personnel is defined in..._
+- `12.10.5` → task_id missing | _The security incident response plan includes monitoring and responding to alerts..._
+- `12.10.6` → task_id missing | _The security incident response plan is modified and evolved according to lessons..._
+- `12.10.7` → task_id missing | _Incident response procedures are in place, to be initiated upon the detection of..._
+- `A1.1.1` → task_id missing | _Logical separation is implemented as follows:
+- The provider cannot access its c..._
+- `A1.1.2` → task_id, grc_subtags missing | _Controls are implemented such that each customer only has permission to access i..._
+- `A1.1.3` → task_id, grc_subtags missing | _Controls are implemented such that each customer can only access resources alloc..._
+- `A1.1.4` → task_id missing | _The effectiveness of logical separation controls used to separate customer envir..._
+- `A1.2.1` → task_id missing | _Audit log capability is enabled for each customer's environment that is consiste..._
+- `A1.2.2` → task_id missing | _Processes or mechanisms are implemented to support and/or facilitate prompt fore..._
+- `A1.2.3` → task_id missing | _Processes or mechanisms are implemented for reporting and addressing suspected o..._
+- `A2.1.1` → task_id, grc_subtags missing | _Where POS POI terminals at the merchant or payment acceptance location use SSL a..._
+- `A2.1.2` → task_id, grc_subtags missing | _Additional requirement for service providers only: All service providers with ex..._
+- `A2.1.3` → task_id, grc_subtags missing | _Additional requirement for service providers only: All service providers provide..._
+- `7.1` → task_id, grc_subtags missing | _Limit access to system components and cardholder data to only those individuals ..._
+- `7.2` → task_id, grc_subtags missing | _Define and implement access control systems for all system components..._
+- `8.1` → task_id missing | _Define and manage user identification and authentication policies and procedures..._
+- `8.2` → task_id, grc_subtags missing | _Use unique identification for all users before allowing them to access system co..._
+- `8.3` → task_id, grc_subtags missing | _Secure all individual non-console administrative access and all remote access to..._
+- `9.1` → task_id, grc_subtags missing | _Use appropriate facility entry controls to limit and monitor physical access to ..._
+- `9.2` → task_id missing | _Develop procedures to authorize and revoke access to physical areas with CDE sys..._
+- `9.3` → task_id, grc_subtags missing | _Control physical access for visitors..._
+- `10.1` → task_id missing | _Implement audit logs to track user activities and system events..._
+- `10.2` → task_id missing | _Automate audit trails for all system components..._
+- `10.3` → task_id missing | _Secure and protect audit logs to prevent unauthorized access..._
+- `11.1` → task_id missing | _Test for the presence of wireless access points and detect unauthorized wireless..._
+- `11.2` → task_id, grc_subtags missing | _Perform internal and external vulnerability scans..._
+- `11.3` → task_id missing | _Perform internal and external penetration testing..._
+- `12.1` → task_id, grc_subtags missing | _Establish, publish, maintain, and disseminate a security policy..._
+- `12.2` → task_id, grc_subtags missing | _Implement a risk assessment process..._
+- `12.3` → task_id missing | _Develop usage policies for critical technologies..._
+- `A1.1` → task_id, grc_subtags missing | _Segregate shared hosting environments to protect each entity’s hosted environmen..._
+- `A1.2` → task_id, grc_subtags missing | _Ensure access rights to environments and data are appropriately assigned and enf..._
+- `A2.1` → task_id, grc_subtags missing | _Encrypt PANs using strong cryptography when stored in removable electronic media..._
+- `A2.2` → task_id, grc_subtags missing | _Do not store PANs on non-volatile memory within endpoint devices..._
+- `A3.1.1` → task_id, grc_subtags missing | _Responsibility is established by executive management for the protection of acco..._
+- `A3.1.2` → task_id, grc_subtags missing | _A formal PCI DSS compliance program is in place..._
+- `A3.1.3` → task_id, grc_subtags missing | _Personnel with accountability for PCI DSS compliance are formally assigned..._
+- `A3.1.4` → task_id, grc_subtags missing | _A control lifecycle process is used to manage PCI DSS controls..._
+- `A3.2.1` → task_id, grc_subtags missing | _Compliance status is monitored using defined performance metrics..._
+- `A3.3.1` → task_id missing | _Annual scope validation is performed and documented..._
+- `A3.4.1` → task_id missing | _The organization reviews control failures and implements timely remediation..._
+- `A3.5.1` → task_id missing | _Personnel supporting PCI DSS activities are trained annually..._
