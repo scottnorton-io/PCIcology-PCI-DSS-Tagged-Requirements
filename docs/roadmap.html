@@ -2,16 +2,1631 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PCI DSS UI Roadmap</title>
+  <meta charset="UTF-8">
+  <title>PCI DSS v4.0.1 Milestone Roadmap</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    .card { background: #f9f9f9; border-radius: 6px; padding: 10px 15px; margin: 10px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
+    .hidden { display: none; }
+    input, select { margin: 10px 0; padding: 4px; }
+  </style>
 </head>
 <body>
-  <h1>Milestone-Based PCI DSS Roadmap</h1>
-  <ul>
-    <li><strong>Milestone 1:</strong> Limit CHD Storage</li>
-    <li><strong>Milestone 2:</strong> Secure Network Infrastructure</li>
-    <li><strong>Milestone 3:</strong> Secure Access Control & Authentication</li>
-    <li><strong>Milestone 4:</strong> Logging, Monitoring, and Testing</li>
-    <li><strong>Milestone 5:</strong> Maintain Policies & Governance</li>
-  </ul>
+  <h1>🔍 PCI DSS Roadmap – Filter by Role or Evidence</h1>
+  <p>Select a role or evidence type to view related controls.</p>
+
+  <label for="role">Role:</label>
+  <select id="role">
+    <option value="">-- Any Role --</option>
+    <option value="AppSec">AppSec</option>
+    <option value="Compliance">Compliance</option>
+    <option value="CISO">CISO</option>
+    <option value="Identity Admin">Identity Admin</option>
+    <option value="Incident Response">Incident Response</option>
+  </select>
+
+  <label for="evidence">Evidence Tag:</label>
+  <select id="evidence">
+    <option value="">-- Any Evidence --</option>
+    <option value="policy">Policy</option>
+    <option value="training">Training</option>
+    <option value="incident_logs">Incident Logs</option>
+    <option value="rbac_matrix">RBAC Matrix</option>
+    <option value="report">Report</option>
+  </select>
+
+  <div id="results"></div>
+
+  <script>
+    const entries = [
+      {
+        req_id: "1.1.1",
+        title: "All security policies and operational procedures that are identified in Requirement 1 are: - Documented.  - Kept up to d",
+        tags: ["policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "reference-hub"]
+      },
+      {
+        req_id: "1.1.2",
+        title: "Roles and responsibilities for performing activities in Requirement 1 are documented, assigned, and understood.",
+        tags: ["governance", "identity", "policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "milestone-map", "reference-hub", "scorecard"]
+      },
+      {
+        req_id: "1.2.1",
+        title: "Configuration standards for NSC rulesets are: - Defined.  - Implemented.  - Maintained.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "1.2.2",
+        title: "All changes to network connections and to configurations of NSCs are approved and managed in accordance with the change ",
+        tags: ["dependency-root", "control-aggregator"]
+      },
+      {
+        req_id: "1.2.3",
+        title: "An accurate network diagram(s) is maintained that shows all connections between the CDE and other networks, including an",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "1.2.4",
+        title: "An accurate data-flow diagram(s) is maintained that meets the following: - Shows all account data flows across systems a",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "1.2.5",
+        title: "All services, protocols, and ports allowed are identified, approved, and have a defined business need.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "1.2.6",
+        title: "Security features are defined and implemented for all services, protocols, and ports that are in use and considered to b",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "1.2.7",
+        title: "Configurations of NSCs are reviewed at least once every six months to confirm they are relevant and effective.",
+        tags: ["audit", "governance", "dependency-root", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "1.2.8",
+        title: "Configuration files for NSCs are: - Secured from unauthorized access.  - Kept consistent with active network configurati",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "1.3.1",
+        title: "Inbound traffic to the CDE is restricted as follows: - To only traffic that is necessary.  - All other traffic is specif",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "1.3.2",
+        title: "Outbound traffic from the CDE is restricted as follows: - To only traffic that is necessary.  - All other traffic is spe",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "1.3.3",
+        title: "NSCs are installed between all wireless networks and the CDE, regardless of whether the wireless network is a CDE, such ",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "1.4.1",
+        title: "NSCs are implemented between trusted and untrusted networks.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "1.4.2",
+        title: "Inbound traffic from untrusted networks to trusted networks is restricted to: - Communications with system components th",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "1.4.3",
+        title: "Anti-spoofing measures are implemented to detect and block forged source IP addresses from entering the trusted network.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "1.4.4",
+        title: "System components that store cardholder data are not directly accessible from untrusted networks.",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "1.4.5",
+        title: "The disclosure of internal IP addresses and routing information is limited to only authorized parties.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "1.5.1",
+        title: "Security controls are implemented on any computing devices, including company- and employee-owned devices, that connect ",
+        tags: ["policy", "procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "2.1.1",
+        title: "All security policies and operational procedures that are identified in Requirement 2 are: - Documented.  - Kept up to d",
+        tags: ["policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "reference-hub"]
+      },
+      {
+        req_id: "2.1.2",
+        title: "Roles and responsibilities for performing activities in Requirement 2 are documented, assigned, and understood.",
+        tags: ["governance", "identity", "policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "milestone-map", "reference-hub", "scorecard"]
+      },
+      {
+        req_id: "2.2.1",
+        title: "Configuration standards are developed, implemented, and maintained to: - Cover all system components.  - Address all kno",
+        tags: ["dependency-root", "control-aggregator"]
+      },
+      {
+        req_id: "2.2.2",
+        title: "Vendor default accounts are managed as follows: - If the vendor default account(s) will be used, the default password is",
+        tags: ["dependency-root", "control-aggregator"]
+      },
+      {
+        req_id: "2.2.3",
+        title: "Primary functions requiring different security levels are managed as follows: - Only one primary function exists on a sy",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "2.2.4",
+        title: "Only necessary services, protocols, daemons, and functions are enabled, and all unnecessary functionality is removed or ",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "2.2.5",
+        title: "If any insecure services, protocols, or daemons are present: - Business justification is documented.  - Additional secur",
+        tags: ["policy", "procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "2.2.6",
+        title: "System security parameters are configured to prevent misuse.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "2.2.7",
+        title: "All non-console administrative access is encrypted using strong cryptography.",
+        tags: ["access-control", "data-protection", "identity", "dependency-root"]
+      },
+      {
+        req_id: "2.3.1",
+        title: "For wireless environments connected to the CDE or transmitting account data, all wireless vendor defaults are changed at",
+        tags: ["access-control", "data-protection", "identity", "dependency-root"]
+      },
+      {
+        req_id: "2.3.2",
+        title: "For wireless environments connected to the CDE or transmitting account data, wireless encryption keys are changed as fol",
+        tags: ["data-protection", "governance", "identity", "dependency-root", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "3.1.1",
+        title: "All security policies and operational procedures that are identified in Requirement 3 are: - Documented.  - Kept up to d",
+        tags: ["policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "reference-hub"]
+      },
+      {
+        req_id: "3.1.2",
+        title: "Roles and responsibilities for performing activities in Requirement 3 are documented, assigned, and understood.",
+        tags: ["governance", "identity", "policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "milestone-map", "reference-hub", "scorecard"]
+      },
+      {
+        req_id: "3.2.1",
+        title: "Account data storage is kept to a minimum through implementation of data retention and disposal policies, procedures, an",
+        tags: ["policy", "procedure", "dependency-root", "best-practice-until-2025", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "3.3.1",
+        title: "SAD is not stored after authorization, even if encrypted. All sensitive authentication data received is rendered unrecov",
+        tags: ["data-protection", "dependency-root"]
+      },
+      {
+        req_id: "3.3.1.1",
+        title: "The full contents of any track are not stored upon completion of the authorization process.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "3.3.1.2",
+        title: "The card verification code is not stored upon completion of the authorization process.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "3.3.1.3",
+        title: "The personal identification number (PIN) and the PIN block are not stored upon completion of the authorization process.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "3.3.2",
+        title: "SAD that is stored electronically prior to completion of authorization is encrypted using strong cryptography. Note: Thi",
+        tags: ["data-protection", "dependency-root", "best-practice-until-2025"]
+      },
+      {
+        req_id: "3.3.3",
+        title: "Additional requirement for issuers and companies that support issuing services and store sensitive authentication data: ",
+        tags: ["data-protection", "dependency-root", "best-practice-until-2025"]
+      },
+      {
+        req_id: "3.4.1",
+        title: "PAN is masked when displayed (the BIN and last four digits are the maximum number of digits to be displayed), such that ",
+        tags: ["data-protection", "dependency-root"]
+      },
+      {
+        req_id: "3.4.2",
+        title: "When using remote-access technologies, technical controls prevent copy and/or relocation of PAN for all personnel, excep",
+        tags: ["access-control", "artifact", "identity", "monitoring", "policy", "procedure", "dependency-root", "best-practice-until-2025", "annotated-policy", "artifact-portal", "click-to-breach-visual"]
+      },
+      {
+        req_id: "3.5.1",
+        title: "PAN is rendered unreadable anywhere it is stored by using any of the following approaches: - One-way hashes based on str",
+        tags: ["procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "reference-hub"]
+      },
+      {
+        req_id: "3.5.1.1",
+        title: "Hashes used to render PAN unreadable (per the first bullet of Requirement 3.5. 1) are keyed cryptographic hashes of the ",
+        tags: ["procedure", "reference-hub", "best-practice-until-2025", "annotated-policy", "artifact-portal", "control-aggregator", "reference-hub"]
+      },
+      {
+        req_id: "3.5.1.2",
+        title: "If disk-level or partition-level encryption (rather than file-, column-, or field-level database encryption) is used to ",
+        tags: ["data-protection", "dependency-root", "best-practice-until-2025", "control-aggregator"]
+      },
+      {
+        req_id: "3.5.1.3",
+        title: "If disk-level or partition-level encryption is used (rather than file-, column-, or field--level database encryption) to",
+        tags: ["access-control", "artifact", "data-protection", "identity", "monitoring", "dependency-root", "click-to-breach-visual"]
+      },
+      {
+        req_id: "3.6.1",
+        title: "Procedures are defined and implemented to protect cryptographic keys used to protect stored account data against disclos",
+        tags: ["access-control", "data-protection", "identity", "procedure", "dependency-root", "annotated-policy", "artifact-portal", "control-aggregator"]
+      },
+      {
+        req_id: "3.6.1.1",
+        title: "Additional requirement for service providers only: A documented description of the cryptographic architecture is maintai",
+        tags: ["developer", "policy", "procedure", "report", "dependency-root", "best-practice-until-2025", "annotated-policy", "artifact-portal", "audit-friction-alert", "control-aggregator", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "3.6.1.2",
+        title: "Secret and private keys used to protect stored account data are stored in one (or more) of the following forms at all ti",
+        tags: ["data-protection", "dependency-root"]
+      },
+      {
+        req_id: "3.6.1.3",
+        title: "Access to cleartext cryptographic key components is restricted to the fewest number of custodians necessary.",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "3.6.1.4",
+        title: "Cryptographic keys are stored in the fewest possible locations.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "3.7.1",
+        title: "Key-management policies and procedures are implemented to include generation of strong cryptographic keys used to protec",
+        tags: ["procedure", "dependency-root", "annotated-policy", "artifact-portal", "control-aggregator"]
+      },
+      {
+        req_id: "3.7.2",
+        title: "Key-management policies and procedures are implemented to include secure distribution of cryptographic keys used to prot",
+        tags: ["procedure", "dependency-root", "annotated-policy", "artifact-portal", "control-aggregator"]
+      },
+      {
+        req_id: "3.7.3",
+        title: "Key-management policies and procedures are implemented to include secure storage of cryptographic keys used to protect s",
+        tags: ["procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "3.7.4",
+        title: "Key management policies and procedures are implemented for cryptographic key changes for keys that have reached the end ",
+        tags: ["procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "3.7.5",
+        title: "Key management policies procedures are implemented to include the retirement, replacement, or destruction of keys used t",
+        tags: ["data-protection", "governance", "identity", "procedure", "dependency-root", "annotated-policy", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "3.7.6",
+        title: "Where manual cleartext cryptographic key-management operations are performed by personnel, key-management policies and p",
+        tags: ["procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "3.7.7",
+        title: "Key management policies and procedures are implemented to include the prevention of unauthorized substitution of cryptog",
+        tags: ["procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "3.7.8",
+        title: "Key management policies and procedures are implemented to include that cryptographic key custodians formally acknowledge",
+        tags: ["procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "3.7.9",
+        title: "Additional requirement for service providers only: Where a service provider shares cryptographic keys with its customers",
+        tags: ["custom-control", "policy", "procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "4.1.1",
+        title: "All security policies and operational procedures that are identified in Requirement 4 are: - Documented.  - Kept up to d",
+        tags: ["policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "reference-hub"]
+      },
+      {
+        req_id: "4.1.2",
+        title: "Roles and responsibilities for performing activities in Requirement 4 are documented, assigned, and understood.",
+        tags: ["governance", "identity", "policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "milestone-map", "reference-hub", "scorecard"]
+      },
+      {
+        req_id: "4.2.1",
+        title: "Strong cryptography and security protocols are implemented as follows to safeguard PAN during transmission over open, pu",
+        tags: ["artifact", "data-protection", "monitoring", "dependency-root", "best-practice-until-2025", "click-to-breach-visual"]
+      },
+      {
+        req_id: "4.2.1.1",
+        title: "An inventory of the entity’s trusted keys and certificates used to protect PAN during transmission is maintained. Note: ",
+        tags: ["dependency-root", "best-practice-until-2025"]
+      },
+      {
+        req_id: "4.2.1.2",
+        title: "Wireless networks transmitting PAN or connected to the CDE use industry best practices to implement strong cryptography ",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "4.2.2",
+        title: "PAN is secured with strong cryptography whenever it is sent via end-user messaging technologies.",
+        tags: ["artifact", "monitoring", "dependency-root", "click-to-breach-visual"]
+      },
+      {
+        req_id: "5.1.1",
+        title: "All security policies and operational procedures that are identified in Requirement 5 are: - Documented.  - Kept up to d",
+        tags: ["policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "reference-hub"]
+      },
+      {
+        req_id: "5.1.2",
+        title: "Roles and responsibilities for performing activities in Requirement 5 are documented, assigned, and understood.",
+        tags: ["governance", "identity", "policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "milestone-map", "reference-hub", "scorecard"]
+      },
+      {
+        req_id: "5.2.1",
+        title: "An anti-malware solution(s) is deployed on all system components, except for those system components identified in perio",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "5.2.2",
+        title: "The deployed anti-malware solution(s): - Detects all known types of malware.  - Removes, blocks, or contains all known t",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "5.2.3",
+        title: "Any system components that are not at risk for malware are evaluated periodically to include the following: - A document",
+        tags: ["policy", "procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "5.2.3.1",
+        title: "The frequency of periodic evaluations of system components identified as not at risk for malware is defined in the entit",
+        tags: ["dependency-root", "best-practice-until-2025"]
+      },
+      {
+        req_id: "5.3.1",
+        title: "The anti-malware solution(s) is kept current via automatic updates.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "5.3.2",
+        title: "The anti-malware solution(s): - Performs periodic scans and active or real-time scans. OR  - Performs continuous behavio",
+        tags: ["periodic", "vulnerability-management", "dependency-root"]
+      },
+      {
+        req_id: "5.3.2.1",
+        title: "If periodic malware scans are performed to meet Requirement 5.3.2, the frequency of scans is defined in the entity’s tar",
+        tags: ["periodic", "vulnerability-management", "dependency-root", "best-practice-until-2025"]
+      },
+      {
+        req_id: "5.3.3",
+        title: "For removable electronic media, the anti-malware solution(s): - Performs automatic scans of when the media is inserted, ",
+        tags: ["artifact", "monitoring", "periodic", "vulnerability-management", "dependency-root", "best-practice-until-2025", "click-to-breach-visual"]
+      },
+      {
+        req_id: "5.3.4",
+        title: "Audit logs for the anti-malware solution(s) are enabled and retained in accordance with Requirement 10.5.1.",
+        tags: ["artifact", "auditor", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "5.3.5",
+        title: "Anti-malware mechanisms cannot be disabled or altered by users, unless specifically documented, and authorized by manage",
+        tags: ["policy", "procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "5.4.1",
+        title: "Processes and automated mechanisms are in place to detect and protect personnel against phishing attacks. Note: This req",
+        tags: ["dependency-root", "best-practice-until-2025"]
+      },
+      {
+        req_id: "6.1.1",
+        title: "All security policies and operational procedures that are identified in Requirement 6 are: - Documented.  - Kept up to d",
+        tags: ["policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "reference-hub"]
+      },
+      {
+        req_id: "6.1.2",
+        title: "Roles and responsibilities for performing activities in Requirement 6 are documented, assigned, and understood.",
+        tags: ["governance", "identity", "policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "milestone-map", "reference-hub", "scorecard"]
+      },
+      {
+        req_id: "6.2.1",
+        title: "Bespoke and custom software are developed securely, as follows: - Based on industry standards and/or best practices for ",
+        tags: ["artifact", "custom-control", "monitoring", "dependency-root", "click-to-breach-visual"]
+      },
+      {
+        req_id: "6.2.2",
+        title: "Software development personnel working on bespoke and custom software are trained at least once every 12 months as follo",
+        tags: ["custom-control", "developer", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "6.2.3",
+        title: "Bespoke and custom software is reviewed prior to being released into production or to customers, to identify and correct",
+        tags: ["audit", "custom-control", "governance", "dependency-root", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "6.2.3.1",
+        title: "If manual code reviews are performed for bespoke and custom software prior to release to production, code changes are: -",
+        tags: ["audit", "custom-control", "governance", "dependency-root", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "6.2.4",
+        title: "Software engineering techniques or other methods are defined and in use by software development personnel to prevent or ",
+        tags: ["access-control", "artifact", "custom-control", "identity", "monitoring", "dependency-root", "click-to-breach-visual"]
+      },
+      {
+        req_id: "6.3.1",
+        title: "Security vulnerabilities are identified and managed as follows: - New security vulnerabilities are identified using indu",
+        tags: ["custom-control", "monitoring", "realtime", "reference-hub", "click-to-breach-visual", "control-aggregator", "reference-hub"]
+      },
+      {
+        req_id: "6.3.2",
+        title: "An inventory of bespoke and custom software, and third-party software components incorporated into bespoke and custom so",
+        tags: ["configuration-management", "custom-control", "vulnerability-management", "dependency-root", "best-practice-until-2025"]
+      },
+      {
+        req_id: "6.3.3",
+        title: "All system components are protected from known vulnerabilities by installing applicable security patches/updates as foll",
+        tags: ["configuration-management", "vulnerability-management", "dependency-root"]
+      },
+      {
+        req_id: "6.4.1",
+        title: "For public-facing web applications, new threats and vulnerabilities are addressed on an ongoing basis and these applicat",
+        tags: ["artifact", "audit", "auditor", "governance", "monitoring", "realtime", "report", "dependency-root", "best-practice-until-2025", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "milestone-map", "roc-swipefile", "scorecard"]
+      },
+      {
+        req_id: "6.4.2",
+        title: "For public-facing web applications, an automated technical solution is deployed that continually detects and prevents we",
+        tags: ["artifact", "auditor", "monitoring", "realtime", "report", "dependency-root", "best-practice-until-2025", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "6.4.3",
+        title: "All payment page scripts that are loaded and executed in the consumer's browser are managed as follows: - A method is im",
+        tags: ["dependency-root", "best-practice-until-2025", "control-aggregator"]
+      },
+      {
+        req_id: "6.5.1",
+        title: "Changes to all system components in the production environment are made according to established procedures that include",
+        tags: ["custom-control", "developer", "policy", "procedure", "report", "dependency-root", "annotated-policy", "artifact-portal", "audit-friction-alert", "control-aggregator", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "6.5.2",
+        title: "Upon completion of a significant change, all applicable PCI DSS requirements are confirmed to be in place on all new or ",
+        tags: ["policy", "procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "6.5.3",
+        title: "Pre-production environments are separated from production environments and the separation is enforced with access contro",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "6.5.4",
+        title: "Roles and functions are separated between production and pre-production environments to provide accountability such that",
+        tags: ["audit", "governance", "identity", "dependency-root", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "6.5.5",
+        title: "Live PANs are not used in pre-production environments, except where those environments are included in the CDE and prote",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "6.5.6",
+        title: "Test data and test accounts are removed from system components before the system goes into production.",
+        tags: ["developer", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "3.3",
+        title: "Mask PAN when displayed",
+        tags: ["data-protection", "dependency-root"]
+      },
+      {
+        req_id: "3.4",
+        title: "Render PAN unreadable wherever stored",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "3.6",
+        title: "Secure cryptographic key storage",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "1.1",
+        title: "Establish and implement firewall and router configuration standards",
+        tags: ["configuration-management", "network", "dependency-root"]
+      },
+      {
+        req_id: "1.2",
+        title: "Build firewall and router configurations that restrict connections between untrusted networks and system components in t",
+        tags: ["configuration-management", "network", "dependency-root"]
+      },
+      {
+        req_id: "1.3",
+        title: "Prohibit direct public access between the Internet and system components in the CDE",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "1.4",
+        title: "Install personal firewall software on mobile and computing devices that connect to the CDE",
+        tags: ["configuration-management", "network", "dependency-root"]
+      },
+      {
+        req_id: "1.5",
+        title: "Ensure security policies and operational procedures for managing firewalls are documented, in use, and known",
+        tags: ["configuration-management", "network", "policy", "procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "2.1",
+        title: "Always change vendor-supplied defaults and remove unnecessary accounts",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "2.2",
+        title: "Develop configuration standards for all system components",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "2.3",
+        title: "Encrypt all non-console administrative access",
+        tags: ["access-control", "data-protection", "identity", "dependency-root"]
+      },
+      {
+        req_id: "3.1",
+        title: "Limit storage of account data",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "3.2",
+        title: "Do not store sensitive authentication data after authorization",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "3.2.2",
+        title: "Do not store CVV2/CVC2/CID after authorization",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "3.2.3",
+        title: "Do not store PINs or PIN blocks after authorization",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "4.1",
+        title: "Use strong cryptography and security protocols to safeguard sensitive cardholder data during transmission",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "5.1",
+        title: "Deploy anti-malware software to all systems commonly affected by malware",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "5.2",
+        title: "Ensure anti-malware mechanisms are maintained and up-to-date",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "5.3",
+        title: "Ensure anti-malware mechanisms cannot be disabled or altered by users",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "5.4",
+        title: "Evaluate evolving malware threats for systems not commonly affected",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "6.1",
+        title: "Establish a process to identify and manage security vulnerabilities",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "6.2",
+        title: "Ensure all system components and software are protected from known vulnerabilities",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "7.1.1",
+        title: "All security policies and operational procedures that are identified in Requirement 7 are: - Documented.  - Kept up to d",
+        tags: ["policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "reference-hub"]
+      },
+      {
+        req_id: "7.1.2",
+        title: "Roles and responsibilities for performing activities in Requirement 7 are documented, assigned, and understood.",
+        tags: ["governance", "identity", "policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "milestone-map", "reference-hub", "scorecard"]
+      },
+      {
+        req_id: "7.2.1",
+        title: "An access control model is defined and includes granting access as follows: - Appropriate access depending on the entity",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "7.2.2",
+        title: "Access is assigned to users, including privileged users, based on: - Job classification and function.  - Least privilege",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "7.2.3",
+        title: "Required privileges are approved by authorized personnel.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "7.2.4",
+        title: "All user accounts and related access privileges, including third-party/vendor accounts, are reviewed as follows: - At le",
+        tags: ["access-control", "audit", "governance", "identity", "dependency-root", "best-practice-until-2025", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "7.2.5",
+        title: "All application and system accounts and related access privileges are assigned and managed as follows: - Based on the le",
+        tags: ["access-control", "identity", "dependency-root", "best-practice-until-2025"]
+      },
+      {
+        req_id: "7.2.5.1",
+        title: "All access by application and system accounts and related access privileges are reviewed as follows: - Periodically (at ",
+        tags: ["access-control", "audit", "governance", "identity", "dependency-root", "best-practice-until-2025", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "7.2.6",
+        title: "All user access to query repositories of stored cardholder data is restricted as follows: - Via applications or other pr",
+        tags: ["access-control", "governance", "identity", "dependency-root", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "7.3.1",
+        title: "An access control system(s) is in place that restricts access based on a user’s need to know and covers all system compo",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "7.3.2",
+        title: "The access control system(s) is configured to enforce permissions assigned to individuals, applications, and systems bas",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "7.3.3",
+        title: "The access control system(s) is set to “deny all” by default.",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "8.1.1",
+        title: "All security policies and operational procedures that are identified in Requirement 8 are: - Documented.  - Kept up to d",
+        tags: ["policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "reference-hub"]
+      },
+      {
+        req_id: "8.1.2",
+        title: "Roles and responsibilities for performing activities in Requirement 8 are documented, assigned, and understood.",
+        tags: ["governance", "identity", "policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "milestone-map", "reference-hub", "scorecard"]
+      },
+      {
+        req_id: "8.2.1",
+        title: "All users are assigned a unique ID before access to system components or cardholder data is allowed.",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "8.2.2",
+        title: "Group, shared, or generic IDs, or other shared authentication credentials are only used when necessary on an exception b",
+        tags: ["access-control", "identity", "policy", "procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "8.2.3",
+        title: "Additional requirement for service providers only: Service providers with remote access to customer premises use unique ",
+        tags: ["access-control", "custom-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "8.2.4",
+        title: "Addition, deletion, and modification of user IDs, authentication factors, and other identifier objects are managed as fo",
+        tags: ["policy", "procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "8.2.5",
+        title: "Access for terminated users is immediately revoked.",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "8.2.6",
+        title: "Inactive user accounts are removed or disabled within 90 days of inactivity.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "8.2.7",
+        title: "Accounts used by third parties to access, support, or maintain system components via remote access are managed as follow",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "8.2.8",
+        title: "If a user session has been idle for more than 15 minutes, the user is required to re-authenticate to re-activate the ter",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "8.3.1",
+        title: "All user access to system components for users and administrators is authenticated via at least one of the following aut",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "8.3.2",
+        title: "Strong cryptography is used to render all authentication factors unreadable during transmission and storage on all syste",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "8.3.3",
+        title: "User identity is verified before modifying any authentication factor.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "8.3.4",
+        title: "Invalid authentication attempts are limited by: - Locking out the user ID after not more than 10 attempts.  - Setting th",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "8.3.5",
+        title: "If passwords/passphrases are used as authentication factors to meet Requirement 8.3.1, they are set and reset for each u",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "8.3.6",
+        title: "If passwords/passphrases are used as authentication factors to meet Requirement 8.3.1, they meet the following minimum l",
+        tags: ["dependency-root", "best-practice-until-2025", "control-aggregator"]
+      },
+      {
+        req_id: "8.3.7",
+        title: "Individuals are not allowed to submit a new password/passphrase that is the same as any of the last four passwords/passp",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "8.3.8",
+        title: "Authentication policies and procedures are documented and communicated to all users including: - Guidance on selecting s",
+        tags: ["incident-owner", "incident-response", "policy", "procedure", "dependency-root", "annotated-policy", "artifact-portal", "breach-simulation", "threat-feed-link"]
+      },
+      {
+        req_id: "8.3.9",
+        title: "If passwords/passphrases are used as the only authentication factor for user access (i.e., in any single-factor authenti",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "8.3.10",
+        title: "Additional requirement for service providers only: If passwords/passphrases are used as the only authentication factor f",
+        tags: ["access-control", "custom-control", "identity", "dependency-root", "best-practice-until-2025"]
+      },
+      {
+        req_id: "8.3.10.1",
+        title: "Additional requirement for service providers only: If passwords/passphrases are used as the only authentication factor f",
+        tags: ["access-control", "custom-control", "identity", "dependency-root", "best-practice-until-2025"]
+      },
+      {
+        req_id: "8.3.11",
+        title: "Where authentication factors such as physical or logical security tokens, smart cards, or certificates are used: - Facto",
+        tags: ["access-control", "artifact", "identity", "monitoring", "dependency-root", "click-to-breach-visual"]
+      },
+      {
+        req_id: "8.4.1",
+        title: "MFA is implemented for all non-console access into the CDE for personnel with administrative access.",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "8.4.2",
+        title: "MFA is implemented for all non-console access into the CDE. Note: This requirement is a best practice until 31 March 202",
+        tags: ["access-control", "identity", "dependency-root", "best-practice-until-2025"]
+      },
+      {
+        req_id: "8.4.3",
+        title: "MFA is implemented for all remote access originating from outside the entity’s network that could access or impact the C",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "8.5.1",
+        title: "MFA systems are implemented as follows: - The MFA system is not susceptible to replay attacks.  - MFA systems cannot be ",
+        tags: ["access-control", "identity", "policy", "procedure", "dependency-root", "best-practice-until-2025", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "8.6.1",
+        title: "If accounts used by systems or applications can be used for interactive login, they are managed as follows: - Interactiv",
+        tags: ["access-control", "artifact", "identity", "monitoring", "policy", "procedure", "dependency-root", "best-practice-until-2025", "annotated-policy", "artifact-portal", "click-to-breach-visual"]
+      },
+      {
+        req_id: "8.6.2",
+        title: "Passwords/passphrases for any application and system accounts that can be used for interactive login are not hard coded ",
+        tags: ["artifact", "custom-control", "monitoring", "dependency-root", "best-practice-until-2025", "click-to-breach-visual"]
+      },
+      {
+        req_id: "8.6.3",
+        title: "Passwords/passphrases for any application and system accounts are protected against misuse as follows: - Passwords/passp",
+        tags: ["dependency-root", "best-practice-until-2025"]
+      },
+      {
+        req_id: "9.1.1",
+        title: "All security policies and operational procedures that are identified in Requirement 9 are: - Documented.  - Kept up to d",
+        tags: ["policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "reference-hub"]
+      },
+      {
+        req_id: "9.1.2",
+        title: "Roles and responsibilities for performing activities in Requirement 9 are documented, assigned, and understood.",
+        tags: ["governance", "identity", "policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "milestone-map", "reference-hub", "scorecard"]
+      },
+      {
+        req_id: "9.2.1",
+        title: "Appropriate facility entry controls are in place to restrict physical access to systems in the CDE.",
+        tags: ["access-control", "facilities", "identity", "physical-security", "dependency-root"]
+      },
+      {
+        req_id: "9.2.1.1",
+        title: "Individual physical access to sensitive areas within the CDE is monitored with either video cameras or physical access c",
+        tags: ["access-control", "audit", "governance", "identity", "dependency-root", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "9.2.2",
+        title: "Physical and/or logical controls are implemented to restrict use of publicly accessible network jacks within the facilit",
+        tags: ["access-control", "artifact", "facilities", "identity", "monitoring", "physical-security", "dependency-root", "click-to-breach-visual"]
+      },
+      {
+        req_id: "9.2.3",
+        title: "Physical access to wireless access points, gateways, networking/communications hardware, and telecommunication lines wit",
+        tags: ["access-control", "facilities", "identity", "physical-security", "dependency-root"]
+      },
+      {
+        req_id: "9.2.4",
+        title: "Access to consoles in sensitive areas is restricted via locking when not in use.",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "9.3.1",
+        title: "Procedures are implemented for authorizing and managing physical access of personnel to the CDE, including: - Identifyin",
+        tags: ["access-control", "identity", "procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "9.3.1.1",
+        title: "Physical access to sensitive areas within the CDE for personnel is controlled as follows: - Access is authorized and bas",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "9.3.2",
+        title: "Procedures are implemented for authorizing and managing visitor access to the CDE, including: - Visitors are authorized ",
+        tags: ["access-control", "identity", "procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "9.3.3",
+        title: "Visitor badges or identification are surrendered or deactivated before visitors leave the facility or at the date of exp",
+        tags: ["facilities", "physical-security", "dependency-root"]
+      },
+      {
+        req_id: "9.3.4",
+        title: "Visitor logs are used to maintain a physical record of visitor activity both within the facility and within sensitive ar",
+        tags: ["access-control", "artifact", "facilities", "identity", "monitoring", "physical-security", "dependency-root", "click-to-breach-visual"]
+      },
+      {
+        req_id: "9.4.1",
+        title: "All media with cardholder data is physically secured.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "9.4.1.1",
+        title: "Offline media backups with cardholder data are stored in a secure location.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "9.4.1.2",
+        title: "The security of the offline media backup location(s) with cardholder data is reviewed at least once every 12 months.",
+        tags: ["audit", "governance", "dependency-root", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "9.4.2",
+        title: "All media with cardholder data is classified in accordance with the sensitivity of the data.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "9.4.3",
+        title: "Media with cardholder data sent outside the facility is secured as follows: - Media sent outside the facility is logged.",
+        tags: ["artifact", "facilities", "monitoring", "physical-security", "dependency-root", "click-to-breach-visual"]
+      },
+      {
+        req_id: "9.4.4",
+        title: "Management approves all media with cardholder data that is moved outside the facility (including when media is distribut",
+        tags: ["facilities", "physical-security", "dependency-root"]
+      },
+      {
+        req_id: "9.4.5",
+        title: "Inventory logs of all electronic media with cardholder data are maintained.",
+        tags: ["artifact", "monitoring", "dependency-root", "click-to-breach-visual"]
+      },
+      {
+        req_id: "9.4.5.1",
+        title: "Inventories of electronic media with cardholder data are conducted at least once every 12 months.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "9.4.6",
+        title: "Hard-copy materials with cardholder data are destroyed when no longer needed for business or legal reasons, as follows: ",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "9.4.7",
+        title: "Electronic media with cardholder data is destroyed when no longer needed for business or legal reasons via one of the fo",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "9.5.1",
+        title: "POI devices that capture payment card data via direct physical interaction with the payment card form factor are protect",
+        tags: ["governance", "policy", "dependency-root", "annotated-policy", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "9.5.1.1",
+        title: "An up-to-date list of POI devices is maintained, including: - Make and model of the device.  - Location of device.  - De",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "9.5.1.2",
+        title: "POI device surfaces are periodically inspected to detect tampering and unauthorized substitution.",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "9.5.1.2.1",
+        title: "The frequency of periodic POI device inspections and the type of inspections performed is defined in the entity’s target",
+        tags: ["dependency-root", "best-practice-until-2025"]
+      },
+      {
+        req_id: "9.5.1.3",
+        title: "Training is provided for personnel in POI environments to be aware of attempted tampering or replacement of POI devices,",
+        tags: ["access-control", "governance", "identity", "policy", "procedure", "dependency-root", "annotated-policy", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "10.1.1",
+        title: "All security policies and operational procedures that are identified in Requirement 10 are: - Documented.  - Kept up to ",
+        tags: ["policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "reference-hub"]
+      },
+      {
+        req_id: "10.1.2",
+        title: "Roles and responsibilities for performing activities in Requirement 10 are documented, assigned, and understood.",
+        tags: ["governance", "identity", "policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "milestone-map", "reference-hub", "scorecard"]
+      },
+      {
+        req_id: "10.2.1",
+        title: "Audit logs are enabled and active for all system components and cardholder data.",
+        tags: ["artifact", "auditor", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "10.2.1.1",
+        title: "Audit logs capture all individual user access to cardholder data.",
+        tags: ["access-control", "artifact", "auditor", "identity", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "10.2.1.2",
+        title: "Audit logs capture all actions taken by any individual with administrative access, including any interactive use of appl",
+        tags: ["access-control", "artifact", "auditor", "identity", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "10.2.1.3",
+        title: "Audit logs capture all access to audit logs.",
+        tags: ["access-control", "artifact", "auditor", "identity", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "10.2.1.4",
+        title: "Audit logs capture all invalid logical access attempts.",
+        tags: ["access-control", "artifact", "auditor", "identity", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "10.2.1.5",
+        title: "Audit logs capture all changes to identification and authentication credentials including, but not limited to: - Creatio",
+        tags: ["access-control", "artifact", "auditor", "identity", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "10.2.1.6",
+        title: "Audit logs capture the following: - All initialization of new audit logs, and  - All starting, stopping, or pausing of t",
+        tags: ["artifact", "auditor", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "10.2.1.7",
+        title: "Audit logs capture all creation and deletion of system-level objects.",
+        tags: ["artifact", "auditor", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "10.2.2",
+        title: "Audit logs record the following details for each auditable event: - User identification.  - Type of event.  - Date and t",
+        tags: ["artifact", "auditor", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "10.3.1",
+        title: "Read access to audit logs files is limited to those with a job-related need.",
+        tags: ["access-control", "artifact", "auditor", "identity", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "10.3.2",
+        title: "Audit log files are protected to prevent modifications by individuals.",
+        tags: ["artifact", "auditor", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "10.3.3",
+        title: "Audit log files, including those for external-facing technologies, are promptly backed up to a secure, central, internal",
+        tags: ["artifact", "auditor", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "10.3.4",
+        title: "File integrity monitoring or change-detection mechanisms is used on audit logs to ensure that existing log data cannot b",
+        tags: ["artifact", "auditor", "monitoring", "realtime", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "10.4.1",
+        title: "The following audit logs are reviewed at least once daily: - All security events.  - Logs of all system components that ",
+        tags: ["artifact", "audit", "auditor", "governance", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "milestone-map", "roc-swipefile", "scorecard"]
+      },
+      {
+        req_id: "10.4.1.1",
+        title: "Automated mechanisms are used to perform audit log reviews. Note: This requirement is a best practice until 31 March 202",
+        tags: ["artifact", "audit", "auditor", "governance", "monitoring", "report", "dependency-root", "best-practice-until-2025", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "milestone-map", "roc-swipefile", "scorecard"]
+      },
+      {
+        req_id: "10.4.2",
+        title: "Logs of all other system components (those not specified in Requirement 10.4. 1) are reviewed periodically.",
+        tags: ["artifact", "audit", "governance", "monitoring", "dependency-root", "artifact-portal", "click-to-breach-visual", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "10.4.2.1",
+        title: "The frequency of periodic log reviews for all other system components (not defined in Requirement 10.4. 1) is defined in",
+        tags: ["artifact", "audit", "governance", "monitoring", "dependency-root", "best-practice-until-2025", "artifact-portal", "click-to-breach-visual", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "10.4.3",
+        title: "Exceptions and anomalies identified during the review process are addressed.",
+        tags: ["audit", "governance", "dependency-root", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "10.5.1",
+        title: "Retain audit log history for at least 12 months, with at least the most recent three months immediately available for an",
+        tags: ["artifact", "auditor", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "10.6.1",
+        title: "System clocks and time are synchronized using time-synchronization technology.",
+        tags: ["artifact", "monitoring", "dependency-root", "click-to-breach-visual"]
+      },
+      {
+        req_id: "10.6.2",
+        title: "Systems are configured to the correct and consistent time as follows: - One or more designated time servers are in use. ",
+        tags: ["dependency-root"]
+      },
+      {
+        req_id: "10.6.3",
+        title: "Time synchronization settings and data are protected as follows: - Access to time data is restricted to only personnel w",
+        tags: ["access-control", "artifact", "audit", "governance", "identity", "monitoring", "dependency-root", "artifact-portal", "click-to-breach-visual", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "10.7.1",
+        title: "Additional requirement for service providers only: Failures of critical security control systems are detected, alerted, ",
+        tags: ["access-control", "artifact", "auditor", "identity", "monitoring", "realtime", "report", "dependency-root", "best-practice-until-2025", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "10.7.2",
+        title: "Failures of critical security control systems are detected, alerted, and addressed promptly, including but not limited t",
+        tags: ["access-control", "artifact", "audit", "auditor", "developer", "governance", "identity", "monitoring", "realtime", "report", "dependency-root", "best-practice-until-2025", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "justification-library", "milestone-map", "roc-swipefile", "scorecard", "self-healing-control"]
+      },
+      {
+        req_id: "10.7.3",
+        title: "Failures of any critical security control systems are responded to promptly, including but not limited to: - Restoring s",
+        tags: ["policy", "procedure", "dependency-root", "best-practice-until-2025", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "11.1.1",
+        title: "All security policies and operational procedures that are identified in Requirement 11 are: - Documented.  - Kept up to ",
+        tags: ["policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "reference-hub"]
+      },
+      {
+        req_id: "11.1.2",
+        title: "Roles and responsibilities for performing activities in Requirement 11 are documented, assigned, and understood.",
+        tags: ["governance", "identity", "policy", "procedure", "reference-hub", "annotated-policy", "artifact-portal", "control-aggregator", "milestone-map", "reference-hub", "scorecard"]
+      },
+      {
+        req_id: "11.2.1",
+        title: "Authorized and unauthorized wireless access points are managed as follows: - The presence of wireless (Wi-Fi) access poi",
+        tags: ["access-control", "developer", "identity", "monitoring", "realtime", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "11.2.2",
+        title: "An inventory of authorized wireless access points is maintained, including a documented business justification.",
+        tags: ["access-control", "identity", "policy", "procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "11.3.1",
+        title: "Internal vulnerability scans are performed as follows: - At least once every three months.  - Vulnerabilities that are e",
+        tags: ["developer", "periodic", "report", "vulnerability-management", "dependency-root", "artifact-portal", "audit-friction-alert", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "11.3.1.1",
+        title: "All other applicable vulnerabilities (those not ranked as high-risk vulnerabilities or critical vulnerabilities accordin",
+        tags: ["periodic", "vulnerability-management", "dependency-root", "best-practice-until-2025"]
+      },
+      {
+        req_id: "11.3.1.2",
+        title: "Internal vulnerability scans are performed via authenticated scanning as follows: - Systems that are unable to accept cr",
+        tags: ["artifact", "monitoring", "periodic", "policy", "procedure", "vulnerability-management", "dependency-root", "best-practice-until-2025", "annotated-policy", "artifact-portal", "click-to-breach-visual", "control-aggregator"]
+      },
+      {
+        req_id: "11.3.1.3",
+        title: "Internal vulnerability scans are performed after any significant change as follows: - Vulnerabilities that are either hi",
+        tags: ["developer", "periodic", "report", "vulnerability-management", "dependency-root", "artifact-portal", "audit-friction-alert", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "11.3.2",
+        title: "External vulnerability scans are performed as follows: - At least once every three months.  - By PCI SSC Approved Scanni",
+        tags: ["periodic", "vulnerability-management", "dependency-root"]
+      },
+      {
+        req_id: "11.3.2.1",
+        title: "External vulnerability scans are performed after any significant change as follows: - Vulnerabilities that are scored 4.",
+        tags: ["developer", "periodic", "report", "vulnerability-management", "dependency-root", "artifact-portal", "audit-friction-alert", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "11.4.1",
+        title: "A penetration testing methodology is defined, documented, and implemented by the entity and includes: - Industry-accepte",
+        tags: ["artifact", "audit", "developer", "governance", "monitoring", "policy", "procedure", "report", "dependency-root", "annotated-policy", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "justification-library", "milestone-map", "scorecard", "self-healing-control"]
+      },
+      {
+        req_id: "11.4.2",
+        title: "Internal penetration testing is performed: - Per the entity's defined methodology  - At least once every 12 months  - Af",
+        tags: ["artifact", "developer", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "11.4.3",
+        title: "External penetration testing is performed: - Per the entity's defined methodology  - At least once every 12 months  - Af",
+        tags: ["artifact", "developer", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "11.4.4",
+        title: "Exploitable vulnerabilities and security weaknesses found during penetration testing are corrected as follows: - In acco",
+        tags: ["developer", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "11.4.5",
+        title: "If segmentation is used to isolate the CDE from other networks, penetration tests are performed on segmentation controls",
+        tags: ["artifact", "developer", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "control-aggregator", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "11.4.6",
+        title: "Additional requirement for service providers only: If segmentation is used to isolate the CDE from other networks, penet",
+        tags: ["artifact", "developer", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "11.4.7",
+        title: "Additional requirement for multi-tenant service providers only: Multi-tenant service providers support their customers f",
+        tags: ["custom-control", "developer", "report", "dependency-root", "best-practice-until-2025", "artifact-portal", "audit-friction-alert", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "11.5.1",
+        title: "Intrusion-detection and/or intrusion-prevention techniques are used to detect and/or prevent intrusions into the network",
+        tags: ["monitoring", "realtime", "dependency-root", "click-to-breach-visual"]
+      },
+      {
+        req_id: "11.5.1.1",
+        title: "Additional requirement for service providers only: Intrusion-detection and/or intrusion-prevention techniques detect, al",
+        tags: ["monitoring", "realtime", "dependency-root", "best-practice-until-2025", "click-to-breach-visual"]
+      },
+      {
+        req_id: "11.5.2",
+        title: "A change-detection mechanism (for example, file integrity monitoring tools) is deployed as follows: - To alert personnel",
+        tags: ["monitoring", "realtime", "dependency-root", "click-to-breach-visual"]
+      },
+      {
+        req_id: "11.6.1",
+        title: "A change- and tamper-detection mechanism is deployed as follows: - To alert personnel to unauthorized modification (incl",
+        tags: ["monitoring", "realtime", "dependency-root", "best-practice-until-2025", "click-to-breach-visual", "control-aggregator"]
+      },
+      {
+        req_id: "12.1.1",
+        title: "An overall information security policy is: - Established.  - Published.  - Maintained.  - Disseminated to all relevant p",
+        tags: []
+      },
+      {
+        req_id: "12.1.2",
+        title: "The information security policy is: - Reviewed at least once every 12 months.  - Updated as needed to reflect changes to",
+        tags: ["audit", "governance", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "12.1.3",
+        title: "The security policy clearly defines information security roles and responsibilities for all personnel, and all personnel",
+        tags: ["governance", "identity", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "12.1.4",
+        title: "Responsibility for information security is formally assigned to a Chief Information Security Officer or other informatio",
+        tags: []
+      },
+      {
+        req_id: "12.2.1",
+        title: "Acceptable use policies for end-user technologies are documented and implemented, including: - Explicit approval by auth",
+        tags: ["artifact", "monitoring", "policy", "procedure", "annotated-policy", "artifact-portal", "click-to-breach-visual"]
+      },
+      {
+        req_id: "12.3.1",
+        title: "For each PCI DSS requirement that specifies completion of a targeted risk analysis, the analysis is documented and inclu",
+        tags: ["audit", "governance", "policy", "procedure", "reference-hub", "best-practice-until-2025", "annotated-policy", "artifact-portal", "control-aggregator", "milestone-map", "reference-hub", "scorecard"]
+      },
+      {
+        req_id: "12.3.2",
+        title: "A targeted risk analysis is performed for each PCI DSS requirement that the entity meets with the customized approach, t",
+        tags: ["custom-control", "policy", "procedure", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "12.3.3",
+        title: "Cryptographic cipher suites and protocols in use are documented and reviewed at least once every 12 months, including at",
+        tags: ["audit", "governance", "policy", "procedure", "best-practice-until-2025", "annotated-policy", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "12.3.4",
+        title: "Hardware and software technologies in use are reviewed at least once every 12 months, including at least the following: ",
+        tags: ["artifact", "audit", "governance", "monitoring", "policy", "procedure", "best-practice-until-2025", "annotated-policy", "artifact-portal", "click-to-breach-visual", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "12.4.1",
+        title: "Additional requirement for service providers only: Responsibility is established by executive management for the protect",
+        tags: []
+      },
+      {
+        req_id: "12.4.2",
+        title: "Additional requirement for service providers only: Reviews are performed at least once every three months to confirm tha",
+        tags: ["artifact", "audit", "governance", "monitoring", "procedure", "realtime", "annotated-policy", "artifact-portal", "click-to-breach-visual", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "12.4.2.1",
+        title: "Additional requirement for service providers only: Reviews conducted in accordance with Requirement 12.4.2 are documente",
+        tags: ["audit", "governance", "policy", "procedure", "annotated-policy", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "12.5.1",
+        title: "An inventory of system components that are in scope for PCI DSS, including a description of function/use, is maintained ",
+        tags: []
+      },
+      {
+        req_id: "12.5.2",
+        title: "PCI DSS scope is documented and confirmed by the entity at least once every 12 months and upon significant change to the",
+        tags: ["access-control", "identity", "policy", "procedure", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "12.5.2.1",
+        title: "Additional requirement for service providers only: PCI DSS scope is documented and confirmed by the entity at least once",
+        tags: ["policy", "procedure", "best-practice-until-2025", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "12.5.3",
+        title: "Additional requirement for service providers only: Significant changes to organizational structure result in a documente",
+        tags: ["audit", "governance", "policy", "procedure", "best-practice-until-2025", "annotated-policy", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "12.6.1",
+        title: "A formal security awareness program is implemented to make all personnel aware of the entity’s information security poli",
+        tags: ["governance", "identity", "procedure", "annotated-policy", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "12.6.2",
+        title: "The security awareness program is: - Reviewed at least once every 12 months, and  - Updated as needed to address any new",
+        tags: ["audit", "governance", "identity", "best-practice-until-2025", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "12.6.3",
+        title: "Personnel receive security awareness training as follows: - Upon hire and at least once every 12 months.  - Multiple met",
+        tags: ["governance", "policy", "procedure", "annotated-policy", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "12.6.3.1",
+        title: "Security awareness training includes awareness of threats and vulnerabilities that could impact the security of cardhold",
+        tags: ["governance", "policy", "best-practice-until-2025", "annotated-policy", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "12.6.3.2",
+        title: "Security awareness training includes awareness about the acceptable use of end-user technologies in accordance with Requ",
+        tags: ["artifact", "governance", "monitoring", "policy", "best-practice-until-2025", "annotated-policy", "artifact-portal", "click-to-breach-visual", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "12.7.1",
+        title: "Potential personnel who will have access to the CDE are screened, within the constraints of local laws, prior to hire to",
+        tags: ["access-control", "identity"]
+      },
+      {
+        req_id: "12.8.1",
+        title: "A list of all third-party service providers (TPSPs) with which account data is shared or that could affect the security ",
+        tags: []
+      },
+      {
+        req_id: "12.8.2",
+        title: "Written agreements with TPSPs are maintained as follows: - Written agreements are maintained with all TPSPs with which a",
+        tags: []
+      },
+      {
+        req_id: "12.8.3",
+        title: "An established process is implemented for engaging TPSPs, including proper due diligence prior to engagement.",
+        tags: []
+      },
+      {
+        req_id: "12.8.4",
+        title: "A program is implemented to monitor TPSPs’ PCI DSS compliance status at least once every 12 months.",
+        tags: []
+      },
+      {
+        req_id: "12.8.5",
+        title: "Information is maintained about which PCI DSS requirements are managed by each TPSP, which are managed by the entity, an",
+        tags: []
+      },
+      {
+        req_id: "12.9.1",
+        title: "Additional requirement for service providers only: TPSPs provide written agreements to customers that include acknowledg",
+        tags: ["custom-control"]
+      },
+      {
+        req_id: "12.9.2",
+        title: "Additional requirement for service providers only: TPSPs support their customers' requests for information to meet Requi",
+        tags: ["custom-control"]
+      },
+      {
+        req_id: "12.10.1",
+        title: "An incident response plan exists and is ready to be activated in the event of a suspected or confirmed security incident",
+        tags: ["governance", "identity", "incident-owner", "incident-response", "procedure", "annotated-policy", "artifact-portal", "breach-simulation", "milestone-map", "scorecard", "threat-feed-link"]
+      },
+      {
+        req_id: "12.10.2",
+        title: "At least once every 12 months, the security incident response plan is: - Reviewed and the content is updated as needed. ",
+        tags: ["audit", "developer", "governance", "incident-owner", "incident-response", "report", "artifact-portal", "audit-friction-alert", "breach-simulation", "justification-library", "milestone-map", "scorecard", "self-healing-control", "threat-feed-link"]
+      },
+      {
+        req_id: "12.10.3",
+        title: "Specific personnel are designated to be available on a 24/7 basis to respond to suspected or confirmed security incident",
+        tags: ["incident-owner", "incident-response", "breach-simulation", "threat-feed-link"]
+      },
+      {
+        req_id: "12.10.4",
+        title: "Personnel responsible for responding to suspected and confirmed security incidents are appropriately and periodically tr",
+        tags: ["incident-owner", "incident-response", "breach-simulation", "threat-feed-link"]
+      },
+      {
+        req_id: "12.10.4.1",
+        title: "The frequency of periodic training for incident response personnel is defined in the entity’s targeted risk analysis, wh",
+        tags: ["governance", "incident-owner", "incident-response", "policy", "best-practice-until-2025", "annotated-policy", "artifact-portal", "breach-simulation", "milestone-map", "scorecard", "threat-feed-link"]
+      },
+      {
+        req_id: "12.10.5",
+        title: "The security incident response plan includes monitoring and responding to alerts from security monitoring systems, inclu",
+        tags: ["access-control", "identity", "incident-owner", "incident-response", "monitoring", "realtime", "best-practice-until-2025", "breach-simulation", "click-to-breach-visual", "threat-feed-link"]
+      },
+      {
+        req_id: "12.10.6",
+        title: "The security incident response plan is modified and evolved according to lessons learned and to incorporate industry dev",
+        tags: ["incident-owner", "incident-response", "breach-simulation", "threat-feed-link"]
+      },
+      {
+        req_id: "12.10.7",
+        title: "Incident response procedures are in place, to be initiated upon the detection of stored PAN anywhere it is not expected,",
+        tags: ["incident-owner", "incident-response", "procedure", "best-practice-until-2025", "annotated-policy", "artifact-portal", "breach-simulation", "threat-feed-link"]
+      },
+      {
+        req_id: "A1.1.1",
+        title: "Logical separation is implemented as follows: - The provider cannot access its customers' environments without authoriza",
+        tags: ["access-control", "artifact", "custom-control", "identity", "monitoring", "best-practice-until-2025", "click-to-breach-visual"]
+      },
+      {
+        req_id: "A1.1.2",
+        title: "Controls are implemented such that each customer only has permission to access its own cardholder data and CDE.",
+        tags: ["access-control", "custom-control", "identity"]
+      },
+      {
+        req_id: "A1.1.3",
+        title: "Controls are implemented such that each customer can only access resources allocated to them.",
+        tags: ["access-control", "custom-control", "identity"]
+      },
+      {
+        req_id: "A1.1.4",
+        title: "The effectiveness of logical separation controls used to separate customer environments is confirmed at least once every",
+        tags: ["artifact", "custom-control", "developer", "monitoring", "report", "best-practice-until-2025", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "A1.2.1",
+        title: "Audit log capability is enabled for each customer's environment that is consistent with PCI DSS Requirement 10, includin",
+        tags: ["artifact", "audit", "auditor", "custom-control", "governance", "monitoring", "report", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "milestone-map", "roc-swipefile", "scorecard"]
+      },
+      {
+        req_id: "A1.2.2",
+        title: "Processes or mechanisms are implemented to support and/or facilitate prompt forensic investigations in the event of a su",
+        tags: ["custom-control", "incident-owner", "incident-response", "breach-simulation", "threat-feed-link"]
+      },
+      {
+        req_id: "A1.2.3",
+        title: "Processes or mechanisms are implemented for reporting and addressing suspected or confirmed security incidents and vulne",
+        tags: ["custom-control", "incident-owner", "incident-response", "best-practice-until-2025", "breach-simulation", "threat-feed-link"]
+      },
+      {
+        req_id: "A2.1.1",
+        title: "Where POS POI terminals at the merchant or payment acceptance location use SSL and/or early TLS, the entity confirms the",
+        tags: []
+      },
+      {
+        req_id: "A2.1.2",
+        title: "Additional requirement for service providers only: All service providers with existing connection points to POS POI term",
+        tags: []
+      },
+      {
+        req_id: "A2.1.3",
+        title: "Additional requirement for service providers only: All service providers provide a secure service offering.",
+        tags: []
+      },
+      {
+        req_id: "7.1",
+        title: "Limit access to system components and cardholder data to only those individuals whose job requires such access",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "7.2",
+        title: "Define and implement access control systems for all system components",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "8.1",
+        title: "Define and manage user identification and authentication policies and procedures",
+        tags: ["procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "8.2",
+        title: "Use unique identification for all users before allowing them to access system components or cardholder data",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "8.3",
+        title: "Secure all individual non-console administrative access and all remote access to the CDE using multi-factor authenticati",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "9.1",
+        title: "Use appropriate facility entry controls to limit and monitor physical access to systems in the CDE",
+        tags: ["access-control", "facilities", "identity", "physical-security", "dependency-root"]
+      },
+      {
+        req_id: "9.2",
+        title: "Develop procedures to authorize and revoke access to physical areas with CDE systems",
+        tags: ["access-control", "identity", "procedure", "dependency-root", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "9.3",
+        title: "Control physical access for visitors",
+        tags: ["access-control", "identity", "dependency-root"]
+      },
+      {
+        req_id: "10.1",
+        title: "Implement audit logs to track user activities and system events",
+        tags: ["artifact", "auditor", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "10.2",
+        title: "Automate audit trails for all system components",
+        tags: ["auditor", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "roc-swipefile"]
+      },
+      {
+        req_id: "10.3",
+        title: "Secure and protect audit logs to prevent unauthorized access",
+        tags: ["access-control", "artifact", "auditor", "identity", "monitoring", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "click-to-breach-visual", "roc-swipefile"]
+      },
+      {
+        req_id: "11.1",
+        title: "Test for the presence of wireless access points and detect unauthorized wireless access points",
+        tags: ["access-control", "developer", "identity", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "11.2",
+        title: "Perform internal and external vulnerability scans",
+        tags: ["periodic", "vulnerability-management", "dependency-root"]
+      },
+      {
+        req_id: "11.3",
+        title: "Perform internal and external penetration testing",
+        tags: ["developer", "report", "dependency-root", "artifact-portal", "audit-friction-alert", "justification-library", "self-healing-control"]
+      },
+      {
+        req_id: "12.1",
+        title: "Establish, publish, maintain, and disseminate a security policy",
+        tags: []
+      },
+      {
+        req_id: "12.2",
+        title: "Implement a risk assessment process",
+        tags: []
+      },
+      {
+        req_id: "12.3",
+        title: "Develop usage policies for critical technologies",
+        tags: ["artifact", "monitoring", "click-to-breach-visual"]
+      },
+      {
+        req_id: "A1.1",
+        title: "Segregate shared hosting environments to protect each entity’s hosted environment and cardholder data",
+        tags: []
+      },
+      {
+        req_id: "A1.2",
+        title: "Ensure access rights to environments and data are appropriately assigned and enforced",
+        tags: ["access-control", "identity"]
+      },
+      {
+        req_id: "A2.1",
+        title: "Encrypt PANs using strong cryptography when stored in removable electronic media",
+        tags: ["data-protection"]
+      },
+      {
+        req_id: "A2.2",
+        title: "Do not store PANs on non-volatile memory within endpoint devices",
+        tags: []
+      },
+      {
+        req_id: "A3.1.1",
+        title: "Responsibility is established by executive management for the protection of account data and a PCI DSS compliance progra",
+        tags: []
+      },
+      {
+        req_id: "A3.1.2",
+        title: "A formal PCI DSS compliance program is in place",
+        tags: []
+      },
+      {
+        req_id: "A3.1.3",
+        title: "Personnel with accountability for PCI DSS compliance are formally assigned",
+        tags: []
+      },
+      {
+        req_id: "A3.1.4",
+        title: "A control lifecycle process is used to manage PCI DSS controls",
+        tags: []
+      },
+      {
+        req_id: "A3.2.1",
+        title: "Compliance status is monitored using defined performance metrics",
+        tags: []
+      },
+      {
+        req_id: "A3.3.1",
+        title: "Annual scope validation is performed and documented",
+        tags: ["policy", "procedure", "annotated-policy", "artifact-portal"]
+      },
+      {
+        req_id: "A3.4.1",
+        title: "The organization reviews control failures and implements timely remediation",
+        tags: ["audit", "governance", "artifact-portal", "milestone-map", "scorecard"]
+      },
+      {
+        req_id: "A3.5.1",
+        title: "Personnel supporting PCI DSS activities are trained annually",
+        tags: ["scorecard"]
+      },
+
+    ];
+
+    const resultsDiv = document.getElementById("results");
+    const roleSelect = document.getElementById("role");
+    const evidenceSelect = document.getElementById("evidence");
+
+    function filterEntries() {
+      const role = roleSelect.value.toLowerCase();
+      const evidence = evidenceSelect.value.toLowerCase();
+      resultsDiv.innerHTML = "";
+
+      const filtered = entries.filter(e =>
+        (!role || e.tags.includes(role)) &&
+        (!evidence || e.tags.includes(evidence))
+      );
+
+      if (filtered.length === 0) {
+        resultsDiv.innerHTML = "<p>No matching requirements found.</p>";
+        return;
+      }
+
+      filtered.forEach(e => {
+        const card = document.createElement("div");
+        card.className = "card";
+        card.innerHTML = `<strong>${e.req_id}</strong><br>${e.title}`;
+        resultsDiv.appendChild(card);
+      });
+    }
+
+    roleSelect.addEventListener("change", filterEntries);
+    evidenceSelect.addEventListener("change", filterEntries);
+    filterEntries();
+  </script>
 </body>
 </html>
