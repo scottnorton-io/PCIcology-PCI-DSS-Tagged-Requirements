@@ -1,0 +1,9 @@
+# Changelog - pci-dss-v4.0.1-tagged-requirements-v1.0.0
+
+## [v1.0.0] - Initial Release
+
+- Tagged all PCI DSS v4.0.1 sub-requirements with Governance, Risk, Compliance, Grouping.
+- Assigned UUIDs to every sub-requirement.
+- Added version tagging and metadata fields.
+- Mapped all known cross-references (TRA, policy, appendix references).
+- Ready for structured automation or human workflow tooling.
