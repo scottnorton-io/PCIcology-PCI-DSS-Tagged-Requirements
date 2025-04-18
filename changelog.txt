@@ -1,8 +1,7 @@
-# Changelog - pci-dss-v4.0.1-tagged-requirements-v3.2.0
+# Changelog - pci-dss-v4.0.1-tagged-requirements-v3.3.0
 
-## [v3.2.0] - Integrated Role Playbooks & Checklists
+## [v3.3.0] - Readability Fixes
 
-- Embedded role-based training playbooks into the package.
-- Generated placeholder checklists for each sub-requirement.
-- Organized playbooks and checklists into subfolders.
-- Maintains full inference intelligence tagging system and cross-reference logic.
+- Improved formatting of bullet-style content in text fields.
+- Converted inline bullet sequences (e.g., ': •', ': 1)') into newline-formatted lists.
+- Easier to read in raw JSON and text-based views.
