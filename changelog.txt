@@ -21,3 +21,9 @@
 - 🧱 Created `canonical_task_template.json` for reuse across tasks
 - 📑 Added `normalization-strategy.md` for prompt/evidence cleanup
 - 🌐 Included `roadmap.html` to preview milestone-based rollout plans
+
+
+## [v4.6.9] - Prompt Deduplication + Task Inference
+
+- 🧪 Added `canonical_prompt_mapping.json` for de-duping prompt logic
+- 🧠 Generated `task-inference-preview.md` for AI-based task matching
