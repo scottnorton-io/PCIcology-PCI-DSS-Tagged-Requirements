@@ -1,9 +1,7 @@
-# Changelog - pci-dss-v4.0.1-tagged-requirements-v1.0.0
+# Changelog - pci-dss-v4.0.1-tagged-requirements-v1.1.0
 
-## [v1.0.0] - Initial Release
+## [v1.1.0] - Minor Update
 
-- Tagged all PCI DSS v4.0.1 sub-requirements with Governance, Risk, Compliance, Grouping.
-- Assigned UUIDs to every sub-requirement.
-- Added version tagging and metadata fields.
-- Mapped all known cross-references (TRA, policy, appendix references).
-- Ready for structured automation or human workflow tooling.
+- Added `uuid_back_refs` to every sub-requirement to capture reverse cross-reference relationships.
+- Maintains forward `uuid_cross_refs` and tagging structure.
+- Compatible with all previous automation, dashboards, and Notion templates.
