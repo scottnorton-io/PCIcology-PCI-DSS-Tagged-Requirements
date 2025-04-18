@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PCI DSS v4.0.1 Tagged Requirement",
+  "type": "object",
+  "properties": {
+    "req_id": {
+      "type": "string",
+      "description": "Sub-requirement ID"
+    },
+    "title": {
+      "type": "string",
+      "description": "Formatted requirement text"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "uuid": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "version_tag": {
+      "type": "string"
+    },
+    "uuid_cross_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "referenced_by": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "UUIDs of sub-requirements that reference this one"
+    },
+    "inference_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "grc_subtags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "req_id",
+    "title",
+    "uuid"
+  ]
+}
