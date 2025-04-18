@@ -1,8 +1,10 @@
-# Changelog - pci-dss-v4.0.1-tagged-requirements-v4.3.0
+# Changelog - pci-dss-v4.0.1-tagged-requirements-v4.4.0
 
-## [v4.3.0] - Portal & Content Publishing Expansion
+## [v4.4.0] - Merged Portal, Training & Publishing Features
 
-- ✅ Notion-ready CSV for table import
-- ✅ GitBook-formatted Markdown document for hosted playbooks
-- ✅ GPT-compatible prompt JSON for training and chat integration
-- ✅ LMS training script with modules by GRC subtag
+- Refreshed base from v4.0.0 to ensure all GRC tools, dashboards, and visuals included.
+- Injected content from v4.1 to v4.3:
+  - 📘 GitBook-formatted Markdown handbook
+  - 💬 GPT training prompts (JSON)
+  - 🎓 LMS-compatible training scripts
+  - 🧭 Notion-ready CSV matrix
