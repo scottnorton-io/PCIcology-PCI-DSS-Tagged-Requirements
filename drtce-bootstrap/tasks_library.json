@@ -1,0 +1,32 @@
+[
+  {
+    "task_template_id": "canonical-access-review",
+    "description": "Review access rights for users and roles on a periodic basis.",
+    "example_prompt": "Perform quarterly access reviews and ensure all changes are documented in the RBAC log.",
+    "trigger_patterns": [
+      "access review",
+      "review access",
+      "user access approval"
+    ]
+  },
+  {
+    "task_template_id": "canonical-policy-review",
+    "description": "Ensure security policies are reviewed and updated as needed.",
+    "example_prompt": "Review and update all applicable policies annually or upon significant change.",
+    "trigger_patterns": [
+      "policy update",
+      "review security policy",
+      "policy document review"
+    ]
+  },
+  {
+    "task_template_id": "canonical-code-validation",
+    "description": "Code is reviewed and validated for security issues.",
+    "example_prompt": "Conduct secure code reviews prior to production deployments using approved checklists.",
+    "trigger_patterns": [
+      "code review",
+      "validate code",
+      "review application source"
+    ]
+  }
+]

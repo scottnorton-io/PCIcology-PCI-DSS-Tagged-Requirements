@@ -1,0 +1,37 @@
+{
+  "policy": {
+    "type": "document",
+    "format": "pdf",
+    "recommended_frequency": "annual"
+  },
+  "training": {
+    "type": "document",
+    "format": "pdf",
+    "recommended_frequency": "annual"
+  },
+  "incident_logs": {
+    "type": "document",
+    "format": "pdf",
+    "recommended_frequency": "annual"
+  },
+  "rbac_matrix": {
+    "type": "document",
+    "format": "pdf",
+    "recommended_frequency": "annual"
+  },
+  "report": {
+    "type": "document",
+    "format": "pdf",
+    "recommended_frequency": "annual"
+  },
+  "security_policy_document": {
+    "type": "document",
+    "format": "pdf",
+    "recommended_frequency": "annual"
+  },
+  "incident_response_plan": {
+    "type": "document",
+    "format": "pdf",
+    "recommended_frequency": "annual"
+  }
+}
