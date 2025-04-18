@@ -1,0 +1,7 @@
+# Changelog - pci-dss-v4.0.1-tagged-requirements-v1.2.1
+
+## [v1.2.1] - Individual Tag Dashboards
+
+- Created per-tag dashboards (Markdown) listing all sub-requirements by tag.
+- Included heatmaps and frequency visualizations for inference tag usage.
+- Useful for focused analysis by function, role, risk, or evidence category.
