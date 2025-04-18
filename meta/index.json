@@ -1,0 +1,16 @@
+{
+  "version": "4.6.5",
+  "resources": {
+    "requirements_json": "https://scottnorton-io.github.io/pci-dss-tagged-requirements/json/requirements.json",
+    "gpt_prompts": "https://scottnorton-io.github.io/pci-dss-tagged-requirements/json/gpt-training-prompts.json",
+    "json_schema": "https://scottnorton-io.github.io/pci-dss-tagged-requirements/json/requirements-schema-preview.json",
+    "grc_pivot": "https://scottnorton-io.github.io/pci-dss-tagged-requirements/grc/index.md",
+    "grc_matrix": "https://scottnorton-io.github.io/pci-dss-tagged-requirements/grc/matrix.csv",
+    "grc_snippets": "https://scottnorton-io.github.io/pci-dss-tagged-requirements/grc/training-snippets.md",
+    "visual_heatmap": "https://scottnorton-io.github.io/pci-dss-tagged-requirements/visuals/inference-tag-heatmap.png",
+    "visual_frequency": "https://scottnorton-io.github.io/pci-dss-tagged-requirements/visuals/inference-tag-frequency.png",
+    "lms_script": "https://scottnorton-io.github.io/pci-dss-tagged-requirements/docs/lms-module-script.md",
+    "gitbook_handbook": "https://scottnorton-io.github.io/pci-dss-tagged-requirements/docs/gitbook-grc-handbook.md",
+    "quarterly_plan": "https://scottnorton-io.github.io/pci-dss-tagged-requirements/docs/grc-drilldown-schedule.md"
+  }
+}

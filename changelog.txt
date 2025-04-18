@@ -8,9 +8,3 @@
   - 💬 GPT training prompts (JSON)
   - 🎓 LMS-compatible training scripts
   - 🧭 Notion-ready CSV matrix
-
-
-## [v4.6.4] - GitHub Pages + JSON Schema Preview
-
-- 🧪 Added `requirements-schema-preview.json` in /json
-- 🚀 Added `deploy.sh` one-liner for GitHub Pages launch
