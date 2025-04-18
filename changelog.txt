@@ -1,7 +1,7 @@
-# Changelog - pci-dss-v4.0.1-tagged-requirements-v3.3.0
+# Changelog - pci-dss-v4.0.1-tagged-requirements-v3.4.0
 
-## [v3.3.0] - Readability Fixes
+## [v3.4.0] - Markdown Formatting for Human-Facing Fields
 
-- Improved formatting of bullet-style content in text fields.
-- Converted inline bullet sequences (e.g., ': •', ': 1)') into newline-formatted lists.
-- Easier to read in raw JSON and text-based views.
+- Applied readability formatting to all bullet-style fields in `title`, `description`, `policy`, `procedure`, and `notes`.
+- Added Markdown-style syntax (`-`, numbered lists) where applicable.
+- Optimized for readability in Markdown viewers, Notion, GitHub, and plaintext editors.
