@@ -1,16 +1,12 @@
-# PCI DSS v4.0.1 Tagged Requirements
+# PCI DSS v4.0.1 – Tagged Requirements Dataset
 
-This repository provides a complete, structured, and tagged version of PCI DSS v4.0.1 requirements, enriched with:
+This GitHub Pages repo includes:
+- Tagged JSON with UUIDs, inference, and GRC subtags
+- Markdown playbooks, LMS scripts, GPT prompts
+- Visual dashboards (heatmap, frequency)
+- HTML viewer interface and full portal UI
 
-- GRC subtag mappings
-- Role-based playbooks
-- Visualizations and dashboards
-- Markdown-readable content for GitBook, Notion, LMS, and chatbot use
-- HTML viewer for web deployment
-
-To version-control:
-```bash
-git init
-git add .
-git commit -m "Initial commit for PCI DSS v4.0.1 enriched package"
-```
+To deploy:
+1. Push contents to a GitHub repo
+2. Enable Pages (Settings → Pages → Source: root)
+3. Visit `https://your-org.github.io/repo-name/`
