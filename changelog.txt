@@ -47,3 +47,9 @@
 
 - 🏷️ Tagged 53 sub-requirements with `best-practice-until-2025`
 - 📄 Generated 5 role-based playbooks for AppSec, CISO, Compliance, etc.
+
+
+## [v4.7.5] - File Structure Standardization
+
+- 📁 Moved all `.png` to `/visuals`, `.json` to `/json`, `.csv` to `/csv`
+- 🔗 Refreshed homepage references to use new folder structure
