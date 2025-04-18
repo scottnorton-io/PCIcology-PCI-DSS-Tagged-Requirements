@@ -46,10 +46,36 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "1f6506b4-273d-4c08-b1a6-4771a227819e",
+        "7f456620-6f52-4695-bae4-80a301023e06",
+        "f9f93a5c-adc4-4f18-9764-402a3dfa2d60",
+        "c3a9ebc9-4ae1-4e65-a25e-d00633bf3e32",
+        "4f25b006-8ef0-490f-a46a-1826855a0e1d",
+        "f6a64df1-c2a6-4366-8b17-fd266bb8ed97",
+        "1ad2ce70-6966-439b-8a99-6580faf538b8",
+        "82506068-6356-43a7-abb7-92aca3b65645",
+        "4305ae67-6bd1-49db-adbc-b1a147c29a41",
+        "11b7f0fc-ba18-4e35-8816-4f554d31c198",
+        "b7aaf3e7-a145-4916-854a-cfa4286439a2",
+        "78621bb8-ba3f-4f51-8520-074eb2756f6e",
+        "7f5aacb6-e007-4501-96e6-56571dd9e38f",
+        "060c80e4-a5f6-411f-9891-c189254ef6cb",
+        "7a89e9d7-0bb1-4370-bf3a-079756f56629",
+        "e6ff4113-8fc9-4177-bd51-bc193bbff53d",
+        "e036d4ec-a0ea-4e31-b2eb-23020dd02eec",
+        "8c387127-8a18-4730-93c1-4c69b495ba46",
+        "3efdab65-bb5d-4b0f-9294-07907b0a6457",
+        "fbff9594-f2ed-437b-8fe1-c18b838c3188",
+        "c05e7ce6-2b1f-494b-89b8-5feff958b16e",
+        "a2a956f4-d953-4977-b6a5-82b7f3b47610",
+        "d27dd969-36f7-428c-9ffc-228c83fea1b5"
       ]
     },
     {
@@ -98,13 +124,39 @@
         "governance",
         "identity",
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "7f456620-6f52-4695-bae4-80a301023e06",
+        "f9f93a5c-adc4-4f18-9764-402a3dfa2d60",
+        "c3a9ebc9-4ae1-4e65-a25e-d00633bf3e32",
+        "4f25b006-8ef0-490f-a46a-1826855a0e1d",
+        "f6a64df1-c2a6-4366-8b17-fd266bb8ed97",
+        "1ad2ce70-6966-439b-8a99-6580faf538b8",
+        "82506068-6356-43a7-abb7-92aca3b65645",
+        "4305ae67-6bd1-49db-adbc-b1a147c29a41",
+        "11b7f0fc-ba18-4e35-8816-4f554d31c198",
+        "b7aaf3e7-a145-4916-854a-cfa4286439a2",
+        "78621bb8-ba3f-4f51-8520-074eb2756f6e",
+        "7f5aacb6-e007-4501-96e6-56571dd9e38f",
+        "060c80e4-a5f6-411f-9891-c189254ef6cb",
+        "7a89e9d7-0bb1-4370-bf3a-079756f56629",
+        "e6ff4113-8fc9-4177-bd51-bc193bbff53d",
+        "e036d4ec-a0ea-4e31-b2eb-23020dd02eec",
+        "8c387127-8a18-4730-93c1-4c69b495ba46",
+        "3efdab65-bb5d-4b0f-9294-07907b0a6457",
+        "fbff9594-f2ed-437b-8fe1-c18b838c3188",
+        "c05e7ce6-2b1f-494b-89b8-5feff958b16e",
+        "a2a956f4-d953-4977-b6a5-82b7f3b47610",
+        "d27dd969-36f7-428c-9ffc-228c83fea1b5"
       ]
     },
     {
@@ -126,8 +178,14 @@
         "1f6506b4-273d-4c08-b1a6-4771a227819e",
         "08dd3f69-094a-49ea-bcdf-73b985f14ed4"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.2.2",
@@ -149,8 +207,15 @@
         "1f6506b4-273d-4c08-b1a6-4771a227819e",
         "d2abe8e8-c40b-47f7-adcd-1e28ee41db3b"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e",
+        "d2abe8e8-c40b-47f7-adcd-1e28ee41db3b"
+      ]
     },
     {
       "req_id": "1.2.3",
@@ -171,8 +236,14 @@
         "1f6506b4-273d-4c08-b1a6-4771a227819e",
         "08dd3f69-094a-49ea-bcdf-73b985f14ed4"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.2.4",
@@ -193,8 +264,14 @@
         "1f6506b4-273d-4c08-b1a6-4771a227819e",
         "08dd3f69-094a-49ea-bcdf-73b985f14ed4"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.2.5",
@@ -215,8 +292,14 @@
         "1f6506b4-273d-4c08-b1a6-4771a227819e",
         "08dd3f69-094a-49ea-bcdf-73b985f14ed4"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.2.6",
@@ -237,8 +320,14 @@
         "1f6506b4-273d-4c08-b1a6-4771a227819e",
         "08dd3f69-094a-49ea-bcdf-73b985f14ed4"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.2.7",
@@ -261,12 +350,17 @@
       ],
       "inference_tags": [
         "audit",
-        "governance"
+        "governance",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
       ]
     },
     {
@@ -290,9 +384,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.3.1",
@@ -313,8 +412,14 @@
         "1f6506b4-273d-4c08-b1a6-4771a227819e",
         "08dd3f69-094a-49ea-bcdf-73b985f14ed4"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.3.2",
@@ -335,8 +440,14 @@
         "1f6506b4-273d-4c08-b1a6-4771a227819e",
         "08dd3f69-094a-49ea-bcdf-73b985f14ed4"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.3.3",
@@ -357,8 +468,14 @@
         "1f6506b4-273d-4c08-b1a6-4771a227819e",
         "08dd3f69-094a-49ea-bcdf-73b985f14ed4"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.4.1",
@@ -379,8 +496,14 @@
         "1f6506b4-273d-4c08-b1a6-4771a227819e",
         "08dd3f69-094a-49ea-bcdf-73b985f14ed4"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.4.2",
@@ -403,9 +526,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.4.3",
@@ -426,8 +554,14 @@
         "1f6506b4-273d-4c08-b1a6-4771a227819e",
         "08dd3f69-094a-49ea-bcdf-73b985f14ed4"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.4.4",
@@ -450,9 +584,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.4.5",
@@ -473,8 +612,14 @@
         "1f6506b4-273d-4c08-b1a6-4771a227819e",
         "08dd3f69-094a-49ea-bcdf-73b985f14ed4"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.5.1",
@@ -499,10 +644,15 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
       ]
     },
     {
@@ -538,10 +688,26 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "02280e69-0224-48a9-be4d-63d617e7f472",
+        "357a8f0c-e6b5-43e0-a8e9-5f7545e2ae04",
+        "84b79aa4-776c-4f1b-9975-16c4ce907be2",
+        "eda9e920-2c04-4ee9-885f-97ab41a03c9c",
+        "a0524693-81cd-4dfb-a850-18fd7b726b7b",
+        "6b71f2b0-a47a-4310-aa44-7bb348fc18c7",
+        "298e0765-8357-4748-93f5-585fbcc87b00",
+        "ebf5daef-6c79-4f84-95b5-9d8838499c8d",
+        "bd4820b2-9ae7-4f6b-b3ac-080df9a170ba",
+        "b433c5ca-8594-4c6f-a2a4-c96177f5c8a6",
+        "c3d66abc-ec3c-48b6-b0fb-91e3d6250deb",
+        "252edcf1-87a9-48cb-ba48-23a8d84512c1",
+        "2bb6e2ab-0e5f-4a6e-b8d5-ad6322fd1f2f"
       ]
     },
     {
@@ -580,13 +746,29 @@
         "governance",
         "identity",
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "0b6201f1-7b2e-4106-9884-963861e9d3d5",
+        "357a8f0c-e6b5-43e0-a8e9-5f7545e2ae04",
+        "84b79aa4-776c-4f1b-9975-16c4ce907be2",
+        "eda9e920-2c04-4ee9-885f-97ab41a03c9c",
+        "a0524693-81cd-4dfb-a850-18fd7b726b7b",
+        "6b71f2b0-a47a-4310-aa44-7bb348fc18c7",
+        "298e0765-8357-4748-93f5-585fbcc87b00",
+        "ebf5daef-6c79-4f84-95b5-9d8838499c8d",
+        "bd4820b2-9ae7-4f6b-b3ac-080df9a170ba",
+        "b433c5ca-8594-4c6f-a2a4-c96177f5c8a6",
+        "c3d66abc-ec3c-48b6-b0fb-91e3d6250deb",
+        "252edcf1-87a9-48cb-ba48-23a8d84512c1",
+        "2bb6e2ab-0e5f-4a6e-b8d5-ad6322fd1f2f"
       ]
     },
     {
@@ -610,8 +792,15 @@
         "bae64ad0-6594-41b7-9c66-70cc74f8eb38",
         "02280e69-0224-48a9-be4d-63d617e7f472"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "0b6201f1-7b2e-4106-9884-963861e9d3d5",
+        "02280e69-0224-48a9-be4d-63d617e7f472",
+        "bae64ad0-6594-41b7-9c66-70cc74f8eb38"
+      ]
     },
     {
       "req_id": "2.2.2",
@@ -633,8 +822,15 @@
         "02280e69-0224-48a9-be4d-63d617e7f472",
         "d07abb1e-ebce-4f1f-bd61-f7b55d3be7b7"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "0b6201f1-7b2e-4106-9884-963861e9d3d5",
+        "02280e69-0224-48a9-be4d-63d617e7f472",
+        "d07abb1e-ebce-4f1f-bd61-f7b55d3be7b7"
+      ]
     },
     {
       "req_id": "2.2.3",
@@ -655,8 +851,14 @@
         "0b6201f1-7b2e-4106-9884-963861e9d3d5",
         "02280e69-0224-48a9-be4d-63d617e7f472"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "0b6201f1-7b2e-4106-9884-963861e9d3d5",
+        "02280e69-0224-48a9-be4d-63d617e7f472"
+      ]
     },
     {
       "req_id": "2.2.4",
@@ -677,8 +879,14 @@
         "0b6201f1-7b2e-4106-9884-963861e9d3d5",
         "02280e69-0224-48a9-be4d-63d617e7f472"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "0b6201f1-7b2e-4106-9884-963861e9d3d5",
+        "02280e69-0224-48a9-be4d-63d617e7f472"
+      ]
     },
     {
       "req_id": "2.2.5",
@@ -703,10 +911,15 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "0b6201f1-7b2e-4106-9884-963861e9d3d5",
+        "02280e69-0224-48a9-be4d-63d617e7f472"
       ]
     },
     {
@@ -728,8 +941,14 @@
         "0b6201f1-7b2e-4106-9884-963861e9d3d5",
         "02280e69-0224-48a9-be4d-63d617e7f472"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "0b6201f1-7b2e-4106-9884-963861e9d3d5",
+        "02280e69-0224-48a9-be4d-63d617e7f472"
+      ]
     },
     {
       "req_id": "2.2.7",
@@ -753,9 +972,14 @@
       "inference_tags": [
         "access-control",
         "data-protection",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "0b6201f1-7b2e-4106-9884-963861e9d3d5",
+        "02280e69-0224-48a9-be4d-63d617e7f472"
+      ]
     },
     {
       "req_id": "2.3.1",
@@ -779,9 +1003,14 @@
       "inference_tags": [
         "access-control",
         "data-protection",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "0b6201f1-7b2e-4106-9884-963861e9d3d5",
+        "02280e69-0224-48a9-be4d-63d617e7f472"
+      ]
     },
     {
       "req_id": "2.3.2",
@@ -805,12 +1034,17 @@
       "inference_tags": [
         "data-protection",
         "governance",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "0b6201f1-7b2e-4106-9884-963861e9d3d5",
+        "02280e69-0224-48a9-be4d-63d617e7f472"
       ]
     },
     {
@@ -868,10 +1102,48 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37",
+        "a65ea734-69e9-4937-bb19-4bb6a63e5897",
+        "ddaa2a08-f542-45f9-92b3-a339b45755bc",
+        "f7a7f10b-005b-4b50-b2ca-9544f1bffa31",
+        "de74e3cf-711e-429b-a007-c0215fffd599",
+        "851c2437-b9af-4e96-a14b-f1c392a3e478",
+        "0cbdee3c-65b6-4841-940a-49b6f06acaa8",
+        "824a8c11-a2d8-4854-bd71-4754ad853897",
+        "f1c6558a-25be-46f1-9beb-dd1099f3af5b",
+        "33a73b7f-9326-4fc5-8bbd-8f3b4b35cbb1",
+        "1a6a3564-a33d-48e8-9b4f-f33f39c91f1a",
+        "f6a85723-cb78-492f-8104-52a48c1a024a",
+        "a2afa910-1ef7-40b8-9108-7974a54e9e17",
+        "ea812f7b-5dd2-4ee7-b517-f0a5de519adc",
+        "d8b26c1e-13e6-4ee4-9928-51a90997e000",
+        "33cb6803-ff75-49b2-92b4-b2eac816d80e",
+        "586071db-06e5-4e8a-8494-cb6d9e1733d1",
+        "eacc58df-2fa1-418c-b1fe-6b1af9e6eeb4",
+        "73f8e78e-cb19-4d19-9b62-42c7f2b96c16",
+        "3c9c58eb-4f0a-482f-ab82-329f32e18c39",
+        "61a9da81-be29-4b25-99df-d90886143424",
+        "0a1f44a1-d732-4a6f-8e2b-4dd346768f55",
+        "d149b1d9-15a4-48e3-97dd-80a6c0c42e79",
+        "07952f67-1bd1-4cc5-afbb-6cfd78acc429",
+        "c4335475-a9bf-4616-a3fe-3345f5803e67",
+        "f6a3bb5e-b2ee-4c51-ba92-e927dd3fb22f",
+        "033404f3-8fe3-4e0a-82cd-7e43c9ffb219",
+        "9c652f29-c79d-4f3f-a0b7-ffd36be91eac",
+        "7d1fa8db-b0bf-4d27-98be-7046b1c4fa02",
+        "b351ec0a-b7d9-41e0-a51b-c9a7c8b26025",
+        "c4457987-4bc7-4b46-83bd-6c158a8ed7a2",
+        "da3c9446-bcee-4477-9beb-25054e60aef8",
+        "e2486b3f-9620-42f0-8270-839f999a6748",
+        "d1e6d1e3-a89c-4aca-a810-8e19fac67f90",
+        "945cf5cb-43c4-47bc-b2a9-70cd68a7b288"
       ]
     },
     {
@@ -932,13 +1204,51 @@
         "governance",
         "identity",
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "a65ea734-69e9-4937-bb19-4bb6a63e5897",
+        "ddaa2a08-f542-45f9-92b3-a339b45755bc",
+        "f7a7f10b-005b-4b50-b2ca-9544f1bffa31",
+        "de74e3cf-711e-429b-a007-c0215fffd599",
+        "851c2437-b9af-4e96-a14b-f1c392a3e478",
+        "0cbdee3c-65b6-4841-940a-49b6f06acaa8",
+        "824a8c11-a2d8-4854-bd71-4754ad853897",
+        "f1c6558a-25be-46f1-9beb-dd1099f3af5b",
+        "33a73b7f-9326-4fc5-8bbd-8f3b4b35cbb1",
+        "1a6a3564-a33d-48e8-9b4f-f33f39c91f1a",
+        "f6a85723-cb78-492f-8104-52a48c1a024a",
+        "a2afa910-1ef7-40b8-9108-7974a54e9e17",
+        "ea812f7b-5dd2-4ee7-b517-f0a5de519adc",
+        "d8b26c1e-13e6-4ee4-9928-51a90997e000",
+        "33cb6803-ff75-49b2-92b4-b2eac816d80e",
+        "586071db-06e5-4e8a-8494-cb6d9e1733d1",
+        "eacc58df-2fa1-418c-b1fe-6b1af9e6eeb4",
+        "73f8e78e-cb19-4d19-9b62-42c7f2b96c16",
+        "3c9c58eb-4f0a-482f-ab82-329f32e18c39",
+        "61a9da81-be29-4b25-99df-d90886143424",
+        "0a1f44a1-d732-4a6f-8e2b-4dd346768f55",
+        "d149b1d9-15a4-48e3-97dd-80a6c0c42e79",
+        "07952f67-1bd1-4cc5-afbb-6cfd78acc429",
+        "c4335475-a9bf-4616-a3fe-3345f5803e67",
+        "f6a3bb5e-b2ee-4c51-ba92-e927dd3fb22f",
+        "033404f3-8fe3-4e0a-82cd-7e43c9ffb219",
+        "9c652f29-c79d-4f3f-a0b7-ffd36be91eac",
+        "7d1fa8db-b0bf-4d27-98be-7046b1c4fa02",
+        "b351ec0a-b7d9-41e0-a51b-c9a7c8b26025",
+        "c4457987-4bc7-4b46-83bd-6c158a8ed7a2",
+        "da3c9446-bcee-4477-9beb-25054e60aef8",
+        "e2486b3f-9620-42f0-8270-839f999a6748",
+        "d1e6d1e3-a89c-4aca-a810-8e19fac67f90",
+        "945cf5cb-43c4-47bc-b2a9-70cd68a7b288"
       ]
     },
     {
@@ -964,10 +1274,15 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ]
     },
     {
@@ -990,9 +1305,14 @@
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
       "inference_tags": [
-        "data-protection"
+        "data-protection",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "3.3.1.1",
@@ -1013,8 +1333,14 @@
         "98d69823-b49d-4732-ae92-05b85b03e51b",
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "3.3.1.2",
@@ -1035,8 +1361,14 @@
         "98d69823-b49d-4732-ae92-05b85b03e51b",
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "3.3.1.3",
@@ -1057,8 +1389,14 @@
         "98d69823-b49d-4732-ae92-05b85b03e51b",
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "3.3.2",
@@ -1081,9 +1419,14 @@
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
       "inference_tags": [
-        "data-protection"
+        "data-protection",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "3.3.3",
@@ -1106,9 +1449,14 @@
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
       "inference_tags": [
-        "data-protection"
+        "data-protection",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "3.4.1",
@@ -1130,9 +1478,14 @@
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
       "inference_tags": [
-        "data-protection"
+        "data-protection",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "3.4.2",
@@ -1161,11 +1514,16 @@
         "identity",
         "monitoring",
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy",
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ]
     },
     {
@@ -1190,10 +1548,17 @@
         "f6a85723-cb78-492f-8104-52a48c1a024a"
       ],
       "inference_tags": [
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37",
+        "f6a85723-cb78-492f-8104-52a48c1a024a",
+        "a2afa910-1ef7-40b8-9108-7974a54e9e17"
       ]
     },
     {
@@ -1222,10 +1587,19 @@
         "61a9da81-be29-4b25-99df-d90886143424"
       ],
       "inference_tags": [
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37",
+        "1a6a3564-a33d-48e8-9b4f-f33f39c91f1a",
+        "d8b26c1e-13e6-4ee4-9928-51a90997e000",
+        "3c9c58eb-4f0a-482f-ab82-329f32e18c39",
+        "61a9da81-be29-4b25-99df-d90886143424"
       ]
     },
     {
@@ -1250,9 +1624,15 @@
         "1a6a3564-a33d-48e8-9b4f-f33f39c91f1a"
       ],
       "inference_tags": [
-        "data-protection"
+        "data-protection",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37",
+        "1a6a3564-a33d-48e8-9b4f-f33f39c91f1a"
+      ]
     },
     {
       "req_id": "3.5.1.3",
@@ -1278,10 +1658,15 @@
         "artifact",
         "data-protection",
         "identity",
-        "monitoring"
+        "monitoring",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ]
     },
     {
@@ -1308,10 +1693,16 @@
         "access-control",
         "data-protection",
         "identity",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37",
+        "f6a85723-cb78-492f-8104-52a48c1a024a"
       ]
     },
     {
@@ -1340,13 +1731,19 @@
         "developer",
         "policy",
         "procedure",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy",
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37",
+        "802443a7-9a88-470d-896a-3e70e8225f8a"
       ]
     },
     {
@@ -1369,9 +1766,14 @@
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
       "inference_tags": [
-        "data-protection"
+        "data-protection",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "3.6.1.3",
@@ -1394,9 +1796,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "3.6.1.4",
@@ -1417,8 +1824,14 @@
         "98d69823-b49d-4732-ae92-05b85b03e51b",
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "3.7.1",
@@ -1441,10 +1854,16 @@
         "f6a85723-cb78-492f-8104-52a48c1a024a"
       ],
       "inference_tags": [
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37",
+        "f6a85723-cb78-492f-8104-52a48c1a024a"
       ]
     },
     {
@@ -1468,10 +1887,16 @@
         "f6a85723-cb78-492f-8104-52a48c1a024a"
       ],
       "inference_tags": [
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37",
+        "f6a85723-cb78-492f-8104-52a48c1a024a"
       ]
     },
     {
@@ -1494,10 +1919,15 @@
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
       "inference_tags": [
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ]
     },
     {
@@ -1520,10 +1950,15 @@
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
       "inference_tags": [
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ]
     },
     {
@@ -1549,13 +1984,18 @@
         "data-protection",
         "governance",
         "identity",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ]
     },
     {
@@ -1578,10 +2018,15 @@
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
       "inference_tags": [
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ]
     },
     {
@@ -1604,10 +2049,15 @@
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
       "inference_tags": [
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ]
     },
     {
@@ -1630,10 +2080,15 @@
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
       "inference_tags": [
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ]
     },
     {
@@ -1659,10 +2114,15 @@
       "inference_tags": [
         "custom-control",
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ]
     },
     {
@@ -1691,10 +2151,19 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "391a6a33-8799-4e77-b68d-b68f1972b840",
+        "3ec8c168-3d28-4926-84c9-9154fe57b160",
+        "0ce71769-6321-437b-9023-2ea9eb1802dc",
+        "209ad48b-4a74-4cee-beec-bb8ec9378c0f",
+        "f7b04c70-cd65-4269-92ab-ff1684ffa6d0",
+        "e13036df-189c-473b-b9c4-58cacb3000d4"
       ]
     },
     {
@@ -1726,13 +2195,22 @@
         "governance",
         "identity",
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "3d3fd489-35ab-4612-a961-d72e97328ff0",
+        "3ec8c168-3d28-4926-84c9-9154fe57b160",
+        "0ce71769-6321-437b-9023-2ea9eb1802dc",
+        "209ad48b-4a74-4cee-beec-bb8ec9378c0f",
+        "f7b04c70-cd65-4269-92ab-ff1684ffa6d0",
+        "e13036df-189c-473b-b9c4-58cacb3000d4"
       ]
     },
     {
@@ -1758,10 +2236,15 @@
       "inference_tags": [
         "artifact",
         "data-protection",
-        "monitoring"
+        "monitoring",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "3d3fd489-35ab-4612-a961-d72e97328ff0",
+        "391a6a33-8799-4e77-b68d-b68f1972b840"
       ]
     },
     {
@@ -1784,8 +2267,14 @@
         "391a6a33-8799-4e77-b68d-b68f1972b840",
         "3d3fd489-35ab-4612-a961-d72e97328ff0"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "3d3fd489-35ab-4612-a961-d72e97328ff0",
+        "391a6a33-8799-4e77-b68d-b68f1972b840"
+      ]
     },
     {
       "req_id": "4.2.1.2",
@@ -1806,8 +2295,14 @@
         "391a6a33-8799-4e77-b68d-b68f1972b840",
         "3d3fd489-35ab-4612-a961-d72e97328ff0"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "3d3fd489-35ab-4612-a961-d72e97328ff0",
+        "391a6a33-8799-4e77-b68d-b68f1972b840"
+      ]
     },
     {
       "req_id": "4.2.2",
@@ -1830,10 +2325,15 @@
       ],
       "inference_tags": [
         "artifact",
-        "monitoring"
+        "monitoring",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "3d3fd489-35ab-4612-a961-d72e97328ff0",
+        "391a6a33-8799-4e77-b68d-b68f1972b840"
       ]
     },
     {
@@ -1872,10 +2372,29 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "5d89f28c-a029-4e02-a43a-5d7ec72f4936",
+        "642ab39e-fa26-477c-98f7-f919bb907c43",
+        "f85810ce-beef-4d6c-9900-78bfb6a2f691",
+        "e9b39f70-bacd-4135-9823-1a209bfbd366",
+        "1f7f9c6a-bb2a-4356-af9e-1cb03ccea3c1",
+        "53bde2d1-63be-4852-aeea-c3611999f9a5",
+        "08708570-0a53-4a5f-8007-f66dd534daf1",
+        "c80d472a-ba35-4fb4-98b5-694def6e4422",
+        "89101586-8b1d-4f20-8670-07f4d12f8cc6",
+        "b1c33dc7-557a-44c2-b8d5-9a7e361bfe62",
+        "e7941a87-a852-4cb8-86cc-efc4fa1ace1a",
+        "44592d74-9ac7-40d1-817f-6207c44b1a21",
+        "954e1c05-1fef-44a7-9d12-4d2238f32d43",
+        "9eca98e1-935e-4608-8785-995ba3cdf413",
+        "0cbb2c0a-c8ef-4d97-b3ff-ea3a509d30d0",
+        "89529ded-758e-4ad8-936e-48aa39102556"
       ]
     },
     {
@@ -1917,13 +2436,32 @@
         "governance",
         "identity",
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
+        "642ab39e-fa26-477c-98f7-f919bb907c43",
+        "f85810ce-beef-4d6c-9900-78bfb6a2f691",
+        "e9b39f70-bacd-4135-9823-1a209bfbd366",
+        "1f7f9c6a-bb2a-4356-af9e-1cb03ccea3c1",
+        "53bde2d1-63be-4852-aeea-c3611999f9a5",
+        "08708570-0a53-4a5f-8007-f66dd534daf1",
+        "c80d472a-ba35-4fb4-98b5-694def6e4422",
+        "89101586-8b1d-4f20-8670-07f4d12f8cc6",
+        "b1c33dc7-557a-44c2-b8d5-9a7e361bfe62",
+        "e7941a87-a852-4cb8-86cc-efc4fa1ace1a",
+        "44592d74-9ac7-40d1-817f-6207c44b1a21",
+        "954e1c05-1fef-44a7-9d12-4d2238f32d43",
+        "9eca98e1-935e-4608-8785-995ba3cdf413",
+        "0cbb2c0a-c8ef-4d97-b3ff-ea3a509d30d0",
+        "89529ded-758e-4ad8-936e-48aa39102556"
       ]
     },
     {
@@ -1946,8 +2484,14 @@
         "5d89f28c-a029-4e02-a43a-5d7ec72f4936",
         "1f0a5eb9-e4b1-490c-abed-1c5005738f22"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
+        "5d89f28c-a029-4e02-a43a-5d7ec72f4936"
+      ]
     },
     {
       "req_id": "5.2.2",
@@ -1968,8 +2512,14 @@
         "5d89f28c-a029-4e02-a43a-5d7ec72f4936",
         "1f0a5eb9-e4b1-490c-abed-1c5005738f22"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
+        "5d89f28c-a029-4e02-a43a-5d7ec72f4936"
+      ]
     },
     {
       "req_id": "5.2.3",
@@ -1994,10 +2544,15 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
+        "5d89f28c-a029-4e02-a43a-5d7ec72f4936"
       ]
     },
     {
@@ -2020,8 +2575,14 @@
         "5d89f28c-a029-4e02-a43a-5d7ec72f4936",
         "1f0a5eb9-e4b1-490c-abed-1c5005738f22"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
+        "5d89f28c-a029-4e02-a43a-5d7ec72f4936"
+      ]
     },
     {
       "req_id": "5.3.1",
@@ -2042,8 +2603,14 @@
         "5d89f28c-a029-4e02-a43a-5d7ec72f4936",
         "1f0a5eb9-e4b1-490c-abed-1c5005738f22"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
+        "5d89f28c-a029-4e02-a43a-5d7ec72f4936"
+      ]
     },
     {
       "req_id": "5.3.2",
@@ -2066,9 +2633,14 @@
       ],
       "inference_tags": [
         "periodic",
-        "vulnerability-management"
+        "vulnerability-management",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
+        "5d89f28c-a029-4e02-a43a-5d7ec72f4936"
+      ]
     },
     {
       "req_id": "5.3.2.1",
@@ -2092,9 +2664,14 @@
       ],
       "inference_tags": [
         "periodic",
-        "vulnerability-management"
+        "vulnerability-management",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
+        "5d89f28c-a029-4e02-a43a-5d7ec72f4936"
+      ]
     },
     {
       "req_id": "5.3.3",
@@ -2120,10 +2697,15 @@
         "artifact",
         "monitoring",
         "periodic",
-        "vulnerability-management"
+        "vulnerability-management",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
+        "5d89f28c-a029-4e02-a43a-5d7ec72f4936"
       ]
     },
     {
@@ -2149,12 +2731,17 @@
         "artifact",
         "auditor",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
+        "5d89f28c-a029-4e02-a43a-5d7ec72f4936"
       ]
     },
     {
@@ -2179,10 +2766,15 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
+        "5d89f28c-a029-4e02-a43a-5d7ec72f4936"
       ]
     },
     {
@@ -2205,8 +2797,14 @@
         "5d89f28c-a029-4e02-a43a-5d7ec72f4936",
         "1f0a5eb9-e4b1-490c-abed-1c5005738f22"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
+        "5d89f28c-a029-4e02-a43a-5d7ec72f4936"
+      ]
     },
     {
       "req_id": "6.1.1",
@@ -2248,10 +2846,33 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a",
+        "a01cfe7c-8def-4fc6-a242-ce218af7d32f",
+        "bc09f098-f305-4073-87a5-a13932746ed5",
+        "1c1f7248-9de1-4671-9c5c-ee1f9e49189e",
+        "6c64a2c7-4705-4cf0-8968-7330e2307a46",
+        "7837f6b2-c690-4eb7-97f6-946cf55f7f90",
+        "bae64ad0-6594-41b7-9c66-70cc74f8eb38",
+        "df0999e3-1e2b-423e-ae61-2418a5ccd3e0",
+        "d980eb7d-fe6e-4c16-a225-a5a4bf4237a0",
+        "b5c46555-bfe8-4047-9953-d5ad58ba5101",
+        "01d2bf48-34b3-4d5e-b7e7-35922bf13fe9",
+        "220c1504-8994-4770-b4c8-5b07ccd88c1d",
+        "d2abe8e8-c40b-47f7-adcd-1e28ee41db3b",
+        "8b66f6b8-4adc-40d6-bf1a-ea1d0727e0a4",
+        "769bc5d2-ed33-4372-a72c-4b685876b2ab",
+        "98422fed-6a77-40e1-83a8-32af60ab4c78",
+        "d5cf64e4-e9aa-44c8-b55c-aeaaf9c3e4ea",
+        "e38f1458-21e7-40a6-8404-e9cc3ac18f06",
+        "112448f6-d5aa-4986-b002-26a3cad0ee2e",
+        "3f4f7a0a-8b05-4aa7-9bf4-d5900a44e16c"
       ]
     },
     {
@@ -2297,13 +2918,36 @@
         "governance",
         "identity",
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "a01cfe7c-8def-4fc6-a242-ce218af7d32f",
+        "bc09f098-f305-4073-87a5-a13932746ed5",
+        "1c1f7248-9de1-4671-9c5c-ee1f9e49189e",
+        "6c64a2c7-4705-4cf0-8968-7330e2307a46",
+        "7837f6b2-c690-4eb7-97f6-946cf55f7f90",
+        "bae64ad0-6594-41b7-9c66-70cc74f8eb38",
+        "df0999e3-1e2b-423e-ae61-2418a5ccd3e0",
+        "d980eb7d-fe6e-4c16-a225-a5a4bf4237a0",
+        "b5c46555-bfe8-4047-9953-d5ad58ba5101",
+        "01d2bf48-34b3-4d5e-b7e7-35922bf13fe9",
+        "220c1504-8994-4770-b4c8-5b07ccd88c1d",
+        "d2abe8e8-c40b-47f7-adcd-1e28ee41db3b",
+        "8b66f6b8-4adc-40d6-bf1a-ea1d0727e0a4",
+        "769bc5d2-ed33-4372-a72c-4b685876b2ab",
+        "98422fed-6a77-40e1-83a8-32af60ab4c78",
+        "d5cf64e4-e9aa-44c8-b55c-aeaaf9c3e4ea",
+        "e38f1458-21e7-40a6-8404-e9cc3ac18f06",
+        "112448f6-d5aa-4986-b002-26a3cad0ee2e",
+        "3f4f7a0a-8b05-4aa7-9bf4-d5900a44e16c"
       ]
     },
     {
@@ -2328,10 +2972,15 @@
       "inference_tags": [
         "artifact",
         "custom-control",
-        "monitoring"
+        "monitoring",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
       ]
     },
     {
@@ -2356,12 +3005,17 @@
       "inference_tags": [
         "custom-control",
         "developer",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
       ]
     },
     {
@@ -2386,12 +3040,17 @@
       "inference_tags": [
         "audit",
         "custom-control",
-        "governance"
+        "governance",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
       ]
     },
     {
@@ -2416,12 +3075,17 @@
       "inference_tags": [
         "audit",
         "custom-control",
-        "governance"
+        "governance",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
       ]
     },
     {
@@ -2449,10 +3113,15 @@
         "artifact",
         "custom-control",
         "identity",
-        "monitoring"
+        "monitoring",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
       ]
     },
     {
@@ -2479,10 +3148,17 @@
       "inference_tags": [
         "custom-control",
         "monitoring",
-        "realtime"
+        "realtime",
+        "reference-hub"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "357a8f0c-e6b5-43e0-a8e9-5f7545e2ae04",
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a",
+        "14118855-c8f2-4f40-b15e-002be751a68d"
       ]
     },
     {
@@ -2508,9 +3184,14 @@
       "inference_tags": [
         "configuration-management",
         "custom-control",
-        "vulnerability-management"
+        "vulnerability-management",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
+      ]
     },
     {
       "req_id": "6.3.3",
@@ -2534,9 +3215,14 @@
       ],
       "inference_tags": [
         "configuration-management",
-        "vulnerability-management"
+        "vulnerability-management",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
+      ]
     },
     {
       "req_id": "6.4.1",
@@ -2565,7 +3251,8 @@
         "governance",
         "monitoring",
         "realtime",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
@@ -2574,6 +3261,10 @@
         "milestone-map",
         "roc-swipefile",
         "scorecard"
+      ],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
       ]
     },
     {
@@ -2601,12 +3292,17 @@
         "auditor",
         "monitoring",
         "realtime",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
       ]
     },
     {
@@ -2630,8 +3326,15 @@
         "14118855-c8f2-4f40-b15e-002be751a68d",
         "5ae2bc90-3c69-4abd-9b77-96eef933bb75"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a",
+        "14118855-c8f2-4f40-b15e-002be751a68d"
+      ]
     },
     {
       "req_id": "6.5.1",
@@ -2659,13 +3362,19 @@
         "developer",
         "policy",
         "procedure",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy",
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "f9f93a5c-adc4-4f18-9764-402a3dfa2d60",
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
       ]
     },
     {
@@ -2689,10 +3398,15 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
       ]
     },
     {
@@ -2716,9 +3430,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
+      ]
     },
     {
       "req_id": "6.5.4",
@@ -2742,12 +3461,17 @@
       "inference_tags": [
         "audit",
         "governance",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
       ]
     },
     {
@@ -2769,8 +3493,14 @@
         "1198f9f2-b9cb-48eb-ba2f-202d650d368a",
         "5ae2bc90-3c69-4abd-9b77-96eef933bb75"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
+      ]
     },
     {
       "req_id": "6.5.6",
@@ -2793,12 +3523,17 @@
       ],
       "inference_tags": [
         "developer",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
       ]
     },
     {
@@ -2821,9 +3556,14 @@
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
       "inference_tags": [
-        "data-protection"
+        "data-protection",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "3.4",
@@ -2844,8 +3584,14 @@
         "98d69823-b49d-4732-ae92-05b85b03e51b",
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "3.6",
@@ -2866,8 +3612,14 @@
         "98d69823-b49d-4732-ae92-05b85b03e51b",
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "1.1",
@@ -2890,9 +3642,14 @@
       ],
       "inference_tags": [
         "configuration-management",
-        "network"
+        "network",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.2",
@@ -2915,9 +3672,14 @@
       ],
       "inference_tags": [
         "configuration-management",
-        "network"
+        "network",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.3",
@@ -2940,9 +3702,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.4",
@@ -2965,9 +3732,14 @@
       ],
       "inference_tags": [
         "configuration-management",
-        "network"
+        "network",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
+      ]
     },
     {
       "req_id": "1.5",
@@ -2993,10 +3765,15 @@
         "configuration-management",
         "network",
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "08dd3f69-094a-49ea-bcdf-73b985f14ed4",
+        "1f6506b4-273d-4c08-b1a6-4771a227819e"
       ]
     },
     {
@@ -3018,8 +3795,14 @@
         "0b6201f1-7b2e-4106-9884-963861e9d3d5",
         "02280e69-0224-48a9-be4d-63d617e7f472"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "0b6201f1-7b2e-4106-9884-963861e9d3d5",
+        "02280e69-0224-48a9-be4d-63d617e7f472"
+      ]
     },
     {
       "req_id": "2.2",
@@ -3040,8 +3823,14 @@
         "0b6201f1-7b2e-4106-9884-963861e9d3d5",
         "02280e69-0224-48a9-be4d-63d617e7f472"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "0b6201f1-7b2e-4106-9884-963861e9d3d5",
+        "02280e69-0224-48a9-be4d-63d617e7f472"
+      ]
     },
     {
       "req_id": "2.3",
@@ -3065,9 +3854,14 @@
       "inference_tags": [
         "access-control",
         "data-protection",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "0b6201f1-7b2e-4106-9884-963861e9d3d5",
+        "02280e69-0224-48a9-be4d-63d617e7f472"
+      ]
     },
     {
       "req_id": "3.1",
@@ -3088,8 +3882,14 @@
         "98d69823-b49d-4732-ae92-05b85b03e51b",
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "3.2",
@@ -3110,8 +3910,14 @@
         "98d69823-b49d-4732-ae92-05b85b03e51b",
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "3.2.2",
@@ -3132,8 +3938,14 @@
         "98d69823-b49d-4732-ae92-05b85b03e51b",
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "3.2.3",
@@ -3154,8 +3966,14 @@
         "98d69823-b49d-4732-ae92-05b85b03e51b",
         "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "98d69823-b49d-4732-ae92-05b85b03e51b",
+        "63eaaa11-0a2a-478c-b1bc-76e4cad3cb37"
+      ]
     },
     {
       "req_id": "4.1",
@@ -3176,8 +3994,14 @@
         "391a6a33-8799-4e77-b68d-b68f1972b840",
         "3d3fd489-35ab-4612-a961-d72e97328ff0"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "3d3fd489-35ab-4612-a961-d72e97328ff0",
+        "391a6a33-8799-4e77-b68d-b68f1972b840"
+      ]
     },
     {
       "req_id": "5.1",
@@ -3198,8 +4022,14 @@
         "5d89f28c-a029-4e02-a43a-5d7ec72f4936",
         "1f0a5eb9-e4b1-490c-abed-1c5005738f22"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
+        "5d89f28c-a029-4e02-a43a-5d7ec72f4936"
+      ]
     },
     {
       "req_id": "5.2",
@@ -3220,8 +4050,14 @@
         "5d89f28c-a029-4e02-a43a-5d7ec72f4936",
         "1f0a5eb9-e4b1-490c-abed-1c5005738f22"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
+        "5d89f28c-a029-4e02-a43a-5d7ec72f4936"
+      ]
     },
     {
       "req_id": "5.3",
@@ -3242,8 +4078,14 @@
         "5d89f28c-a029-4e02-a43a-5d7ec72f4936",
         "1f0a5eb9-e4b1-490c-abed-1c5005738f22"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
+        "5d89f28c-a029-4e02-a43a-5d7ec72f4936"
+      ]
     },
     {
       "req_id": "5.4",
@@ -3264,8 +4106,14 @@
         "5d89f28c-a029-4e02-a43a-5d7ec72f4936",
         "1f0a5eb9-e4b1-490c-abed-1c5005738f22"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "1f0a5eb9-e4b1-490c-abed-1c5005738f22",
+        "5d89f28c-a029-4e02-a43a-5d7ec72f4936"
+      ]
     },
     {
       "req_id": "6.1",
@@ -3286,8 +4134,14 @@
         "1198f9f2-b9cb-48eb-ba2f-202d650d368a",
         "5ae2bc90-3c69-4abd-9b77-96eef933bb75"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
+      ]
     },
     {
       "req_id": "6.2",
@@ -3308,8 +4162,14 @@
         "1198f9f2-b9cb-48eb-ba2f-202d650d368a",
         "5ae2bc90-3c69-4abd-9b77-96eef933bb75"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "5ae2bc90-3c69-4abd-9b77-96eef933bb75",
+        "1198f9f2-b9cb-48eb-ba2f-202d650d368a"
+      ]
     },
     {
       "req_id": "7.1.1",
@@ -3344,10 +4204,26 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "d4729cec-d90b-458f-8f2d-a02bd5e83b1a",
+        "1477dbfc-ef45-4f42-8069-9e32486c5d3d",
+        "e02ab36a-f9d1-4b9f-b5d9-1375474a713c",
+        "8d6b6cd4-52cf-4456-9643-0f3849a96d1d",
+        "648c20c6-ff5e-424d-b210-cd630fbf007f",
+        "f22fd1a5-b1e3-4395-9c09-4b1c8477e7a9",
+        "7b2d94ad-87ec-4a0b-946b-92a2403f24fc",
+        "3fc21162-8e6f-4454-91db-20584c92720f",
+        "d32c2d23-89ae-4816-8075-9a8e1a0bfc15",
+        "efe66655-bc7c-46e3-8568-884a9e860093",
+        "c7ffd4b3-15a8-431a-a76b-e128c1883ca9",
+        "ed2e4ab6-07c0-41e5-b5d7-263c7d45e228",
+        "8650bb71-72cd-4cff-a7c7-07356468dd4e"
       ]
     },
     {
@@ -3386,13 +4262,29 @@
         "governance",
         "identity",
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "57f6c78b-f1b4-4c80-b058-daab696c04f7",
+        "1477dbfc-ef45-4f42-8069-9e32486c5d3d",
+        "e02ab36a-f9d1-4b9f-b5d9-1375474a713c",
+        "8d6b6cd4-52cf-4456-9643-0f3849a96d1d",
+        "648c20c6-ff5e-424d-b210-cd630fbf007f",
+        "f22fd1a5-b1e3-4395-9c09-4b1c8477e7a9",
+        "7b2d94ad-87ec-4a0b-946b-92a2403f24fc",
+        "3fc21162-8e6f-4454-91db-20584c92720f",
+        "d32c2d23-89ae-4816-8075-9a8e1a0bfc15",
+        "efe66655-bc7c-46e3-8568-884a9e860093",
+        "c7ffd4b3-15a8-431a-a76b-e128c1883ca9",
+        "ed2e4ab6-07c0-41e5-b5d7-263c7d45e228",
+        "8650bb71-72cd-4cff-a7c7-07356468dd4e"
       ]
     },
     {
@@ -3416,9 +4308,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "57f6c78b-f1b4-4c80-b058-daab696c04f7",
+        "d4729cec-d90b-458f-8f2d-a02bd5e83b1a"
+      ]
     },
     {
       "req_id": "7.2.2",
@@ -3441,9 +4338,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "57f6c78b-f1b4-4c80-b058-daab696c04f7",
+        "d4729cec-d90b-458f-8f2d-a02bd5e83b1a"
+      ]
     },
     {
       "req_id": "7.2.3",
@@ -3464,8 +4366,14 @@
         "d4729cec-d90b-458f-8f2d-a02bd5e83b1a",
         "57f6c78b-f1b4-4c80-b058-daab696c04f7"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "57f6c78b-f1b4-4c80-b058-daab696c04f7",
+        "d4729cec-d90b-458f-8f2d-a02bd5e83b1a"
+      ]
     },
     {
       "req_id": "7.2.4",
@@ -3491,12 +4399,17 @@
         "access-control",
         "audit",
         "governance",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "57f6c78b-f1b4-4c80-b058-daab696c04f7",
+        "d4729cec-d90b-458f-8f2d-a02bd5e83b1a"
       ]
     },
     {
@@ -3521,9 +4434,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "57f6c78b-f1b4-4c80-b058-daab696c04f7",
+        "d4729cec-d90b-458f-8f2d-a02bd5e83b1a"
+      ]
     },
     {
       "req_id": "7.2.5.1",
@@ -3549,12 +4467,17 @@
         "access-control",
         "audit",
         "governance",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "57f6c78b-f1b4-4c80-b058-daab696c04f7",
+        "d4729cec-d90b-458f-8f2d-a02bd5e83b1a"
       ]
     },
     {
@@ -3579,12 +4502,17 @@
       "inference_tags": [
         "access-control",
         "governance",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "57f6c78b-f1b4-4c80-b058-daab696c04f7",
+        "d4729cec-d90b-458f-8f2d-a02bd5e83b1a"
       ]
     },
     {
@@ -3608,9 +4536,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "57f6c78b-f1b4-4c80-b058-daab696c04f7",
+        "d4729cec-d90b-458f-8f2d-a02bd5e83b1a"
+      ]
     },
     {
       "req_id": "7.3.2",
@@ -3633,9 +4566,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "57f6c78b-f1b4-4c80-b058-daab696c04f7",
+        "d4729cec-d90b-458f-8f2d-a02bd5e83b1a"
+      ]
     },
     {
       "req_id": "7.3.3",
@@ -3658,9 +4596,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "57f6c78b-f1b4-4c80-b058-daab696c04f7",
+        "d4729cec-d90b-458f-8f2d-a02bd5e83b1a"
+      ]
     },
     {
       "req_id": "8.1.1",
@@ -3713,10 +4656,44 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "be0a04f8-4b6f-4496-8a84-80c031673738",
+        "d38b0ffc-46d8-4b54-9ca3-62de703eb208",
+        "90b8d07a-7f0e-41da-8b62-6a4878e6da41",
+        "fd1cc864-8b3f-4a42-97a5-47f407d822c2",
+        "4a0269b0-bf83-4cb0-ae07-b8e46cb8227d",
+        "9a8a8241-4c58-4e9c-963b-034027629c14",
+        "598d51c0-0889-4581-bebe-5725db2cd62d",
+        "552592f1-12fb-47ec-9177-1c94081af64e",
+        "21ff7e05-7326-4fb9-9c00-4a46515d6af5",
+        "a18107fe-e622-4ad4-832e-f4ac5df2b25a",
+        "e528d0fe-d48b-4047-a5fe-568ef0d93b26",
+        "39650646-7c3b-48ac-803a-f60bcf4b7588",
+        "2894fdf1-d08b-41be-8ac7-04802b6abd89",
+        "2700b5b6-5c58-482e-a3f9-fc11d827e5dc",
+        "d07abb1e-ebce-4f1f-bd61-f7b55d3be7b7",
+        "6c2443e5-75e5-4902-87fc-7c68865f3169",
+        "548a6a7c-5903-4608-8856-5492a51f8b7a",
+        "fae1cfb8-364d-445c-acdc-17a26990d085",
+        "893ae4b9-e2c3-4ffe-8141-161307c60a44",
+        "dc229e82-45da-4497-a50a-834699f2c156",
+        "7bb375f0-332c-4f01-8b81-4603ee866c5d",
+        "7f07e97e-41cf-4e04-afed-7c5621c1eaed",
+        "82500158-948b-4d71-8985-9a9e56cea873",
+        "8e838c47-cef7-4474-bfc4-5183265824f3",
+        "e5cf8c44-3ccc-4ae5-a121-b8de83ef9c02",
+        "d7d8775f-5358-4455-80a9-5120112a15bd",
+        "4a434dfd-de36-4d85-9a99-0b9e3a57b315",
+        "e9fa1a38-a9d9-43d8-ad17-b8e9c2947f6a",
+        "8e247e88-1436-4fce-870e-2a5218e5e7b2",
+        "8e428544-c0cd-46c1-b56d-af857bbca93a",
+        "be28b615-b495-4819-bbf0-3af7bb5348a3"
       ]
     },
     {
@@ -3773,13 +4750,47 @@
         "governance",
         "identity",
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "d38b0ffc-46d8-4b54-9ca3-62de703eb208",
+        "90b8d07a-7f0e-41da-8b62-6a4878e6da41",
+        "fd1cc864-8b3f-4a42-97a5-47f407d822c2",
+        "4a0269b0-bf83-4cb0-ae07-b8e46cb8227d",
+        "9a8a8241-4c58-4e9c-963b-034027629c14",
+        "598d51c0-0889-4581-bebe-5725db2cd62d",
+        "552592f1-12fb-47ec-9177-1c94081af64e",
+        "21ff7e05-7326-4fb9-9c00-4a46515d6af5",
+        "a18107fe-e622-4ad4-832e-f4ac5df2b25a",
+        "e528d0fe-d48b-4047-a5fe-568ef0d93b26",
+        "39650646-7c3b-48ac-803a-f60bcf4b7588",
+        "2894fdf1-d08b-41be-8ac7-04802b6abd89",
+        "2700b5b6-5c58-482e-a3f9-fc11d827e5dc",
+        "d07abb1e-ebce-4f1f-bd61-f7b55d3be7b7",
+        "6c2443e5-75e5-4902-87fc-7c68865f3169",
+        "548a6a7c-5903-4608-8856-5492a51f8b7a",
+        "fae1cfb8-364d-445c-acdc-17a26990d085",
+        "893ae4b9-e2c3-4ffe-8141-161307c60a44",
+        "dc229e82-45da-4497-a50a-834699f2c156",
+        "7bb375f0-332c-4f01-8b81-4603ee866c5d",
+        "7f07e97e-41cf-4e04-afed-7c5621c1eaed",
+        "82500158-948b-4d71-8985-9a9e56cea873",
+        "8e838c47-cef7-4474-bfc4-5183265824f3",
+        "e5cf8c44-3ccc-4ae5-a121-b8de83ef9c02",
+        "d7d8775f-5358-4455-80a9-5120112a15bd",
+        "4a434dfd-de36-4d85-9a99-0b9e3a57b315",
+        "e9fa1a38-a9d9-43d8-ad17-b8e9c2947f6a",
+        "8e247e88-1436-4fce-870e-2a5218e5e7b2",
+        "8e428544-c0cd-46c1-b56d-af857bbca93a",
+        "be28b615-b495-4819-bbf0-3af7bb5348a3"
       ]
     },
     {
@@ -3803,9 +4814,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.2.2",
@@ -3831,10 +4847,15 @@
         "access-control",
         "identity",
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
       ]
     },
     {
@@ -3859,9 +4880,14 @@
       "inference_tags": [
         "access-control",
         "custom-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.2.4",
@@ -3885,10 +4911,15 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
       ]
     },
     {
@@ -3912,9 +4943,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.2.6",
@@ -3935,8 +4971,14 @@
         "be0a04f8-4b6f-4496-8a84-80c031673738",
         "242d8bc0-a52c-4689-b2df-1dec8ca2be18"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.2.7",
@@ -3959,9 +5001,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.2.8",
@@ -3982,8 +5029,14 @@
         "be0a04f8-4b6f-4496-8a84-80c031673738",
         "242d8bc0-a52c-4689-b2df-1dec8ca2be18"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.3.1",
@@ -4006,9 +5059,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.3.2",
@@ -4029,8 +5087,14 @@
         "be0a04f8-4b6f-4496-8a84-80c031673738",
         "242d8bc0-a52c-4689-b2df-1dec8ca2be18"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.3.3",
@@ -4051,8 +5115,14 @@
         "be0a04f8-4b6f-4496-8a84-80c031673738",
         "242d8bc0-a52c-4689-b2df-1dec8ca2be18"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.3.4",
@@ -4073,8 +5143,14 @@
         "be0a04f8-4b6f-4496-8a84-80c031673738",
         "242d8bc0-a52c-4689-b2df-1dec8ca2be18"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.3.5",
@@ -4095,8 +5171,14 @@
         "be0a04f8-4b6f-4496-8a84-80c031673738",
         "242d8bc0-a52c-4689-b2df-1dec8ca2be18"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.3.6",
@@ -4119,8 +5201,15 @@
         "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
         "84b79aa4-776c-4f1b-9975-16c4ce907be2"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "84b79aa4-776c-4f1b-9975-16c4ce907be2",
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.3.7",
@@ -4141,8 +5230,14 @@
         "be0a04f8-4b6f-4496-8a84-80c031673738",
         "242d8bc0-a52c-4689-b2df-1dec8ca2be18"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.3.8",
@@ -4168,12 +5263,17 @@
         "incident-owner",
         "incident-response",
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy",
         "breach-simulation",
         "threat-feed-link"
+      ],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
       ]
     },
     {
@@ -4197,9 +5297,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.3.10",
@@ -4223,9 +5328,14 @@
       "inference_tags": [
         "access-control",
         "custom-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.3.10.1",
@@ -4250,9 +5360,14 @@
       "inference_tags": [
         "access-control",
         "custom-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.3.11",
@@ -4277,10 +5392,15 @@
         "access-control",
         "artifact",
         "identity",
-        "monitoring"
+        "monitoring",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
       ]
     },
     {
@@ -4304,9 +5424,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.4.2",
@@ -4330,9 +5455,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.4.3",
@@ -4355,9 +5485,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.5.1",
@@ -4384,10 +5519,15 @@
         "access-control",
         "identity",
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
       ]
     },
     {
@@ -4417,11 +5557,16 @@
         "identity",
         "monitoring",
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy",
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
       ]
     },
     {
@@ -4447,10 +5592,15 @@
       "inference_tags": [
         "artifact",
         "custom-control",
-        "monitoring"
+        "monitoring",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
       ]
     },
     {
@@ -4473,8 +5623,14 @@
         "be0a04f8-4b6f-4496-8a84-80c031673738",
         "242d8bc0-a52c-4689-b2df-1dec8ca2be18"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "9.1.1",
@@ -4525,10 +5681,42 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27",
+        "da476e18-bedf-4ece-b0f6-24c6a7564511",
+        "e92d6175-3363-4702-9e58-01889f488186",
+        "f1cca315-3bdb-41c2-ae88-b2f25912da16",
+        "965a10c6-d903-40f8-b189-2cedb79777de",
+        "569443de-3d29-4cf3-be50-de57fb3ec2eb",
+        "64b61ba2-6bbe-4c34-b5d4-4e77e742bcf3",
+        "e6a3a19f-600b-49b4-8fd3-b78138984e6d",
+        "e9d3764b-bf1e-4ac6-a751-3a1a2b4a9ce8",
+        "438ae1bf-d8fc-4049-91cf-093af3dba174",
+        "62124705-e04b-471e-9abf-2e1af5fe23cd",
+        "2818a8ef-2233-4ef9-8a4a-435d7f0c7d0e",
+        "a4fd2112-8ce7-4586-819b-d58a3e85a641",
+        "55777108-325c-4774-bc8d-4a56eb01d9f1",
+        "b1e641a5-292e-4a27-a71d-f1a3d9240c22",
+        "a28a8e16-36d8-4f51-92cc-a1e5810857e5",
+        "4c9d7339-dfc6-41a0-9e0d-3291a26d251c",
+        "6c05dee1-426c-44af-a838-dee405b64dc0",
+        "3fd93d89-6991-49fd-9d33-92e98d9e60a9",
+        "f300a719-cf49-45c0-a763-542e577fcf08",
+        "e23093a3-7d5e-47fa-ba03-c3dd34d51a66",
+        "01684710-dc7b-4a19-8610-734795a077b4",
+        "01fe3b3b-1547-4578-97bc-038a85e084e4",
+        "d946ca7b-5e09-4dd5-9a09-f06257a2f019",
+        "c5b33d75-2633-4735-8311-030a9b9caad0",
+        "696f1b11-f55d-4444-9876-04863c2edaba",
+        "967b79fd-8ae2-400c-889c-6caeb693fd05",
+        "8f715106-c70f-457f-abce-e741a611c43f",
+        "f3f18d78-c90a-497e-9ce8-12ddeebd33e8"
       ]
     },
     {
@@ -4583,13 +5771,45 @@
         "governance",
         "identity",
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "da476e18-bedf-4ece-b0f6-24c6a7564511",
+        "e92d6175-3363-4702-9e58-01889f488186",
+        "f1cca315-3bdb-41c2-ae88-b2f25912da16",
+        "965a10c6-d903-40f8-b189-2cedb79777de",
+        "569443de-3d29-4cf3-be50-de57fb3ec2eb",
+        "64b61ba2-6bbe-4c34-b5d4-4e77e742bcf3",
+        "e6a3a19f-600b-49b4-8fd3-b78138984e6d",
+        "e9d3764b-bf1e-4ac6-a751-3a1a2b4a9ce8",
+        "438ae1bf-d8fc-4049-91cf-093af3dba174",
+        "62124705-e04b-471e-9abf-2e1af5fe23cd",
+        "2818a8ef-2233-4ef9-8a4a-435d7f0c7d0e",
+        "a4fd2112-8ce7-4586-819b-d58a3e85a641",
+        "55777108-325c-4774-bc8d-4a56eb01d9f1",
+        "b1e641a5-292e-4a27-a71d-f1a3d9240c22",
+        "a28a8e16-36d8-4f51-92cc-a1e5810857e5",
+        "4c9d7339-dfc6-41a0-9e0d-3291a26d251c",
+        "6c05dee1-426c-44af-a838-dee405b64dc0",
+        "3fd93d89-6991-49fd-9d33-92e98d9e60a9",
+        "f300a719-cf49-45c0-a763-542e577fcf08",
+        "e23093a3-7d5e-47fa-ba03-c3dd34d51a66",
+        "01684710-dc7b-4a19-8610-734795a077b4",
+        "01fe3b3b-1547-4578-97bc-038a85e084e4",
+        "d946ca7b-5e09-4dd5-9a09-f06257a2f019",
+        "c5b33d75-2633-4735-8311-030a9b9caad0",
+        "696f1b11-f55d-4444-9876-04863c2edaba",
+        "967b79fd-8ae2-400c-889c-6caeb693fd05",
+        "8f715106-c70f-457f-abce-e741a611c43f",
+        "f3f18d78-c90a-497e-9ce8-12ddeebd33e8"
       ]
     },
     {
@@ -4615,9 +5835,14 @@
         "access-control",
         "facilities",
         "identity",
-        "physical-security"
+        "physical-security",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "9.2.1.1",
@@ -4642,12 +5867,17 @@
         "access-control",
         "audit",
         "governance",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
       ]
     },
     {
@@ -4675,10 +5905,15 @@
         "facilities",
         "identity",
         "monitoring",
-        "physical-security"
+        "physical-security",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
       ]
     },
     {
@@ -4704,9 +5939,14 @@
         "access-control",
         "facilities",
         "identity",
-        "physical-security"
+        "physical-security",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "9.2.4",
@@ -4729,9 +5969,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "9.3.1",
@@ -4756,10 +6001,15 @@
       "inference_tags": [
         "access-control",
         "identity",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
       ]
     },
     {
@@ -4783,9 +6033,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "9.3.2",
@@ -4809,10 +6064,15 @@
       "inference_tags": [
         "access-control",
         "identity",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
       ]
     },
     {
@@ -4836,9 +6096,14 @@
       ],
       "inference_tags": [
         "facilities",
-        "physical-security"
+        "physical-security",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "9.3.4",
@@ -4865,10 +6130,15 @@
         "facilities",
         "identity",
         "monitoring",
-        "physical-security"
+        "physical-security",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
       ]
     },
     {
@@ -4890,8 +6160,14 @@
         "8f442b68-4253-4cae-9399-13e4ac2b4f27",
         "4cbf0735-9417-402d-94ac-9ce18f79bfe1"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "9.4.1.1",
@@ -4912,8 +6188,14 @@
         "8f442b68-4253-4cae-9399-13e4ac2b4f27",
         "4cbf0735-9417-402d-94ac-9ce18f79bfe1"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "9.4.1.2",
@@ -4936,12 +6218,17 @@
       ],
       "inference_tags": [
         "audit",
-        "governance"
+        "governance",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
       ]
     },
     {
@@ -4963,8 +6250,14 @@
         "8f442b68-4253-4cae-9399-13e4ac2b4f27",
         "4cbf0735-9417-402d-94ac-9ce18f79bfe1"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "9.4.3",
@@ -4989,10 +6282,15 @@
         "artifact",
         "facilities",
         "monitoring",
-        "physical-security"
+        "physical-security",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
       ]
     },
     {
@@ -5016,9 +6314,14 @@
       ],
       "inference_tags": [
         "facilities",
-        "physical-security"
+        "physical-security",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "9.4.5",
@@ -5041,10 +6344,15 @@
       ],
       "inference_tags": [
         "artifact",
-        "monitoring"
+        "monitoring",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
       ]
     },
     {
@@ -5066,8 +6374,14 @@
         "8f442b68-4253-4cae-9399-13e4ac2b4f27",
         "4cbf0735-9417-402d-94ac-9ce18f79bfe1"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "9.4.6",
@@ -5088,8 +6402,14 @@
         "8f442b68-4253-4cae-9399-13e4ac2b4f27",
         "4cbf0735-9417-402d-94ac-9ce18f79bfe1"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "9.4.7",
@@ -5110,8 +6430,14 @@
         "8f442b68-4253-4cae-9399-13e4ac2b4f27",
         "4cbf0735-9417-402d-94ac-9ce18f79bfe1"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "9.5.1",
@@ -5134,13 +6460,18 @@
       ],
       "inference_tags": [
         "governance",
-        "policy"
+        "policy",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
       ]
     },
     {
@@ -5162,8 +6493,14 @@
         "8f442b68-4253-4cae-9399-13e4ac2b4f27",
         "4cbf0735-9417-402d-94ac-9ce18f79bfe1"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "9.5.1.2",
@@ -5184,8 +6521,14 @@
         "8f442b68-4253-4cae-9399-13e4ac2b4f27",
         "4cbf0735-9417-402d-94ac-9ce18f79bfe1"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "9.5.1.2.1",
@@ -5207,8 +6550,14 @@
         "8f442b68-4253-4cae-9399-13e4ac2b4f27",
         "4cbf0735-9417-402d-94ac-9ce18f79bfe1"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "9.5.1.3",
@@ -5235,13 +6584,18 @@
         "governance",
         "identity",
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
       ]
     },
     {
@@ -5293,10 +6647,42 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17",
+        "207f8988-c810-4b56-a301-7d0eec32c284",
+        "1b1428e6-2341-4155-868c-48d207b7eee8",
+        "77ae9822-3449-4b6a-aebc-eff090371067",
+        "5b4950df-0c4b-46ef-93b3-5b46c4b7b7fe",
+        "687787f8-ac79-4a12-b4b3-b6fd2b942575",
+        "535d20c9-1927-4c3c-b638-528ab061b61e",
+        "e3a4e2ea-1954-4c14-82b6-9ba47148388e",
+        "3f079b90-fcf6-40ce-ba21-ee42101752ab",
+        "f8baa0f0-4e27-4c84-8394-aca37648e858",
+        "76030fc3-796b-485a-b6aa-83990220cbce",
+        "5bba2bb5-f091-4314-8820-af9fe2a0f06b",
+        "9fbbcb79-6666-4add-bc6f-a4f06e00f119",
+        "2597e388-b9c5-4668-8d82-6a6b32dfd31d",
+        "e0f6b7d3-3f71-4c70-bee6-d52ae15a8cfd",
+        "85ed45bd-d227-4c17-9c28-b5653a4b76ed",
+        "64bfb445-dcaa-4471-9403-0127a396b735",
+        "459af633-c3d7-4f43-8977-9ae135f72481",
+        "b968fdc4-4b16-4491-b5a0-523955c8d90c",
+        "e7f2a6dd-c9a5-43e1-96cb-b7684226c116",
+        "b83a1f8b-0ad5-4bc0-bdf7-18348dd94e96",
+        "cf23d85f-68f9-494a-975d-f50baa17ed87",
+        "3fde0289-cbd7-4175-bfb2-6632df7bc271",
+        "4d53b9d4-ae4f-49e2-a4e8-10fb52edca3f",
+        "2fb1dd48-a44f-4c3f-9c2e-0ee17b303989",
+        "b8c7dd3b-37a3-4b46-91f6-39e6a2151b63",
+        "5dd5bdd8-e3eb-4619-8ace-2cc6b54f749f",
+        "67d5b06a-9e92-494c-989e-2b386f7cceab",
+        "39ab83c1-31b9-4aab-a575-d34bfefc96f4"
       ]
     },
     {
@@ -5351,13 +6737,45 @@
         "governance",
         "identity",
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "207f8988-c810-4b56-a301-7d0eec32c284",
+        "1b1428e6-2341-4155-868c-48d207b7eee8",
+        "77ae9822-3449-4b6a-aebc-eff090371067",
+        "5b4950df-0c4b-46ef-93b3-5b46c4b7b7fe",
+        "687787f8-ac79-4a12-b4b3-b6fd2b942575",
+        "535d20c9-1927-4c3c-b638-528ab061b61e",
+        "e3a4e2ea-1954-4c14-82b6-9ba47148388e",
+        "3f079b90-fcf6-40ce-ba21-ee42101752ab",
+        "f8baa0f0-4e27-4c84-8394-aca37648e858",
+        "76030fc3-796b-485a-b6aa-83990220cbce",
+        "5bba2bb5-f091-4314-8820-af9fe2a0f06b",
+        "9fbbcb79-6666-4add-bc6f-a4f06e00f119",
+        "2597e388-b9c5-4668-8d82-6a6b32dfd31d",
+        "e0f6b7d3-3f71-4c70-bee6-d52ae15a8cfd",
+        "85ed45bd-d227-4c17-9c28-b5653a4b76ed",
+        "64bfb445-dcaa-4471-9403-0127a396b735",
+        "459af633-c3d7-4f43-8977-9ae135f72481",
+        "b968fdc4-4b16-4491-b5a0-523955c8d90c",
+        "e7f2a6dd-c9a5-43e1-96cb-b7684226c116",
+        "b83a1f8b-0ad5-4bc0-bdf7-18348dd94e96",
+        "cf23d85f-68f9-494a-975d-f50baa17ed87",
+        "3fde0289-cbd7-4175-bfb2-6632df7bc271",
+        "4d53b9d4-ae4f-49e2-a4e8-10fb52edca3f",
+        "2fb1dd48-a44f-4c3f-9c2e-0ee17b303989",
+        "b8c7dd3b-37a3-4b46-91f6-39e6a2151b63",
+        "5dd5bdd8-e3eb-4619-8ace-2cc6b54f749f",
+        "67d5b06a-9e92-494c-989e-2b386f7cceab",
+        "39ab83c1-31b9-4aab-a575-d34bfefc96f4"
       ]
     },
     {
@@ -5383,12 +6801,17 @@
         "artifact",
         "auditor",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5416,12 +6839,17 @@
         "auditor",
         "identity",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5449,12 +6877,17 @@
         "auditor",
         "identity",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5482,12 +6915,17 @@
         "auditor",
         "identity",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5515,12 +6953,17 @@
         "auditor",
         "identity",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5548,12 +6991,17 @@
         "auditor",
         "identity",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5579,12 +7027,17 @@
         "artifact",
         "auditor",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5610,12 +7063,17 @@
         "artifact",
         "auditor",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5641,12 +7099,17 @@
         "artifact",
         "auditor",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5674,12 +7137,17 @@
         "auditor",
         "identity",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5705,12 +7173,17 @@
         "artifact",
         "auditor",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5736,12 +7209,17 @@
         "artifact",
         "auditor",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5768,12 +7246,17 @@
         "auditor",
         "monitoring",
         "realtime",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5801,7 +7284,8 @@
         "auditor",
         "governance",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
@@ -5810,6 +7294,10 @@
         "milestone-map",
         "roc-swipefile",
         "scorecard"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5838,7 +7326,8 @@
         "auditor",
         "governance",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
@@ -5847,6 +7336,10 @@
         "milestone-map",
         "roc-swipefile",
         "scorecard"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5872,13 +7365,18 @@
         "artifact",
         "audit",
         "governance",
-        "monitoring"
+        "monitoring",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
         "click-to-breach-visual",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5905,13 +7403,18 @@
         "artifact",
         "audit",
         "governance",
-        "monitoring"
+        "monitoring",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
         "click-to-breach-visual",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5935,12 +7438,17 @@
       ],
       "inference_tags": [
         "audit",
-        "governance"
+        "governance",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5966,12 +7474,17 @@
         "artifact",
         "auditor",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -5995,10 +7508,15 @@
       ],
       "inference_tags": [
         "artifact",
-        "monitoring"
+        "monitoring",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -6020,8 +7538,14 @@
         "8bece0ba-dd28-42bb-a45c-43085a6f3e17",
         "203abe5b-e877-460a-b867-55a6e8eea285"
       ],
-      "inference_tags": [],
-      "grc_subtags": []
+      "inference_tags": [
+        "dependency-root"
+      ],
+      "grc_subtags": [],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
+      ]
     },
     {
       "req_id": "10.6.3",
@@ -6048,13 +7572,18 @@
         "audit",
         "governance",
         "identity",
-        "monitoring"
+        "monitoring",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
         "click-to-breach-visual",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -6083,12 +7612,17 @@
         "identity",
         "monitoring",
         "realtime",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -6121,7 +7655,8 @@
         "identity",
         "monitoring",
         "realtime",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "artifact-portal",
@@ -6132,6 +7667,10 @@
         "roc-swipefile",
         "scorecard",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -6156,10 +7695,15 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -6205,10 +7749,36 @@
       ],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b",
+        "5ca06c2c-4c59-41a9-a71f-67b6cd696b9b",
+        "55db33e8-5e5b-42ab-bddb-971b46f9afed",
+        "e79e0773-d489-4166-908c-067c3ba2944b",
+        "cfd21969-7526-40c1-b63a-5e60b49ce500",
+        "7ca64af0-d9f2-4ca5-b7ad-78f3ec478be4",
+        "1e1f1e82-6be9-44e8-a016-dfb01f257ee9",
+        "6e107673-2f2d-49eb-98d3-3110e9f4192f",
+        "d619fbf8-224e-4dce-8b62-a3e8e1523f8f",
+        "fb4b8ed8-88db-450f-bb2d-21e59a616719",
+        "226be897-3649-453e-a1f5-28b4b8efb12d",
+        "9f540521-f11a-45c2-a79f-14031a0e624f",
+        "2470b7ba-3508-4c7c-b5df-f9df30777453",
+        "f50676ed-ef4b-41be-a5eb-975db32491b5",
+        "60d18803-066a-4dee-af44-6d6bf9a6ef23",
+        "ae230b7b-cc74-4947-8004-ffe6458c9268",
+        "363e7684-162b-4627-910c-4c93bddb2b27",
+        "2241f82c-2270-419b-8be4-a4769fe1c0a1",
+        "80b2bbaf-3db1-45e6-8004-6ab672e69886",
+        "ebe79152-0f19-4499-9d2d-87747ec036dc",
+        "b820a37c-a9cb-44cb-a05a-04e866d01055",
+        "653d5b58-dac6-44b9-b00d-b23b9846b400",
+        "b6f37058-3c9d-4742-9c39-2d3a30242729"
       ]
     },
     {
@@ -6257,13 +7827,39 @@
         "governance",
         "identity",
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "5ca06c2c-4c59-41a9-a71f-67b6cd696b9b",
+        "55db33e8-5e5b-42ab-bddb-971b46f9afed",
+        "e79e0773-d489-4166-908c-067c3ba2944b",
+        "cfd21969-7526-40c1-b63a-5e60b49ce500",
+        "7ca64af0-d9f2-4ca5-b7ad-78f3ec478be4",
+        "1e1f1e82-6be9-44e8-a016-dfb01f257ee9",
+        "6e107673-2f2d-49eb-98d3-3110e9f4192f",
+        "d619fbf8-224e-4dce-8b62-a3e8e1523f8f",
+        "fb4b8ed8-88db-450f-bb2d-21e59a616719",
+        "226be897-3649-453e-a1f5-28b4b8efb12d",
+        "9f540521-f11a-45c2-a79f-14031a0e624f",
+        "2470b7ba-3508-4c7c-b5df-f9df30777453",
+        "f50676ed-ef4b-41be-a5eb-975db32491b5",
+        "60d18803-066a-4dee-af44-6d6bf9a6ef23",
+        "ae230b7b-cc74-4947-8004-ffe6458c9268",
+        "363e7684-162b-4627-910c-4c93bddb2b27",
+        "2241f82c-2270-419b-8be4-a4769fe1c0a1",
+        "80b2bbaf-3db1-45e6-8004-6ab672e69886",
+        "ebe79152-0f19-4499-9d2d-87747ec036dc",
+        "b820a37c-a9cb-44cb-a05a-04e866d01055",
+        "653d5b58-dac6-44b9-b00d-b23b9846b400",
+        "b6f37058-3c9d-4742-9c39-2d3a30242729"
       ]
     },
     {
@@ -6291,13 +7887,18 @@
         "identity",
         "monitoring",
         "realtime",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "justification-library",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
       ]
     },
     {
@@ -6324,10 +7925,15 @@
         "access-control",
         "identity",
         "policy",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
       ]
     },
     {
@@ -6354,12 +7960,17 @@
         "developer",
         "periodic",
         "report",
-        "vulnerability-management"
+        "vulnerability-management",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
       ]
     },
     {
@@ -6384,9 +7995,14 @@
       ],
       "inference_tags": [
         "periodic",
-        "vulnerability-management"
+        "vulnerability-management",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
+      ]
     },
     {
       "req_id": "11.3.1.2",
@@ -6416,11 +8032,17 @@
         "periodic",
         "policy",
         "procedure",
-        "vulnerability-management"
+        "vulnerability-management",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy",
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b",
+        "14118855-c8f2-4f40-b15e-002be751a68d"
       ]
     },
     {
@@ -6447,12 +8069,17 @@
         "developer",
         "periodic",
         "report",
-        "vulnerability-management"
+        "vulnerability-management",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
       ]
     },
     {
@@ -6477,9 +8104,14 @@
       ],
       "inference_tags": [
         "periodic",
-        "vulnerability-management"
+        "vulnerability-management",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
+      ]
     },
     {
       "req_id": "11.3.2.1",
@@ -6504,12 +8136,17 @@
         "developer",
         "periodic",
         "report",
-        "vulnerability-management"
+        "vulnerability-management",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
       ]
     },
     {
@@ -6541,7 +8178,8 @@
         "monitoring",
         "policy",
         "procedure",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -6552,6 +8190,10 @@
         "milestone-map",
         "scorecard",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
       ]
     },
     {
@@ -6577,13 +8219,18 @@
         "artifact",
         "developer",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "justification-library",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
       ]
     },
     {
@@ -6609,13 +8256,18 @@
         "artifact",
         "developer",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "justification-library",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
       ]
     },
     {
@@ -6640,12 +8292,17 @@
       ],
       "inference_tags": [
         "developer",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
       ]
     },
     {
@@ -6672,13 +8329,19 @@
         "artifact",
         "developer",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "justification-library",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b",
+        "d199cd89-5f34-444a-b8a8-fae3d983caf6"
       ]
     },
     {
@@ -6704,13 +8367,18 @@
         "artifact",
         "developer",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "justification-library",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
       ]
     },
     {
@@ -6736,12 +8404,17 @@
       "inference_tags": [
         "custom-control",
         "developer",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
       ]
     },
     {
@@ -6765,10 +8438,15 @@
       ],
       "inference_tags": [
         "monitoring",
-        "realtime"
+        "realtime",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
       ]
     },
     {
@@ -6793,10 +8471,15 @@
       ],
       "inference_tags": [
         "monitoring",
-        "realtime"
+        "realtime",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
       ]
     },
     {
@@ -6820,10 +8503,15 @@
       ],
       "inference_tags": [
         "monitoring",
-        "realtime"
+        "realtime",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
       ]
     },
     {
@@ -6849,10 +8537,16 @@
       ],
       "inference_tags": [
         "monitoring",
-        "realtime"
+        "realtime",
+        "dependency-root"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b",
+        "14118855-c8f2-4f40-b15e-002be751a68d"
       ]
     },
     {
@@ -7003,13 +8697,21 @@
         "audit",
         "governance",
         "policy",
-        "procedure"
+        "procedure",
+        "reference-hub"
       ],
       "grc_subtags": [
         "annotated-policy",
         "artifact-portal",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "bae64ad0-6594-41b7-9c66-70cc74f8eb38",
+        "220c1504-8994-4770-b4c8-5b07ccd88c1d",
+        "7ca64af0-d9f2-4ca5-b7ad-78f3ec478be4",
+        "ebe79152-0f19-4499-9d2d-87747ec036dc",
+        "0740534e-1bc6-44cc-a910-c257691b48ec"
       ]
     },
     {
@@ -7039,6 +8741,9 @@
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "14118855-c8f2-4f40-b15e-002be751a68d"
       ]
     },
     {
@@ -7105,6 +8810,9 @@
         "click-to-breach-visual",
         "milestone-map",
         "scorecard"
+      ],
+      "referenced_by": [
+        "33cb6803-ff75-49b2-92b4-b2eac816d80e"
       ]
     },
     {
@@ -7235,6 +8943,9 @@
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "f50676ed-ef4b-41be-a5eb-975db32491b5"
       ]
     },
     {
@@ -8104,9 +9815,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "57f6c78b-f1b4-4c80-b058-daab696c04f7",
+        "d4729cec-d90b-458f-8f2d-a02bd5e83b1a"
+      ]
     },
     {
       "req_id": "7.2",
@@ -8129,9 +9845,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "57f6c78b-f1b4-4c80-b058-daab696c04f7",
+        "d4729cec-d90b-458f-8f2d-a02bd5e83b1a"
+      ]
     },
     {
       "req_id": "8.1",
@@ -8153,10 +9874,15 @@
         "242d8bc0-a52c-4689-b2df-1dec8ca2be18"
       ],
       "inference_tags": [
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
       ]
     },
     {
@@ -8180,9 +9906,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "8.3",
@@ -8205,9 +9936,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "242d8bc0-a52c-4689-b2df-1dec8ca2be18",
+        "be0a04f8-4b6f-4496-8a84-80c031673738"
+      ]
     },
     {
       "req_id": "9.1",
@@ -8232,9 +9968,14 @@
         "access-control",
         "facilities",
         "identity",
-        "physical-security"
+        "physical-security",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "9.2",
@@ -8258,10 +9999,15 @@
       "inference_tags": [
         "access-control",
         "identity",
-        "procedure"
+        "procedure",
+        "dependency-root"
       ],
       "grc_subtags": [
         "annotated-policy"
+      ],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
       ]
     },
     {
@@ -8285,9 +10031,14 @@
       ],
       "inference_tags": [
         "access-control",
-        "identity"
+        "identity",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "4cbf0735-9417-402d-94ac-9ce18f79bfe1",
+        "8f442b68-4253-4cae-9399-13e4ac2b4f27"
+      ]
     },
     {
       "req_id": "10.1",
@@ -8312,12 +10063,17 @@
         "artifact",
         "auditor",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -8341,11 +10097,16 @@
       ],
       "inference_tags": [
         "auditor",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -8373,12 +10134,17 @@
         "auditor",
         "identity",
         "monitoring",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "click-to-breach-visual",
         "roc-swipefile"
+      ],
+      "referenced_by": [
+        "203abe5b-e877-460a-b867-55a6e8eea285",
+        "8bece0ba-dd28-42bb-a45c-43085a6f3e17"
       ]
     },
     {
@@ -8404,12 +10170,17 @@
         "access-control",
         "developer",
         "identity",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
       ]
     },
     {
@@ -8433,9 +10204,14 @@
       ],
       "inference_tags": [
         "periodic",
-        "vulnerability-management"
+        "vulnerability-management",
+        "dependency-root"
       ],
-      "grc_subtags": []
+      "grc_subtags": [],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
+      ]
     },
     {
       "req_id": "11.3",
@@ -8458,12 +10234,17 @@
       ],
       "inference_tags": [
         "developer",
-        "report"
+        "report",
+        "dependency-root"
       ],
       "grc_subtags": [
         "audit-friction-alert",
         "justification-library",
         "self-healing-control"
+      ],
+      "referenced_by": [
+        "27ddf020-70b6-4cb8-ab35-7c1e8054007f",
+        "3e89ad99-eea3-4fe2-ab2a-9686a478bf1b"
       ]
     },
     {
