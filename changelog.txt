@@ -1,8 +1,7 @@
-# Changelog - pci-dss-v4.0.1-tagged-requirements-v4.1.0
+# Changelog - pci-dss-v4.0.1-tagged-requirements-v4.2.0
 
-## [v4.1.0] - GRC Playbooks + Visualization + Slack Training
+## [v4.2.0] - Micro-Portal, Chatbot Prompts & Weekly Delivery Templates
 
-- Added: `grc-subtag-pivot.md` — mapping neuromarketing to PCI DSS subtag strategies.
-- Created: Markdown playbooks per GRC subtag (scorecard, breach-simulation, etc.).
-- Visualized: `grc-subtag-matrix.csv` with requirement-to-subtag mappings.
-- Generated: Slack-style training snippets for awareness campaigns.
+- Added micro-portal HTML scaffold for GRC playbooks and tools.
+- Created chatbot prompt file with subtag-aligned questions.
+- Built weekly delivery rotation config for playbook dissemination.
