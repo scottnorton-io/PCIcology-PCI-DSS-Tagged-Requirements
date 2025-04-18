@@ -8,9 +8,3 @@
   - 💬 GPT training prompts (JSON)
   - 🎓 LMS-compatible training scripts
   - 🧭 Notion-ready CSV matrix
-
-
-## [v4.6.6] - Backlink Reference Enrichment
-
-- 🔁 Injected `referenced_by` field to all sub-requirements
-- 🧠 Added `reference-hub` and `dependency-root` inference tags for high-connectivity nodes
