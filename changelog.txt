@@ -1,7 +1,0 @@
-# Changelog - pci-dss-v4.0.1-tagged-requirements-v1.1.0
-
-## [v1.1.0] - Minor Update
-
-- Added `uuid_back_refs` to every sub-requirement to capture reverse cross-reference relationships.
-- Maintains forward `uuid_cross_refs` and tagging structure.
-- Compatible with all previous automation, dashboards, and Notion templates.
