@@ -1,0 +1,16 @@
+{
+  "task_id": "canonical-access-review",
+  "title": "Access Review Task",
+  "description": "Ensure that access privileges are reviewed on a periodic basis and approved by the appropriate authority.",
+  "roles": [
+    "AppSec",
+    "Compliance",
+    "Identity Admin"
+  ],
+  "evidence_types": [
+    "rbac_matrix",
+    "access_review_log"
+  ],
+  "frequency": "quarterly",
+  "prompt_template": "Confirm access review completed by {date} and approved by {owner}."
+}

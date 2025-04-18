@@ -14,3 +14,10 @@
 
 - 🔁 Injected `referenced_by` field to all sub-requirements
 - 🧠 Added `reference-hub` and `dependency-root` inference tags for high-connectivity nodes
+
+
+## [v4.6.8] - Normalization + Optimization Kickoff
+
+- 🧱 Created `canonical_task_template.json` for reuse across tasks
+- 📑 Added `normalization-strategy.md` for prompt/evidence cleanup
+- 🌐 Included `roadmap.html` to preview milestone-based rollout plans
