@@ -1,6 +1,7 @@
-# Checklist for Requirement 10.2.1.7: Audit logs capture all creation and deletion of system-level objects.
+# ✅ Checklist for Requirement 10.2.1.7
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Audit logs capture all creation and deletion of system-level objects.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

@@ -1,6 +1,7 @@
-# Checklist for Requirement 5.3: Ensure anti-malware mechanisms cannot be disabled or altered by users
+# ✅ Checklist for Requirement 5.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Ensure anti-malware mechanisms cannot be disabled or altered by users
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

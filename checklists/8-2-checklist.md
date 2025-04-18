@@ -1,6 +1,7 @@
-# Checklist for Requirement 8.2: Use unique identification for all users before allowing them to access system components or cardholder data
+# ✅ Checklist for Requirement 8.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Use unique identification for all users before allowing them to access system components or cardholder data
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

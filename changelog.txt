@@ -34,3 +34,10 @@
 - 🔁 Injected `task_id` into 2 sub-requirements
 - 🧠 Added `grc_subtags` based on evidence, reference density, and titles
 - 📄 Generated `tag-opportunity-report.md` to highlight where tagging is still needed
+
+
+## [v4.7.1] - Tag Coverage Visualization + Regenerated Checklists & Playbooks
+
+- 📊 Generated `tag-coverage-bar-chart.png` for top tags across dataset
+- 🔁 Regenerated all checklists under `/checklists` with structured format
+- 📘 Rebuilt `/playbooks` based on `task_id` inference

@@ -1,6 +1,7 @@
-# Checklist for Requirement A3.1.3: Personnel with accountability for PCI DSS compliance are formally assigned
+# ✅ Checklist for Requirement A3.1.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Personnel with accountability for PCI DSS compliance are formally assigned
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

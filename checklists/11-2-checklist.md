@@ -1,6 +1,7 @@
-# Checklist for Requirement 11.2: Perform internal and external vulnerability scans
+# ✅ Checklist for Requirement 11.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Perform internal and external vulnerability scans
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

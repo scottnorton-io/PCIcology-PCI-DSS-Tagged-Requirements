@@ -1,6 +1,7 @@
-# Checklist for Requirement 2.2: Develop configuration standards for all system components
+# ✅ Checklist for Requirement 2.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Develop configuration standards for all system components
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

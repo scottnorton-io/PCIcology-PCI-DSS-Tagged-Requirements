@@ -1,6 +1,7 @@
-# Checklist for Requirement 10.6.1: System clocks and time are synchronized using time-synchronization technology.
+# ✅ Checklist for Requirement 10.6.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** System clocks and time are synchronized using time-synchronization technology.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

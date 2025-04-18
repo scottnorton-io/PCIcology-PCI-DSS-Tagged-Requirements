@@ -1,6 +1,7 @@
-# Checklist for Requirement 1.1: Establish and implement firewall and router configuration standards
+# ✅ Checklist for Requirement 1.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Establish and implement firewall and router configuration standards
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

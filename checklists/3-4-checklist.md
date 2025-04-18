@@ -1,6 +1,7 @@
-# Checklist for Requirement 3.4: Render PAN unreadable wherever stored
+# ✅ Checklist for Requirement 3.4
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Render PAN unreadable wherever stored
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

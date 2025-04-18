@@ -1,6 +1,7 @@
-# Checklist for Requirement 9.4.5: Inventory logs of all electronic media with cardholder data are maintained.
+# ✅ Checklist for Requirement 9.4.5
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Inventory logs of all electronic media with cardholder data are maintained.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

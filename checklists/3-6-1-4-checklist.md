@@ -1,6 +1,7 @@
-# Checklist for Requirement 3.6.1.4: Cryptographic keys are stored in the fewest possible locations.
+# ✅ Checklist for Requirement 3.6.1.4
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Cryptographic keys are stored in the fewest possible locations.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

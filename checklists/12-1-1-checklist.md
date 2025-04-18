@@ -1,6 +1,11 @@
-# Checklist for Requirement 12.1.1: An overall information security policy is: • Established. • Published. • Maintained. • Disseminated to all relevant personnel, as well as to relevant vendors and business partners.
+# ✅ Checklist for Requirement 12.1.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** An overall information security policy is:
+- Established. 
+- Published. 
+- Maintained. 
+- Disseminated to all relevant personnel, as well as to relevant vendors and business partners.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

@@ -1,6 +1,7 @@
-# Checklist for Requirement 12.1: Establish, publish, maintain, and disseminate a security policy
+# ✅ Checklist for Requirement 12.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Establish, publish, maintain, and disseminate a security policy
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

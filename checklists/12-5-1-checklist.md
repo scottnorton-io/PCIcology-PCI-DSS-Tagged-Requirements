@@ -1,6 +1,7 @@
-# Checklist for Requirement 12.5.1: An inventory of system components that are in scope for PCI DSS, including a description of function/use, is maintained and kept current.
+# ✅ Checklist for Requirement 12.5.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** An inventory of system components that are in scope for PCI DSS, including a description of function/use, is maintained and kept current.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

@@ -1,6 +1,7 @@
-# Checklist for Requirement 5.1: Deploy anti-malware software to all systems commonly affected by malware
+# ✅ Checklist for Requirement 5.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Deploy anti-malware software to all systems commonly affected by malware
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

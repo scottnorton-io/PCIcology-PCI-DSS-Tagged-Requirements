@@ -1,6 +1,9 @@
-# Checklist for Requirement 1.2.8: Configuration files for NSCs are: • Secured from unauthorized access. • Kept consistent with active network configurations.
+# ✅ Checklist for Requirement 1.2.8
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Configuration files for NSCs are:
+- Secured from unauthorized access. 
+- Kept consistent with active network configurations.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

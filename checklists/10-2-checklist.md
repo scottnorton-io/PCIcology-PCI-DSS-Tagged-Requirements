@@ -1,6 +1,7 @@
-# Checklist for Requirement 10.2: Automate audit trails for all system components
+# ✅ Checklist for Requirement 10.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Automate audit trails for all system components
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

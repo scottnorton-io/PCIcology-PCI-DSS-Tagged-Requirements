@@ -1,6 +1,7 @@
-# Checklist for Requirement 2.2.7: All non-console administrative access is encrypted using strong cryptography.
+# ✅ Checklist for Requirement 2.2.7
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** All non-console administrative access is encrypted using strong cryptography.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

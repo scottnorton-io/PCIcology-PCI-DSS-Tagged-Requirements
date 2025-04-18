@@ -1,6 +1,7 @@
-# Checklist for Requirement 6.5.6: Test data and test accounts are removed from system components before the system goes into production.
+# ✅ Checklist for Requirement 6.5.6
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Test data and test accounts are removed from system components before the system goes into production.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

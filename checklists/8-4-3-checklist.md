@@ -1,6 +1,7 @@
-# Checklist for Requirement 8.4.3: MFA is implemented for all remote access originating from outside the entity’s network that could access or impact the CDE.
+# ✅ Checklist for Requirement 8.4.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** MFA is implemented for all remote access originating from outside the entity’s network that could access or impact the CDE.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

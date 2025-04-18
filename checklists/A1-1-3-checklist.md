@@ -1,6 +1,7 @@
-# Checklist for Requirement A1.1.3: Controls are implemented such that each customer can only access resources allocated to them.
+# ✅ Checklist for Requirement A1.1.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Controls are implemented such that each customer can only access resources allocated to them.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

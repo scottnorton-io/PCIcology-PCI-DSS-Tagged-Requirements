@@ -1,6 +1,7 @@
-# Checklist for Requirement 1.2.7: Configurations of NSCs are reviewed at least once every six months to confirm they are relevant and effective.
+# ✅ Checklist for Requirement 1.2.7
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Configurations of NSCs are reviewed at least once every six months to confirm they are relevant and effective.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

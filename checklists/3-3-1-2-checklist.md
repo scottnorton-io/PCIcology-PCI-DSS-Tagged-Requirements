@@ -1,6 +1,7 @@
-# Checklist for Requirement 3.3.1.2: The card verification code is not stored upon completion of the authorization process.
+# ✅ Checklist for Requirement 3.3.1.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** The card verification code is not stored upon completion of the authorization process.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

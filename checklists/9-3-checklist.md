@@ -1,6 +1,7 @@
-# Checklist for Requirement 9.3: Control physical access for visitors
+# ✅ Checklist for Requirement 9.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Control physical access for visitors
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

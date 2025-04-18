@@ -1,6 +1,7 @@
-# Checklist for Requirement A3.3.1: Annual scope validation is performed and documented
+# ✅ Checklist for Requirement A3.3.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Annual scope validation is performed and documented
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

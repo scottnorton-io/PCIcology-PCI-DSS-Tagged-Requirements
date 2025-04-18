@@ -1,6 +1,7 @@
-# Checklist for Requirement 12.3: Develop usage policies for critical technologies
+# ✅ Checklist for Requirement 12.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Develop usage policies for critical technologies
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

@@ -1,6 +1,7 @@
-# Checklist for Requirement 12.8.3: An established process is implemented for engaging TPSPs, including proper due diligence prior to engagement.
+# ✅ Checklist for Requirement 12.8.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** An established process is implemented for engaging TPSPs, including proper due diligence prior to engagement.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

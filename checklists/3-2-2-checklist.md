@@ -1,6 +1,7 @@
-# Checklist for Requirement 3.2.2: Do not store CVV2/CVC2/CID after authorization
+# ✅ Checklist for Requirement 3.2.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Do not store CVV2/CVC2/CID after authorization
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

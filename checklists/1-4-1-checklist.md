@@ -1,6 +1,7 @@
-# Checklist for Requirement 1.4.1: NSCs are implemented between trusted and untrusted networks.
+# ✅ Checklist for Requirement 1.4.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** NSCs are implemented between trusted and untrusted networks.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

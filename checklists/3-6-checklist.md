@@ -1,6 +1,7 @@
-# Checklist for Requirement 3.6: Secure cryptographic key storage
+# ✅ Checklist for Requirement 3.6
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Secure cryptographic key storage
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

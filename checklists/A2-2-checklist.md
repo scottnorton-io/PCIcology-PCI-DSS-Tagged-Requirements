@@ -1,6 +1,7 @@
-# Checklist for Requirement A2.2: Do not store PANs on non-volatile memory within endpoint devices
+# ✅ Checklist for Requirement A2.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Do not store PANs on non-volatile memory within endpoint devices
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

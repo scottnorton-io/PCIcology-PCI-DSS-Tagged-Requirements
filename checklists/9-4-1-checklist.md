@@ -1,6 +1,7 @@
-# Checklist for Requirement 9.4.1: All media with cardholder data is physically secured.
+# ✅ Checklist for Requirement 9.4.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** All media with cardholder data is physically secured.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

@@ -1,6 +1,7 @@
-# Checklist for Requirement 3.7.7: Key management policies and procedures are implemented to include the prevention of unauthorized substitution of cryptographic keys.
+# ✅ Checklist for Requirement 3.7.7
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Key management policies and procedures are implemented to include the prevention of unauthorized substitution of cryptographic keys.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

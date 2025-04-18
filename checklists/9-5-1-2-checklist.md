@@ -1,6 +1,7 @@
-# Checklist for Requirement 9.5.1.2: POI device surfaces are periodically inspected to detect tampering and unauthorized substitution.
+# ✅ Checklist for Requirement 9.5.1.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** POI device surfaces are periodically inspected to detect tampering and unauthorized substitution.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

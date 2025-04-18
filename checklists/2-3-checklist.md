@@ -1,6 +1,7 @@
-# Checklist for Requirement 2.3: Encrypt all non-console administrative access
+# ✅ Checklist for Requirement 2.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Encrypt all non-console administrative access
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

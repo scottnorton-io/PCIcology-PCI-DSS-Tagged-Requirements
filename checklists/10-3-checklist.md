@@ -1,6 +1,7 @@
-# Checklist for Requirement 10.3: Secure and protect audit logs to prevent unauthorized access
+# ✅ Checklist for Requirement 10.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Secure and protect audit logs to prevent unauthorized access
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

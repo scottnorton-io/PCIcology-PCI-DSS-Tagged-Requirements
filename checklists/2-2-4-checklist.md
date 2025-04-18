@@ -1,6 +1,7 @@
-# Checklist for Requirement 2.2.4: Only necessary services, protocols, daemons, and functions are enabled, and all unnecessary functionality is removed or disabled.
+# ✅ Checklist for Requirement 2.2.4
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Only necessary services, protocols, daemons, and functions are enabled, and all unnecessary functionality is removed or disabled.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

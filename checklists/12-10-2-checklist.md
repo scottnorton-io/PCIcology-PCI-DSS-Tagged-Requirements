@@ -1,6 +1,9 @@
-# Checklist for Requirement 12.10.2: At least once every 12 months, the security incident response plan is: • Reviewed and the content is updated as needed. • Tested, including all elements listed in Requirement 12.10.1.
+# ✅ Checklist for Requirement 12.10.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** At least once every 12 months, the security incident response plan is:
+- Reviewed and the content is updated as needed. 
+- Tested, including all elements listed in Requirement 12.10.1.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

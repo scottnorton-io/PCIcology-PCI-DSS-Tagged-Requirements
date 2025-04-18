@@ -1,6 +1,7 @@
-# Checklist for Requirement A1.1.2: Controls are implemented such that each customer only has permission to access its own cardholder data and CDE.
+# ✅ Checklist for Requirement A1.1.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Controls are implemented such that each customer only has permission to access its own cardholder data and CDE.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

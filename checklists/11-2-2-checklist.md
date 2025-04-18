@@ -1,6 +1,7 @@
-# Checklist for Requirement 11.2.2: An inventory of authorized wireless access points is maintained, including a documented business justification.
+# ✅ Checklist for Requirement 11.2.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** An inventory of authorized wireless access points is maintained, including a documented business justification.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

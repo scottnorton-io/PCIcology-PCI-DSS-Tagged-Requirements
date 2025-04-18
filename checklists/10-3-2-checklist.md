@@ -1,6 +1,7 @@
-# Checklist for Requirement 10.3.2: Audit log files are protected to prevent modifications by individuals.
+# ✅ Checklist for Requirement 10.3.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Audit log files are protected to prevent modifications by individuals.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

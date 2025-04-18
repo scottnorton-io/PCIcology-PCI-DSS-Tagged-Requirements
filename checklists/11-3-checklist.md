@@ -1,6 +1,7 @@
-# Checklist for Requirement 11.3: Perform internal and external penetration testing
+# ✅ Checklist for Requirement 11.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Perform internal and external penetration testing
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

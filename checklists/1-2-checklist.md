@@ -1,6 +1,7 @@
-# Checklist for Requirement 1.2: Build firewall and router configurations that restrict connections between untrusted networks and system components in the CDE
+# ✅ Checklist for Requirement 1.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Build firewall and router configurations that restrict connections between untrusted networks and system components in the CDE
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

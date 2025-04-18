@@ -1,6 +1,7 @@
-# Checklist for Requirement 8.3: Secure all individual non-console administrative access and all remote access to the CDE using multi-factor authentication
+# ✅ Checklist for Requirement 8.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Secure all individual non-console administrative access and all remote access to the CDE using multi-factor authentication
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

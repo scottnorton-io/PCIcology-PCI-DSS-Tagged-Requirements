@@ -1,6 +1,7 @@
-# Checklist for Requirement A3.1.1: Responsibility is established by executive management for the protection of account data and a PCI DSS compliance program
+# ✅ Checklist for Requirement A3.1.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Responsibility is established by executive management for the protection of account data and a PCI DSS compliance program
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

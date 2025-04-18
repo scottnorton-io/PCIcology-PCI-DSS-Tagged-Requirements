@@ -1,6 +1,7 @@
-# Checklist for Requirement 4.2.2: PAN is secured with strong cryptography whenever it is sent via end-user messaging technologies.
+# ✅ Checklist for Requirement 4.2.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** PAN is secured with strong cryptography whenever it is sent via end-user messaging technologies.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

@@ -1,6 +1,7 @@
-# Checklist for Requirement 12.10.6: The security incident response plan is modified and evolved according to lessons learned and to incorporate industry developments.
+# ✅ Checklist for Requirement 12.10.6
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** The security incident response plan is modified and evolved according to lessons learned and to incorporate industry developments.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

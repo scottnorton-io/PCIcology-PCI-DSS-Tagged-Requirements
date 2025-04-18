@@ -1,6 +1,7 @@
-# Checklist for Requirement 9.1: Use appropriate facility entry controls to limit and monitor physical access to systems in the CDE
+# ✅ Checklist for Requirement 9.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Use appropriate facility entry controls to limit and monitor physical access to systems in the CDE
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

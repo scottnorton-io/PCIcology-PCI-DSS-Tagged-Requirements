@@ -1,6 +1,7 @@
-# Checklist for Requirement 5.4: Evaluate evolving malware threats for systems not commonly affected
+# ✅ Checklist for Requirement 5.4
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Evaluate evolving malware threats for systems not commonly affected
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

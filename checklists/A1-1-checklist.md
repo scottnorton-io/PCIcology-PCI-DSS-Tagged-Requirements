@@ -1,6 +1,7 @@
-# Checklist for Requirement A1.1: Segregate shared hosting environments to protect each entity’s hosted environment and cardholder data
+# ✅ Checklist for Requirement A1.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Segregate shared hosting environments to protect each entity’s hosted environment and cardholder data
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

@@ -1,6 +1,7 @@
-# Checklist for Requirement 8.1: Define and manage user identification and authentication policies and procedures
+# ✅ Checklist for Requirement 8.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Define and manage user identification and authentication policies and procedures
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

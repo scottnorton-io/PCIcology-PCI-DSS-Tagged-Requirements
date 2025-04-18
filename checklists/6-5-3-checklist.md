@@ -1,6 +1,7 @@
-# Checklist for Requirement 6.5.3: Pre-production environments are separated from production environments and the separation is enforced with access controls.
+# ✅ Checklist for Requirement 6.5.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Pre-production environments are separated from production environments and the separation is enforced with access controls.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

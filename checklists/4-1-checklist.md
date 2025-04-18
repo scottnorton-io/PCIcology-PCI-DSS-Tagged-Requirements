@@ -1,6 +1,7 @@
-# Checklist for Requirement 4.1: Use strong cryptography and security protocols to safeguard sensitive cardholder data during transmission
+# ✅ Checklist for Requirement 4.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Use strong cryptography and security protocols to safeguard sensitive cardholder data during transmission
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

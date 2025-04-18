@@ -1,6 +1,9 @@
-# Checklist for Requirement 7.2.2: Access is assigned to users, including privileged users, based on: • Job classification and function. • Least privileges necessary to perform job responsibilities.
+# ✅ Checklist for Requirement 7.2.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Access is assigned to users, including privileged users, based on:
+- Job classification and function. 
+- Least privileges necessary to perform job responsibilities.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

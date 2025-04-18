@@ -1,6 +1,7 @@
-# Checklist for Requirement 8.2.6: Inactive user accounts are removed or disabled within 90 days of inactivity.
+# ✅ Checklist for Requirement 8.2.6
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Inactive user accounts are removed or disabled within 90 days of inactivity.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

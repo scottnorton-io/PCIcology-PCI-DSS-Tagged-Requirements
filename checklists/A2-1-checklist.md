@@ -1,6 +1,7 @@
-# Checklist for Requirement A2.1: Encrypt PANs using strong cryptography when stored in removable electronic media
+# ✅ Checklist for Requirement A2.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Encrypt PANs using strong cryptography when stored in removable electronic media
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

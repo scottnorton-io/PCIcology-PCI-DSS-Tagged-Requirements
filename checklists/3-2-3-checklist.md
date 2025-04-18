@@ -1,6 +1,7 @@
-# Checklist for Requirement 3.2.3: Do not store PINs or PIN blocks after authorization
+# ✅ Checklist for Requirement 3.2.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Do not store PINs or PIN blocks after authorization
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

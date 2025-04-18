@@ -1,6 +1,7 @@
-# Checklist for Requirement 9.3.3: Visitor badges or identification are surrendered or deactivated before visitors leave the facility or at the date of expiration.
+# ✅ Checklist for Requirement 9.3.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Visitor badges or identification are surrendered or deactivated before visitors leave the facility or at the date of expiration.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

@@ -1,6 +1,7 @@
-# Checklist for Requirement 6.1: Establish a process to identify and manage security vulnerabilities
+# ✅ Checklist for Requirement 6.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Establish a process to identify and manage security vulnerabilities
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

@@ -1,6 +1,10 @@
-# Checklist for Requirement 1.2.1: Configuration standards for NSC rulesets are: • Defined. • Implemented. • Maintained.
+# ✅ Checklist for Requirement 1.2.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Configuration standards for NSC rulesets are:
+- Defined. 
+- Implemented. 
+- Maintained.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

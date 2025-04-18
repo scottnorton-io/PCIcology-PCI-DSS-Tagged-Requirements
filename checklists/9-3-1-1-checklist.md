@@ -1,6 +1,10 @@
-# Checklist for Requirement 9.3.1.1: Physical access to sensitive areas within the CDE for personnel is controlled as follows: • Access is authorized and based on individual job function. • Access is revoked immediately upon termination. • All physical access mechanisms, such as keys, access cards, etc., are returned or disabled upon termination.
+# ✅ Checklist for Requirement 9.3.1.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Physical access to sensitive areas within the CDE for personnel is controlled as follows:
+- Access is authorized and based on individual job function. 
+- Access is revoked immediately upon termination. 
+- All physical access mechanisms, such as keys, access cards, etc., are returned or disabled upon termination.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

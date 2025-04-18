@@ -1,6 +1,7 @@
-# Checklist for Requirement 10.1: Implement audit logs to track user activities and system events
+# ✅ Checklist for Requirement 10.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Implement audit logs to track user activities and system events
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

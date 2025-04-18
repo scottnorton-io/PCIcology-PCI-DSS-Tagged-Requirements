@@ -1,6 +1,7 @@
-# Checklist for Requirement 11.1: Test for the presence of wireless access points and detect unauthorized wireless access points
+# ✅ Checklist for Requirement 11.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Test for the presence of wireless access points and detect unauthorized wireless access points
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

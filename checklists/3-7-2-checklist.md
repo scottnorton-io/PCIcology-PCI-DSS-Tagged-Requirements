@@ -1,6 +1,7 @@
-# Checklist for Requirement 3.7.2: Key-management policies and procedures are implemented to include secure distribution of cryptographic keys used to protect stored account data.
+# ✅ Checklist for Requirement 3.7.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Key-management policies and procedures are implemented to include secure distribution of cryptographic keys used to protect stored account data.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

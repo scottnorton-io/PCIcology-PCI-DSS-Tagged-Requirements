@@ -1,6 +1,7 @@
-# Checklist for Requirement 1.3: Prohibit direct public access between the Internet and system components in the CDE
+# ✅ Checklist for Requirement 1.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Prohibit direct public access between the Internet and system components in the CDE
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

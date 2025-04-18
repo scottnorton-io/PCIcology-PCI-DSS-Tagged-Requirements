@@ -1,6 +1,7 @@
-# Checklist for Requirement 10.2.1.3: Audit logs capture all access to audit logs.
+# ✅ Checklist for Requirement 10.2.1.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Audit logs capture all access to audit logs.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

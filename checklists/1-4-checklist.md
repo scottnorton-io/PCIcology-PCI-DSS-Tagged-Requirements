@@ -1,6 +1,7 @@
-# Checklist for Requirement 1.4: Install personal firewall software on mobile and computing devices that connect to the CDE
+# ✅ Checklist for Requirement 1.4
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Install personal firewall software on mobile and computing devices that connect to the CDE
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

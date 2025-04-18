@@ -1,6 +1,7 @@
-# Checklist for Requirement A1.2: Ensure access rights to environments and data are appropriately assigned and enforced
+# ✅ Checklist for Requirement A1.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Ensure access rights to environments and data are appropriately assigned and enforced
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

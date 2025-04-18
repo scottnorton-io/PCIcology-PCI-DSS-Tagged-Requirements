@@ -1,6 +1,7 @@
-# Checklist for Requirement 10.4.3: Exceptions and anomalies identified during the review process are addressed.
+# ✅ Checklist for Requirement 10.4.3
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Exceptions and anomalies identified during the review process are addressed.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

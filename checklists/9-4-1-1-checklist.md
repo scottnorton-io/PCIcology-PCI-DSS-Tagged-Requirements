@@ -1,6 +1,7 @@
-# Checklist for Requirement 9.4.1.1: Offline media backups with cardholder data are stored in a secure location.
+# ✅ Checklist for Requirement 9.4.1.1
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Offline media backups with cardholder data are stored in a secure location.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

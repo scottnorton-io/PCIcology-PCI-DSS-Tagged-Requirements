@@ -1,6 +1,8 @@
-# Checklist for Requirement 10.4.2: Logs of all other system components (those not specified in Requirement 10.4.1) are reviewed periodically.
+# ✅ Checklist for Requirement 10.4.2
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Logs of all other system components (those not specified in Requirement 10.4.
+1) are reviewed periodically.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.

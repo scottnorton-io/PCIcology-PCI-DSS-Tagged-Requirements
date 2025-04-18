@@ -1,6 +1,7 @@
-# Checklist for Requirement 10.2.1.4: Audit logs capture all invalid logical access attempts.
+# ✅ Checklist for Requirement 10.2.1.4
 
-- [ ] Confirm documentation exists
-- [ ] Verify implementation
-- [ ] Review evidence artifacts
-- [ ] Assign owner for validation
+**Title:** Audit logs capture all invalid logical access attempts.
+
+- [ ] Confirm control exists and is documented.
+- [ ] Validate evidence supports implementation.
+- [ ] Assign accountable role.
