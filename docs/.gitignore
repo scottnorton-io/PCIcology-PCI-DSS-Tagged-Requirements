@@ -1,0 +1,5 @@
+# Ignore system and temporary files
+__pycache__/
+*.zip
+.DS_Store
+*.tmp

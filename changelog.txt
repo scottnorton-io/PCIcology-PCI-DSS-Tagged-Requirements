@@ -1,7 +1,10 @@
-# Changelog - pci-dss-v4.0.1-tagged-requirements-v4.5.0
+# Changelog - pci-dss-v4.0.1-tagged-requirements-v4.4.0
 
-## [v4.5.0] - Git, Web Viewer, and GRC Scheduling
+## [v4.4.0] - Merged Portal, Training & Publishing Features
 
-- ✨ Added README and .gitignore for version control
-- 🌐 Included HTML index scaffold for live deployment
-- 📅 Added `quarterly-grc-drilldown-schedule.md` for strategic control reviews
+- Refreshed base from v4.0.0 to ensure all GRC tools, dashboards, and visuals included.
+- Injected content from v4.1 to v4.3:
+  - 📘 GitBook-formatted Markdown handbook
+  - 💬 GPT training prompts (JSON)
+  - 🎓 LMS-compatible training scripts
+  - 🧭 Notion-ready CSV matrix
