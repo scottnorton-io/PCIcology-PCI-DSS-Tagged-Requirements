@@ -1298,7 +1298,8 @@
       "inference_tags": [
         "policy",
         "procedure",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -1444,7 +1445,8 @@
       ],
       "inference_tags": [
         "data-protection",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [],
       "referenced_by": [
@@ -1474,7 +1476,8 @@
       ],
       "inference_tags": [
         "data-protection",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [],
       "referenced_by": [
@@ -1539,7 +1542,8 @@
         "monitoring",
         "policy",
         "procedure",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -1616,7 +1620,8 @@
       ],
       "inference_tags": [
         "procedure",
-        "reference-hub"
+        "reference-hub",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -1656,7 +1661,8 @@
       ],
       "inference_tags": [
         "data-protection",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "control-aggregator"
@@ -1767,7 +1773,8 @@
         "policy",
         "procedure",
         "report",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -2289,7 +2296,8 @@
         "artifact",
         "data-protection",
         "monitoring",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
@@ -2320,7 +2328,8 @@
         "3d3fd489-35ab-4612-a961-d72e97328ff0"
       ],
       "inference_tags": [
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [],
       "referenced_by": [
@@ -2634,7 +2643,8 @@
         "1f0a5eb9-e4b1-490c-abed-1c5005738f22"
       ],
       "inference_tags": [
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [],
       "referenced_by": [
@@ -2723,7 +2733,8 @@
       "inference_tags": [
         "periodic",
         "vulnerability-management",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [],
       "referenced_by": [
@@ -2756,7 +2767,8 @@
         "monitoring",
         "periodic",
         "vulnerability-management",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
@@ -2858,7 +2870,8 @@
         "1f0a5eb9-e4b1-490c-abed-1c5005738f22"
       ],
       "inference_tags": [
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [],
       "referenced_by": [
@@ -3255,7 +3268,8 @@
         "configuration-management",
         "custom-control",
         "vulnerability-management",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [],
       "referenced_by": [
@@ -3322,7 +3336,8 @@
         "monitoring",
         "realtime",
         "report",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "artifact-portal",
@@ -3363,7 +3378,8 @@
         "monitoring",
         "realtime",
         "report",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "artifact-portal",
@@ -3398,7 +3414,8 @@
         "5ae2bc90-3c69-4abd-9b77-96eef933bb75"
       ],
       "inference_tags": [
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "control-aggregator"
@@ -4483,7 +4500,8 @@
         "audit",
         "governance",
         "identity",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "artifact-portal",
@@ -4518,7 +4536,8 @@
       "inference_tags": [
         "access-control",
         "identity",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [],
       "referenced_by": [
@@ -4551,7 +4570,8 @@
         "audit",
         "governance",
         "identity",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "artifact-portal",
@@ -5292,7 +5312,8 @@
         "84b79aa4-776c-4f1b-9975-16c4ce907be2"
       ],
       "inference_tags": [
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "control-aggregator"
@@ -5422,7 +5443,8 @@
         "access-control",
         "custom-control",
         "identity",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [],
       "referenced_by": [
@@ -5454,7 +5476,8 @@
         "access-control",
         "custom-control",
         "identity",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [],
       "referenced_by": [
@@ -5549,7 +5572,8 @@
       "inference_tags": [
         "access-control",
         "identity",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [],
       "referenced_by": [
@@ -5613,7 +5637,8 @@
         "identity",
         "policy",
         "procedure",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -5652,7 +5677,8 @@
         "monitoring",
         "policy",
         "procedure",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -5688,7 +5714,8 @@
         "artifact",
         "custom-control",
         "monitoring",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
@@ -5719,7 +5746,8 @@
         "242d8bc0-a52c-4689-b2df-1dec8ca2be18"
       ],
       "inference_tags": [
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [],
       "referenced_by": [
@@ -6653,7 +6681,8 @@
         "4cbf0735-9417-402d-94ac-9ce18f79bfe1"
       ],
       "inference_tags": [
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [],
       "referenced_by": [
@@ -7447,7 +7476,8 @@
         "governance",
         "monitoring",
         "report",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "artifact-portal",
@@ -7524,7 +7554,8 @@
         "audit",
         "governance",
         "monitoring",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "artifact-portal",
@@ -7734,7 +7765,8 @@
         "monitoring",
         "realtime",
         "report",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "artifact-portal",
@@ -7778,7 +7810,8 @@
         "monitoring",
         "realtime",
         "report",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "artifact-portal",
@@ -7818,7 +7851,8 @@
       "inference_tags": [
         "policy",
         "procedure",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -8127,7 +8161,8 @@
       "inference_tags": [
         "periodic",
         "vulnerability-management",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [],
       "referenced_by": [
@@ -8164,7 +8199,8 @@
         "policy",
         "procedure",
         "vulnerability-management",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -8546,7 +8582,8 @@
         "custom-control",
         "developer",
         "report",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "artifact-portal",
@@ -8614,7 +8651,8 @@
       "inference_tags": [
         "monitoring",
         "realtime",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
@@ -8680,7 +8718,8 @@
       "inference_tags": [
         "monitoring",
         "realtime",
-        "dependency-root"
+        "dependency-root",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "click-to-breach-visual",
@@ -8842,7 +8881,8 @@
         "governance",
         "policy",
         "procedure",
-        "reference-hub"
+        "reference-hub",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -8915,7 +8955,8 @@
         "audit",
         "governance",
         "policy",
-        "procedure"
+        "procedure",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -8949,7 +8990,8 @@
         "governance",
         "monitoring",
         "policy",
-        "procedure"
+        "procedure",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -9116,7 +9158,8 @@
       "uuid_cross_refs": [],
       "inference_tags": [
         "policy",
-        "procedure"
+        "procedure",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -9145,7 +9188,8 @@
         "audit",
         "governance",
         "policy",
-        "procedure"
+        "procedure",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -9202,7 +9246,8 @@
       "inference_tags": [
         "audit",
         "governance",
-        "identity"
+        "identity",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "artifact-portal",
@@ -9257,7 +9302,8 @@
       "uuid_cross_refs": [],
       "inference_tags": [
         "governance",
-        "policy"
+        "policy",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -9287,7 +9333,8 @@
         "artifact",
         "governance",
         "monitoring",
-        "policy"
+        "policy",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -9597,7 +9644,8 @@
         "governance",
         "incident-owner",
         "incident-response",
-        "policy"
+        "policy",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -9631,7 +9679,8 @@
         "incident-owner",
         "incident-response",
         "monitoring",
-        "realtime"
+        "realtime",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "breach-simulation",
@@ -9685,7 +9734,8 @@
       "inference_tags": [
         "incident-owner",
         "incident-response",
-        "procedure"
+        "procedure",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "annotated-policy",
@@ -9716,7 +9766,8 @@
         "artifact",
         "custom-control",
         "identity",
-        "monitoring"
+        "monitoring",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "click-to-breach-visual"
@@ -9790,7 +9841,8 @@
         "custom-control",
         "developer",
         "monitoring",
-        "report"
+        "report",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "artifact-portal",
@@ -9880,7 +9932,8 @@
       "inference_tags": [
         "custom-control",
         "incident-owner",
-        "incident-response"
+        "incident-response",
+        "best-practice-until-2025"
       ],
       "grc_subtags": [
         "breach-simulation",

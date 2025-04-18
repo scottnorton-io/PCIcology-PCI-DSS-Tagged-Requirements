@@ -41,3 +41,9 @@
 - 📊 Generated `tag-coverage-bar-chart.png` for top tags across dataset
 - 🔁 Regenerated all checklists under `/checklists` with structured format
 - 📘 Rebuilt `/playbooks` based on `task_id` inference
+
+
+## [v4.7.2] - Best-Practice Tagging + Role Playbooks
+
+- 🏷️ Tagged 53 sub-requirements with `best-practice-until-2025`
+- 📄 Generated 5 role-based playbooks for AppSec, CISO, Compliance, etc.
