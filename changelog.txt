@@ -1,7 +1,8 @@
-# Changelog - pci-dss-v4.0.1-tagged-requirements-v1.2.1
+# Changelog - pci-dss-v4.0.1-tagged-requirements-v2.0.0
 
-## [v1.2.1] - Individual Tag Dashboards
+## [v2.0.0] - Inference Intelligence Layer
 
-- Created per-tag dashboards (Markdown) listing all sub-requirements by tag.
-- Included heatmaps and frequency visualizations for inference tag usage.
-- Useful for focused analysis by function, role, risk, or evidence category.
+- Introduced full Notion-compatible dashboard CSV.
+- Grouped bundles by role and evidence tags.
+- Added dynamic filter-capable HTML index with tag search.
+- Visuals included (heatmap, frequency).
