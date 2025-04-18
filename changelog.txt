@@ -1,8 +1,10 @@
-# Changelog - pci-dss-v4.0.1-tagged-requirements-v2.0.0
+# Changelog - pci-dss-v4.0.1-tagged-requirements-v3.0.0
 
-## [v2.0.0] - Inference Intelligence Layer
+## [v3.0.0] - Full Intelligence Layer
 
-- Introduced full Notion-compatible dashboard CSV.
-- Grouped bundles by role and evidence tags.
-- Added dynamic filter-capable HTML index with tag search.
-- Visuals included (heatmap, frequency).
+- Included complete `inference_tags` per sub-requirement.
+- Visual dashboards: tag heatmap + frequency.
+- CSV exports for Notion and spreadsheet use.
+- Assistant-ready walkthrough included.
+- Role/evidence tag bundles added.
+- HTML index with live filtering support.
