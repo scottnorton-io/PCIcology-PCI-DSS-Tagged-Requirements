@@ -1,9 +1,8 @@
-# Changelog - pci-dss-v4.0.1-tagged-requirements-v3.4.1
+# Changelog - pci-dss-v4.0.1-tagged-requirements-v4.0.0
 
-## [v3.4.1] - Markdown Formatting & Readability Patch
+## [v4.0.0] - GRC Subtag Intelligence Layer (Full Refresh)
 
-- Refreshed full package from v3.2.0 (role playbooks, checklists, dashboards, index).
-- Replaced internal JSON with one including:
-  - Markdown-style formatting for bullet/numbered content
-  - Improved readability for all human-facing fields
-- Preserved all visuals, walkthroughs, and role-based assets.
+- Fully refreshed from v3.4.1 (Markdown formatting + structural completeness).
+- Added `grc_subtags` aligned with neuromarketing behavior frameworks.
+- Included: `grc-subtag-dictionary.md` and `grc-dashboard.md`
+- All playbooks, checklists, dashboards, assistant walkthroughs retained.
